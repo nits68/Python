@@ -1,6 +1,7 @@
 import random
 #  from random import *  # közvetlenül tudunk a random osztály metódusaira hivatkozni
 
+
 def lkkt(a: int, b: int) -> int:
     # ksz: int = min(a, b)
     # nsz: int = max(a, b)
@@ -10,7 +11,6 @@ def lkkt(a: int, b: int) -> int:
     else:
         nsz: int = b
         ksz: int = a
-    #  javítva
     osztando: int = nsz  # nagyobb szám első többszöröse
     while osztando % ksz != 0:
         osztando += nsz  # nagyobb szám következő többszöröse
