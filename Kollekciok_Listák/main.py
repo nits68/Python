@@ -1,12 +1,18 @@
+from typing import List
+
+
 def main():
     #  Lista létrehozása:
-    lista1 = ['barack', 'körte', 'szilva', 'alma', 'szőlő']  # Elemekkel inicializált lista
+    lista1: List[str] = ['barack', 'körte', 'szilva', 'alma', 'szőlő']  # Elemekkel inicializált lista
     lista2 = []   # Üres lista
-    lista3 = list()  # list() konstruktorral létrehozott üres lista
+    lista3 = list((1, 2, "a"))  # list() konstruktorral tuple-ból létrehozott lista
     lista4 = list({'a', 'e', 'i', 'o', 'u'})  # list() konstruktorral halmazból létrehozott lista
 
     # Teljes lista kiírása
     print(lista1)  # ['barack', 'körte', 'szilva', 'alma', 'szőlő']
+    print(lista2)
+    print(lista3)
+    print(lista4)
 
     # Hivatkozás lista elemeire (indexelés)
     # Listák elemit 0-tól indulva egész számokkal indexeljük:
@@ -22,8 +28,10 @@ def main():
     # Értékadás
     lista1[0] = 'alma'
     print(lista1)
-    lista1[0] = True  # A lista elemi bármikor válthatják típusukat
-    lista1[1] = 123
+    # lista1[0] = True  # A lista elemi bármikor válthatják típusukat, de a Pylance nem engedi
+    lista1[0] = 'True'
+    # lista1[1] = 123
+    lista1[1] = "123"
     print(lista1)
 
     # Lista bejárása index nélkül
@@ -35,7 +43,7 @@ def main():
         print(f'lista1[{index}]={item} ', end='')  # True 123 szilva alma szőlő
     print()  # Soremelés
 
-    # Tartalmazás vizsgálat az IN oprátorral
+    # Tartalmazás vizsgálat az IN operátorral
     if 'alma' in lista1:
         print('Az alma érték megtalálható a listában!')
 
@@ -55,7 +63,7 @@ def main():
     lista2.insert(0, 99)
     print(lista2)  # [99, 23, 34, 99, 45]
 
-    # Megadott értékű elem első előfordulálsnak törlése: remove()
+    # Megadott értékű elem első előfordulásának törlése: remove()
     lista2.remove(99)
     print(lista2)  # [23, 34, 99, 45]
 
@@ -74,7 +82,7 @@ def main():
     #  print(lista2)  # Hiba: UnboundLocalError: local variable 'lista2' referenced before assignment
 
     # Másolat készítése listából
-    lista2 = lista1  # Így nem készül másolat, hanem a lista2 ugyanazon referencára (memóriacímre) mutat
+    lista2 = lista1  # Így nem készül másolat, hanem a lista2 ugyanazon referenciára (memóriacímre) mutat
     lista2.pop()
     print(lista1)  # [True, 123, 'szilva', 'alma']
     print(lista2)  # [True, 123, 'szilva', 'alma']
@@ -89,7 +97,7 @@ def main():
     lista5 = list(lista1)
     print(lista5)  # [True, 123, 'szilva', 'alma']
 
-    # Megadott értékű elem darabdszáma: count()
+    # Megadott értékű elem darabszáma: count()
     lista6 = [4, 5, 6, 5, 5, 3, 4, 5, 6]
     print(lista6.count(5))  # 4
 
@@ -98,7 +106,7 @@ def main():
 
     # Lista bővítése másik listával: extend()
     lista_A = ["a", "b", "c"]
-    lista_B = [1, 2, 3]
+    lista_B = ["1", "2", "3"]
     lista_A.extend(lista_B)
     print(lista_A)  # ['a', 'b', 'c', 1, 2, 3]
 
