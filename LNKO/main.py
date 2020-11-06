@@ -1,5 +1,3 @@
-import sys
-
 print('LNKO kivonásos algoritmussal')
 a = int(input('a = '))
 b = int(input('b = '))
@@ -18,5 +16,5 @@ m = -1  # biztosan lesz egy CM végrehajtás
 while m != 0:
     m = a % b  # osztás maradéka
     a = b  # 2. ismétléstől az előző maradék kerül "a" változóba
-    b = m  # Euklidesz: Az utolsó nem nulla maradék a LNKO
+    b = m  # Eukleidész: Az utolsó nem nulla maradék a LNKO
 print(f'LNKO = {a}')
