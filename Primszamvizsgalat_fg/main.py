@@ -1,4 +1,4 @@
-import math  # A gyökvonáshoz kell a math osztály
+import math  # A gyökvonáshoz kell a math modul
 
 
 def prime(szam: int) -> bool:
@@ -23,6 +23,7 @@ def main():
     for i in range(1, 101):
         if prime(i):
             print(i, end=' ')
+    print()
 
 
 if __name__ == '__main__':
