@@ -21,7 +21,7 @@ def main():
         print('Az alma érték megtalálható a halmazban!')
 
     # Halmaz elemeinek módosítása:
-    # Csak elem hozzáadására, törlésére van lehetőség
+    # Csak elem hozzáadására és törlésére van lehetőség
 
     # Egy elem hozzáadása: add()
     halmaz1.add('szilva')  # Mivel már létezik, nem fog növekedni a halmaz elemszáma, nincs hibaüzenet
