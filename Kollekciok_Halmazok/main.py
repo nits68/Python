@@ -3,16 +3,18 @@ from typing import Set
 
 def main():
     #  Halmaz (Set) létrehozása:
-    halmaz1: Set[str] = {'barack', 'körte', 'szilva', 'alma', 'szőlő'}  # Elemekkel inicializált halmaz
+    halmaz1 = {'barack', 'körte', 'szilva', 'alma', 'szőlő'}  # Elemekkel inicializált halmaz
     halmaz2 = {}   # Üres halmaz
     halmaz3 = set((1, 2, "a"))  # set() konstruktorral tuple-ból létrehozott halmaz
     halmaz4 = set(['a', 'e', 'i', 'o', 'u'])  # set() konstruktorral listából létrehozott halmaz
+    halmaz5: Set[str] = {'barack', 'körte', 'szilva', 'alma', 'szőlő'}  # Elemekkel inicializált halmaz
 
     # Teljes lista kiírása
     print(halmaz1)
     print(halmaz2)
     print(halmaz3)
     print(halmaz4)
+    print(halmaz5)
 
     # Tartalmazás vizsgálat az IN operátorral
     if 'alma' in halmaz1:
