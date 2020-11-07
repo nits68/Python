@@ -20,3 +20,8 @@ class TestMain(TestCase):
         self.assertEqual(prime(14), False)
         self.assertEqual(prime(15), False)
         self.assertEqual(prime(16), False)
+        self.assertEqual(prime(17), True)
+        self.assertEqual(prime(18), False)
+        self.assertEqual(prime(19), True)
+        self.assertEqual(prime(20), False)
+        self.assertEqual(prime(21), False)
