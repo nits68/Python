@@ -33,7 +33,7 @@ tuple: Tuple[str, str, str] = ('apple', 'banana', 'cherry')
 print(tuple)
 
 # 2.3 Halmaz (set, nem lehetnek azonos értékek)
-halmaz: Set[str] = {'apple', 'banana', 'cherry': }
+halmaz: Set[str] = {'apple', 'banana', 'cherry'}
 print(halmaz)
 
 # 2.4 Számsorozat (range, for ciklusokhoz használjuk általában)
