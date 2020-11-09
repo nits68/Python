@@ -23,12 +23,12 @@ print(type(valós))
 # 1.3 Logikai adattípus: bool
 logikai: bool = True  # Logikai értéket tárol, értéke csak True vagy False lehet
 
-# 2. Összetett adattípusok: Több érték tárolását teszik lehetővé
-# 2.1 Lista (egydimenziós tömb, vagy vektor más programozási nyelveken)
+# 2. Összetett adattípusok vagy kollekciók: Több érték tárolását teszik lehetővé
+# 2.1 Lista (list, egydimenziós tömb, vagy vektor más programozási nyelveken)
 lista: List[str] = ['apple', 'banana', 'cherry']
 print(lista)
 
-# 2.2 Tuple (konstans listának tekinthető)
+# 2.2 Tuple (tuple, konstans listának tekinthető)
 tuple: Tuple[str, str, str] = ('apple', 'banana', 'cherry')
 print(tuple)
 
