@@ -11,7 +11,7 @@ from typing import List, Set, Tuple
 
 
 szöveg: str = 'Python'
-szöveg2: str = 'Jedlik'
+szöveg2: str = "Jedlik"
 print(type(szöveg))
 
 # 1.2 Numerikus adattípusok: int, float és a literálok
