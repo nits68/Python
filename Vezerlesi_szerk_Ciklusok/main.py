@@ -27,9 +27,32 @@ lotto90 = set()
 while len(lotto90) < 5:
     lotto90.add(random.randint(1, 90))  # 1 >= vélszám <= 90
 print(lotto90)
+
 # Halmaz elemei növekvő sorrendben:
 lotto90rendezve = []
 for i in range(1, 90):
     if i in lotto90:
         lotto90rendezve.append(i)
 print(lotto90rendezve)
+
+# A break utasítás: segítségével kiléphetünk a ciklusból,
+# befejezzük az ismétlést a ciklusfeltétel tesztelése nélkül.
+print('A break utasítás')
+i = 1
+while i < 6:
+    print(i, end=' ')
+    if i == 3:
+        break
+    i += 1
+print()
+
+# A continue utasítás: segítségével befejezzük a ciklusmag aktuális végrehajtását,
+# a ciklusfeltétel tesztelésével folytatjuk a kódot
+print('A continue utasítás')
+i = 0
+while i < 6:
+    i += 1
+    if i == 3:
+        continue
+    print(i, end=' ')
+print()
