@@ -21,7 +21,7 @@ if inputSzam % 2 == 0:
 else:
     print('A szám páratlan!')
 
-# Példa többágú (if-elif-else) elágazásra:
+# Példa többágú (if-elif-else) elágazásra (else "ág" elhagyható):
 print('\nOsztályzat szöveges megfelelője')
 erdemjegy = int(input('Kérem az osztályzatot [1-5]: '))
 if erdemjegy == 1:
@@ -36,3 +36,13 @@ elif erdemjegy == 5:
     print('Jeles')
 else:
     print('Ez nem osztályzat!')
+
+
+# Rövidített kétágú elágazás, amit feltételes operátor funkcióját is betöltheti:
+a = 10
+b = 20
+print("A") if a > b else print("B")
+c = 12 if a != b else 24
+# A fenti értékadás C# feltételes operátorral:
+# c = a != b ? 12 : 24
+print(c)  # 12
