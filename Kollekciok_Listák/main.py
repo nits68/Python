@@ -1,4 +1,5 @@
 from typing import List
+import locale
 
 
 def main():
@@ -7,12 +8,14 @@ def main():
     lista2 = []   # Üres lista
     lista3 = list((1, 2, "a"))  # list() konstruktorral tuple-ból létrehozott lista
     lista4 = list({'a', 'e', 'i', 'o', 'u'})  # list() konstruktorral halmazból létrehozott lista
+    lista5 = list(range(5, 18, 3))  # list() konstruktorral számsorozatból létrehozott lista
 
     # Teljes lista kiírása
     print(lista1)  # ['barack', 'körte', 'szilva', 'alma', 'szőlő']
     print(lista2)
     print(lista3)
     print(lista4)
+    print(lista5)  # [5, 8, 11, 14, 17]
 
     # Hivatkozás lista elemeire (indexelés)
     # Listák elemit 0-tól indulva egész számokkal indexeljük:
@@ -28,7 +31,7 @@ def main():
     # Értékadás
     lista1[0] = 'alma'
     print(lista1)
-    # lista1[0] = True  # A lista elemi bármikor válthatják típusukat, de a Pylance nem engedi
+    # lista1[0] = True  # A lista elemi bármikor válthatják típusukat, de a Pylance figyelmeztetést dob
     lista1[0] = 'True'
     # lista1[1] = 123
     lista1[1] = "123"
@@ -42,13 +45,16 @@ def main():
     for index, item in enumerate(lista1):
         print(f'lista1[{index}]={item} ', end='')  # True 123 szilva alma szőlő
     print()  # Soremelés
+    # vagy:
+    for i in range(len(lista1)):
+        print(f'lista1[{i}]={lista1[i]} ', end='')  # True 123 szilva alma szőlő
 
-    # Tartalmazás vizsgálat az IN operátorral
+    # Tartalmazásvizsgálat az IN operátorral
     if 'alma' in lista1:
         print('Az alma érték megtalálható a listában!')
 
     # Lista eleminek száma, lista "hossza": len() függvény
-    print(F'A lista1 lista elemeinek száma: {len(lista1)}')  # 5
+    print(f'A lista1 lista elemeinek száma: {len(lista1)}')  # 5
 
     # Elem hozzáadása a lista végéhez: append()
     lista2.append(23)
@@ -121,6 +127,13 @@ def main():
 
     lista6.sort(reverse=True)  # Csökkenő sorrend
     print(lista6)  # [6, 6, 5, 5, 5, 5, 4, 4, 3]
+
+    # Magyar ékezetes karakterláncok rendezése (érdekesen rendez ...):
+    lista7: List[str] = ['Örs', 'Éva', 'Endre', 'Ödön', 'Olga', 'Ádám', 'Andi', 'Abigél', 'Émile']
+    locale.setlocale(locale.LC_ALL, 'hu')
+    lista7.sort(key=locale.strxfrm)
+    print(lista7)
+
 
 
 if __name__ == '__main__':
