@@ -11,24 +11,27 @@ import random
 for i in range(8):
     print(i, end=' ')
 print()
+
 for i in range(-5, 5):
     print(i, end=' ')
 print()
+
 for i in range(1, 11, 2):
     print(i, end=' ')
 print()
+
 t = ['alma', 'körte', 'szilva']
 for i in range(len(t)):
     print(f't[{i}]={t[i]}', end=' ')
 print()
 
 # Elöltesztelő ciklus példa: lottószámok generálása
-lotto90 = set()
+lotto90 = set()  # Halmaz
 while len(lotto90) < 5:
     lotto90.add(random.randint(1, 90))  # 1 >= vélszám <= 90
 print(lotto90)
 
-# Halmaz elemei növekvő sorrendben:
+# Halmaz elemei növekvő sorrendben tartalmazás vizsgálattal:
 lotto90rendezve = []
 for i in range(1, 90):
     if i in lotto90:
@@ -47,7 +50,7 @@ while i < 6:
 print()
 
 # A continue utasítás: segítségével befejezzük a ciklusmag aktuális végrehajtását,
-# a ciklusfeltétel tesztelésével folytatjuk a kódot
+# a ciklusfeltétel (i < 6) tesztelésével folytatjuk a kódot
 print('A continue utasítás')
 i = 0
 while i < 6:
