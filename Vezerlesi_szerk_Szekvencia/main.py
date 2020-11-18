@@ -1,11 +1,11 @@
 # program = algoritmus + adatszerkezet
 # algoritmus -> utasítások végrehajtásának sorrendje,
-#               amit vezérlési szerkezetek határoznak meg a prog. nyelvekben
+#               amit vezérlési szerkezetek határoznak meg a programozási nyelvekben
 # adatszerkezet -> programunkban használt változók halmaza
 
 # Szekvencia vezérlési szerkezet
 # (utasítások végrehajtása egymás után, top-down)
-# táéjokoztatás > adatbekérés > számítás > eredmények közlése
+# tájékoztatás > adatbekérés > számítás > eredmények közlése
 
 # Változók: Adatok tárolására használt egységek
 # Jellemzőik:

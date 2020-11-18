@@ -6,7 +6,7 @@ def prime(szam: int) -> bool:
         return False
     szam_gyoke: int = int(math.sqrt(szam))  # A vizsgálatot a szám gyökéig elegendő végezni
     for oszto in range(3, szam_gyoke + 1, 2):
-        if szam % oszto == 0:  # Ha találunk osztót a szám gyöke előtt, akkor az szám nem prím prime
+        if szam % oszto == 0:  # Ha találunk osztót a szám gyöke előtt, akkor a szám nem prím
             return False
     return True
 

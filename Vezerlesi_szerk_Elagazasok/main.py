@@ -47,7 +47,7 @@ c = 12 if a != b else 24
 # c = a != b ? 12 : 24
 print(c)  # 12
 
-# A pass utasítást akkor használjuk, ha később szeretnék egy igaz-hamis ág kódolását elvégezni,
+# A pass utasítást akkor használjuk, ha később szeretnék egy igaz-hamis ág (blokk) utastásait megadni,
 # de kerülni szeretnénk a szintaktikai hibákat
 if b > a:
     pass

@@ -7,7 +7,7 @@ def main():
     halmaz2 = {}   # Üres halmaz
     halmaz3 = set((1, 2, "a"))  # set() konstruktorral tuple-ból létrehozott halmaz
     halmaz4 = set(['a', 'e', 'i', 'o', 'u'])  # set() konstruktorral listából létrehozott halmaz
-    halmaz5: Set[str] = {'barack', 'körte', 'szilva', 'alma', 'szőlő'}  # Elemekkel inicializált halmaz
+    halmaz5: Set[str] = {'barack', 'körte', 'szilva', 'alma', 'szőlő'}  # Elemekkel inicializált típusos halmaz
 
     # Teljes lista kiírása
     print(halmaz1)
