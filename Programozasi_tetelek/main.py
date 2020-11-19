@@ -1,5 +1,5 @@
 import random
-from typing import List
+from typing import Dict, List
 
 # 1 Összetett adatszerkezet feltöltésének módjai
 
@@ -23,7 +23,12 @@ allitasok: List[bool] = [True, True, False, True, False]
 print(allitasok)
 
 # 1.4 Feltöltés szöveges állományból:
-# Később fogjuk tanulni!
+with open('bukk-videk.txt', 'r', encoding='UTF-8') as sr:
+    sorok: List[str] = sr.read().splitlines()
+magassagok: List[float] = []
+for sor in sorok:
+    magassagok.append(float(sor))
+print(magassagok[:10])
 
 # 2 Összetett adatszerkezet bejárása
 # Vizsgálathoz, műveletekhez rendre "elővesszük" az összetett adatszerkezet elemeit
@@ -57,7 +62,7 @@ if vanParatlan:
 else:
     print('A listában nincs páratlan szám!')
 # vagy:
-print('A listában ' + ('van' if vanParatlan else 'nincs') + ' páratlan szám!')
+print('A listában ' + 'van' if vanParatlan else 'nincs' + ' páratlan szám!')
 # vagy:
 print(f'A listában {"van" if vanParatlan else "nincs"} páratlan szám!')
 
@@ -95,7 +100,6 @@ print(f'A legnagyobb szám értéke: {max}')
 # 3.4.2 A legnagyobb elem értéke és az indexe is kell:
 # Feladat: Határozzuk meg a legkisebb elem értékét és indexét!
 # Holtverseny esetén elegendő az elsőt megadnia.
-
 mini: int = 0  # Kinevezzük az első elemet a legkisebbnek
 for i in range(1, len(szamok)):
     if szamok[i] < szamok[mini]:
