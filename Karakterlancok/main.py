@@ -83,4 +83,3 @@ print(a.count('l'))  # 3
 # split() Splits the string at the specified separator, and returns a list. Syntax: string.split(separator, maxsplit)
 # rsplit() Splits the string at the specified separator, and returns a list. Syntax: string.rsplit(separator, maxsplit)
 # splitlines() Splits the string at line breaks and returns a list
-
