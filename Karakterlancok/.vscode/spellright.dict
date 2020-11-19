@@ -14,3 +14,11 @@ lstrip
 swapcase
 splitlines
 startswith
+rfind
+rindex
+rstrip
+isspace
+istitle
+iterable
+maxsplit
+rsplit

@@ -15,6 +15,8 @@ print('String hossza')
 print(len(a))  # 13 (szóközzel, írásjelekkel)
 
 print('String darabolása a split() metódussal')
+# Syntax: string.split(separator, maxsplit)
+# maxsplit	Optional. Specifies how many splits to do. Default value is -1, which is "all occurrences"
 m: List[str] = a.split()  # alapértelmezetten a szóköznél darabol (vág)
 # a szóköz nem kerül bele a létrejövő új listába:
 print(m)  # ['Hello,', 'World!']
@@ -42,27 +44,43 @@ print('\t\ralma \n'.strip())  # alma (whitespace karaktereket levágja a string 
 print('ÁRVÍZTŰRŐ TÜKÖRFÚRÓGÉP'.lower())  # árvíztűrő tükörfúrógép
 print('árvíztűrő tükörfúrógép'.upper())  # ÁRVÍZTŰRŐ TÜKÖRFÚRÓGÉP
 print(a.replace("o", "@"))  # Hell@, W@rld! (összes előfordulást cseréli)
+print(a.count('l'))  # 3
 
 
-# Kevésbé fontos metódusok angol leírása
+# String metódusok angol leírása:
+
 # capitalize()	Converts the first character to upper case
-# count()	Returns the number of times a specified value occurs in a string
+# swapcase() Swaps cases, lower case becomes upper case and vice versa
+# title() Converts the first character of each word to upper case
+
+# startswith()	Returns true if the string starts with the specified value
 # endswith()	Returns true if the string ends with the specified value
-# find()	Searches the string for a specified value and returns the position of where it was found
-# index()	Searches the string for a specified value and returns the position of where it was found
+
+# find()	Searches the string for a specified value and returns the first position of where it was found
+# rfind()	Searches the string for a specified value and returns the last position of where it was found
+# -1 lesz a visszatérési értéke, ha a keresett string nem található
+
+# index()	Searches the string for a specified value and returns the first position of where it was found
+# rindex()	Searches the string for a specified value and returns the last position of where it was found
+# Hibát dob, ha a keresett string nem található
+
 # isalnum()	Returns True if all characters in the string are alphanumeric
 # isalpha()	Returns True if all characters in the string are in the alphabet
-# isdecimal()	Returns True if all characters in the string are decimals
+# isdecimal() Returns True if all characters in the string are decimals
 # isdigit()	Returns True if all characters in the string are digits
 # islower()	Returns True if all characters in the string are lower case
-# isnumeric()	Returns True if all characters in the string are numeric
+# isnumeric() Returns True if all characters in the string are numeric
+# isspace()	Returns True if all characters in the string are whitespaces
+# istitle()	Returns True if all words in a text start with a upper case letter, AND the rest of the word are lower case letters, otherwise False.
 # isupper()	Returns True if all characters in the string are upper case
-# join()	Joins the elements of an iterable to the end of the string
-# lower()	Converts a string into lower case
-# lstrip()	Returns a left trim version of the string
-# replace()	Returns a string where a specified value is replaced with a specified value
-# rfind()	Searches the string for a specified value and returns the last position of where it was found
-# rindex()	Searches the string for a specified value and returns the last position of where it was found
-# rstrip()	Returns a right trim version of the string
-# splitlines()	Splits the string at line breaks and returns a list
-# startswith()	Returns true if the string starts with the specified value
+
+# join() Takes all items in an iterable and joins them into one string. Syntax: separator_string.join(iterable)
+
+# strip() Returns a trimmed version of the string
+# lstrip() Returns a left trim version of the string
+# rstrip() Returns a right trim version of the string
+
+# split() Splits the string at the specified separator, and returns a list. Syntax: string.split(separator, maxsplit)
+# rsplit() Splits the string at the specified separator, and returns a list. Syntax: string.rsplit(separator, maxsplit)
+# splitlines() Splits the string at line breaks and returns a list
+
