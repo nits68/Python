@@ -1,5 +1,5 @@
 import random
-from typing import Dict, List
+from typing import List
 
 # 1 Összetett adatszerkezet feltöltésének módjai
 
@@ -22,13 +22,14 @@ for i in range(5):
 allitasok: List[bool] = [True, True, False, True, False]
 print(allitasok)
 
-# 1.4 Feltöltés szöveges állományból:
+# 1.4 Feltöltés szöveges állományból (sorokként csak egy adat van):
 with open('bukk-videk.txt', 'r', encoding='UTF-8') as sr:
     sorok: List[str] = sr.read().splitlines()
 magassagok: List[float] = []
 for sor in sorok:
     magassagok.append(float(sor))
 print(magassagok[:10])
+del sorok
 
 # 2 Összetett adatszerkezet bejárása
 # Vizsgálathoz, műveletekhez rendre "elővesszük" az összetett adatszerkezet elemeit
