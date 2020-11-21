@@ -18,8 +18,6 @@ def main():
 
     szotar3 = dict([('x', 5), ('y', -5)])  # Szótár létrehozása a dict() konstruktorral
     szotar4 = Dict[int, int]  # Üres 'típusos' szótár
-    # lista3 = list((1, 2, 'a'))  # list() konstruktorral tuple-ból létrehozott lista
-    # lista4 = list({'a', 'e', 'i', 'o', 'u'})  # list() konstruktorral halmazból létrehozott lista
     szotar5 = {}  # Üres 'típus nélküli' szótár létrehozása
 
     # Teljes szótár kiírása
