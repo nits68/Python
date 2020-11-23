@@ -19,5 +19,10 @@
         "latex",
         "plaintext",
         "python"
-    ]
+    ],
+    "python.linting.pylintEnabled": false,
+    "python.linting.pycodestyleEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.pylamaEnabled": true,
+    "python.linting.pylamaArgs": ["--ignore=E501"]
 }
