@@ -3,7 +3,7 @@ from typing import List
 
 # 1 Összetett adatszerkezet feltöltésének módjai
 
-# 1.1 Feltöltés felhasználói input útján:
+# 1.1 Feltöltés felhasználói input útján (időigényes):
 # nevek: List[str] = list()
 # print('Kérem a neveket 0-végjelig!')
 # inputNév: str = ''
@@ -42,9 +42,9 @@ print()
 for i in range(len(szamok)):
     print(f'szamok[{i}] = {szamok[i]} ')
 
-# Vagy: Értékek (item) és indexek (index) rendelkezésre állnak
-for index, item in enumerate(szamok):
-    print(f'szamok[{index}] = {item}', end=' ')
+# Vagy: Értékek (e) és indexek (i) rendelkezésre állnak
+for i, e in enumerate(szamok):
+    print(f'szamok[{i}] = {e}', end=' ')
 print()
 
 # 3 Egy sorozathoz egy értéket rendelő programozási tételek
