@@ -1,8 +1,8 @@
 # Iteráció (ciklus)
-# Olyan vezérlési szerkezet, melyet utasítások ismétlésére használunk
+# Olyan vezérlési szerkezet, melyet utasítás(ok) ismétlésére használunk
 # Ciklusok fajtái:
 # - klasszikus növekményes ciklus (for, NINCS a Python-ban)
-# - for-in ciklus (speciális ciklus a Python-ban, foreach ciklushoz hasonlít leginkább)
+# - for-in ciklus (speciális ciklus a Python-ban, C# foreach ciklushoz hasonlít leginkább)
 # - elöltesztelő ciklus (while)
 # - hátultesztelő ciklus (NINCS a Python-ban)
 import random  # random modul, véletlen számok generálásához
@@ -24,19 +24,6 @@ t = ['alma', 'körte', 'szilva']  # lista, összetett adatszerkezet, több adato
 for i in range(len(t)):
     print(f't[{i}]={t[i]}', end=' ')
 print()
-
-# Elöltesztelő ciklus példa: lottószámok generálása
-lotto90 = set()  # Halmaz
-while len(lotto90) < 5:
-    lotto90.add(random.randint(1, 90))  # 1 >= vélszám <= 90
-print(lotto90)
-
-# Halmaz elemei növekvő sorrendben tartalmazás vizsgálattal:
-lotto90rendezve = []
-for i in range(1, 91):  # 1..90
-    if i in lotto90:
-        lotto90rendezve.append(i)
-print(lotto90rendezve)
 
 # A break utasítás: segítségével kiléphetünk a ciklusból,
 # befejezzük az ismétlést a ciklusfeltétel tesztelése nélkül.
