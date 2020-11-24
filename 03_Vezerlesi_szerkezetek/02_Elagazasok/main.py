@@ -1,5 +1,6 @@
 # Szelekciók (elágazások)
 # Olyan vezérlési szerkezetek, ahol feltételekhez köthetjük az utasítások végrehajtását
+
 # Elágazások fajtái:
 # - egy ágú (if)
 # - kétágú (if-else)
@@ -38,7 +39,7 @@ else:
     print('Ez nem osztályzat!')
 
 
-# Rövidített kétágú elágazás, amit feltételes operátor funkcióját is betöltheti:
+# Rövidített (shorthand) kétágú elágazás, amit feltételes operátor funkcióját is betöltheti:
 a = 10
 b = 20
 print("A") if a > b else print("B")
