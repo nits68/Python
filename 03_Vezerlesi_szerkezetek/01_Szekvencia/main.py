@@ -1,4 +1,5 @@
 ﻿# szekvencia = utasítások végrehajtása fentről-lefelé (top-down)
+# Az utasítások végrehajtásának sorrendjét a "leírás sorrendje" határozza meg
 
 # Csak szekvenciát tartalmazó egyszerű program
 # (Téglalap kerület-terület meghatározás)
