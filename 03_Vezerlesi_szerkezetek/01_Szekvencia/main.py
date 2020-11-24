@@ -1,20 +1,4 @@
-# program = algoritmus + adatszerkezet
-# algoritmus -> utasítások végrehajtásának sorrendje,
-#               amit vezérlési szerkezetek határoznak meg a programozási nyelvekben
-# adatszerkezet -> programunkban használt változók halmaza
-
-# Szekvencia vezérlési szerkezet
-# (utasítások végrehajtása egymás után, top-down)
-# tájékoztatás > adatbekérés > számítás > eredmények közlése
-
-# Változók: Adatok tárolására használt egységek
-# Jellemzőik:
-# - azonosító (InputTime C#, input_time Python)
-# - típus (str, int, float, bool, stb.)
-# - kezdőérték
-# - aktuális érték
-
-# Csak szekvenciát tartalmazó program
+﻿# Csak szekvenciát tartalmazó program
 # (Téglalap kerület-terület meghatározás)
 
 # Literál: Olyan adat, amihez nem rendelünk azonosítót

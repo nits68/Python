@@ -1,9 +1,21 @@
+# program, algoritmus, változó, adatszerkezet, literál
+# =====================================================
+# program = algoritmus + adatszerkezet
+# algoritmus = utasítások végrehajtásának sorrendje, amit vezérlési szerkezetek határoznak meg a programozási nyelvekben
+# változók = adatok tárolására használt egységek
+# változók jellemzői:
+# - azonosító (InputTime C#, input_time Python)
+# - adattípus (str, int, float, bool, stb., Python-ban megadásuk opcionális)
+# - kezdőérték
+# - aktuális érték
+# adatszerkezet = programunkban használt változók halmaza
+# literál = olyan adat, melyhez nem rendelünk azonosítót, a megadás szintaxisa határozza meg a típusát
+
+
 # A Python programozási nyelv fontosabb adattípusai
 # =================================================
 #  Az adattípus meghatározza a változóban tárolható értékek számát, típusát és értéktartományát
-# Változó: Egy vagy több érték tárolására használt egység
-# Változók jellemzői: azonosító (név), kezdőérték, aktuális érték, adattípus (Python-ban megadása opcionális)
-# A literál olyan adat, melyhez nem rendelünk azonosítót, a megadás szintaxisa határozza meg a típusát
+
 
 # 1. Egyszerű adattípusok: Egy érték tárolására alkalmasak
 # 1.1 Szöveges adattípus és literál: str
@@ -15,10 +27,10 @@ szöveg2: str = "Jedlik"
 print(type(szöveg))
 
 # 1.2 Numerikus adattípusok: int, float és a literálok
-egész: int = 68  # Egész érték tárolásához
-valós: float = 3.14  # Valós érték tárolásához
-print(type(egész))
-print(type(valós))
+egesz: int = 68  # Egész érték tárolásához
+valos: float = 3.14  # Valós érték tárolásához
+print(type(egesz))
+print(type(valos))
 
 # 1.3 Logikai adattípus: bool
 logikai: bool = True  # Logikai értéket tárol, értéke csak True vagy False lehet
