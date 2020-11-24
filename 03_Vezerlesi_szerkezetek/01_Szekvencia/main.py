@@ -1,11 +1,7 @@
-﻿# Csak szekvenciát tartalmazó program
-# (Téglalap kerület-terület meghatározás)
+﻿# szekvencia = utasítások végrehajtása fentről-lefelé (top-down)
 
-# Literál: Olyan adat, amihez nem rendelünk azonosítót
-# sting literál: 'alma' vagy "alma"
-# egész (int) literál: 345
-# logikai (bool) literálok: True, False
-# valós (float) literál: 5.6
+# Csak szekvenciát tartalmazó egyszerű program
+# (Téglalap kerület-terület meghatározás)
 
 print('Téglalap kerülete és területe')
 print('Adja meg a téglalap oldalait!')
@@ -22,8 +18,7 @@ oldal_b = float(input('b= '))
 terulet = oldal_a * oldal_b
 kerulet = 2 * (oldal_a + oldal_b)
 
-# template string: olyan string literál,
-# melybe változók, kifejezések értékei integrálhatók
+# f-string: olyan speciális string literál, melybe változók, kifejezések értékei integrálhatók
 # pl.: f'K = {kerulet}', vagy: f'T = {oldal_a * oldal_b}'
 print(f'T = {terulet}')
 print(f'K = {kerulet}')
