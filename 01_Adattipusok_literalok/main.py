@@ -2,7 +2,7 @@
 # =================================================
 #  Az adattípus meghatározza a változóban tárolható értékek számát, típusát és értéktartományát
 # Változó: Egy vagy több érték tárolására használt egység
-# Változók jellemzői: adattípus, azonosító (név), kezdőérték, aktuális érték
+# Változók jellemzői: azonosító (név), kezdőérték, aktuális érték, adattípus (Python-ban megadása opcionális)
 # A literál olyan adat, melyhez nem rendelünk azonosítót, a megadás szintaxisa határozza meg a típusát
 
 # 1. Egyszerű adattípusok: Egy érték tárolására alkalmasak
