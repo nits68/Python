@@ -59,3 +59,10 @@ while i < 6:
         continue
     print(i, end=' ')
 print()
+
+i: int = 1
+while i < 10:
+    i += 1
+    if i % 2 == 1:
+        continue
+    print(i, end=' ')

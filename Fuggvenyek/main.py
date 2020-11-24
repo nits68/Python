@@ -1,4 +1,4 @@
-# Függvény fogalma: Jól meghatározott feladatot ellátó utasítások csoportja
+# Függvény fogalma: Azonosítóval ellátott, meghatározott feladatot ellátó utasítások csoportja
 
 # A függvényt használat előtt definiálni kell
 # A függvény definíció általános alakja (szintaxisa):
@@ -8,7 +8,7 @@
 # 2: Függvény törzs leírása:
 #    ======================
 #    tetszőleg számú utasítás, legalább egy return utasítás (gyakran az utolsó utasítás)
-#
+
 # Minta:
 def osszead(a: int, b: int) -> int:  # függvény feje, a,b: formális paraméterek
     return a + b  # függvény törzse
