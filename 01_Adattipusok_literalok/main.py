@@ -1,7 +1,7 @@
 from typing import Dict, List, Set, Tuple
 
-# program, algoritmus, változó, adatszerkezet, literál
-# =====================================================
+# Alapfogalmak: program, algoritmus, változó, adatszerkezet, literál
+# ==================================================================
 # program = algoritmus + adatszerkezet
 # algoritmus = utasítások végrehajtásának sorrendje, amit vezérlési szerkezetek határoznak meg a programozási nyelvekben
 # változók = adatok tárolására használt egységek
@@ -69,4 +69,3 @@ sor3 = range(2, 15, 3)
 print(sor3, end=' - ')
 for i in sor3:
     print(i, end=' ')
-print()
