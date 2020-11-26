@@ -1,6 +1,6 @@
 print('LNKO kivonásos algoritmussal')
-a = int(input('a = '))
-b = int(input('b = '))
+a: int = int(input('a = '))
+b: int = int(input('b = '))
 while a != b:
     if a > b:
         a = a - b
@@ -9,9 +9,9 @@ while a != b:
 print(f'LNKO = {a}')
 
 print('LNKO Euklideszi algoritmussal')
-a = int(input('a = '))
-b = int(input('b = '))
-m = -1  # biztosan lesz egy CM végrehajtás
+a: int = int(input('a = '))
+b: int = int(input('b = '))
+m: int = -1  # biztosan lesz egy CM végrehajtás
 #  így helyettesíthető a klasszikus hátultesztelő ciklus Python-ban
 while m != 0:
     m = a % b  # osztás maradéka

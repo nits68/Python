@@ -8,15 +8,15 @@
 
 # Példa egyágú (if) szelekcióra:
 print('Szám abszolút értéke')
-inputX = int(input('x= '))
-absX = inputX
+inputX: int = int(input('x= '))
+absX: int = inputX
 if inputX < 0:
     absX = inputX * -1
 print(f'Abs({inputX}) = {absX}')
 
 # Példa kétágú (if-else) elágazásra
 print('\nPáros-páratlan meghatározása')
-inputSzam = int(input('szam= '))
+inputSzam: int = int(input('szam= '))
 if inputSzam % 2 == 0:
     print('A szám páros!')
 else:
@@ -24,7 +24,7 @@ else:
 
 # Példa többágú (if-elif-else) elágazásra (else "ág" elhagyható):
 print('\nOsztályzat szöveges megfelelője')
-erdemjegy = int(input('Kérem az osztályzatot [1-5]: '))
+erdemjegy: int = int(input('Kérem az osztályzatot [1-5]: '))
 if erdemjegy == 1:
     print('Elégtelen')
 elif erdemjegy == 2:
@@ -40,10 +40,10 @@ else:
 
 
 # Rövidített (shorthand) kétágú elágazás, amit feltételes operátor funkcióját is betöltheti:
-a = 10
-b = 20
+a: int = 10
+b: int = 20
 print("A") if a > b else print("B")
-c = 12 if a != b else 24
+c: int = 12 if a != b else 24
 # A fenti értékadás C# feltételes operátorral:
 # c = a != b ? 12 : 24
 print(c)  # 12

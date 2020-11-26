@@ -10,7 +10,7 @@ from typing import Dict, List, Set, Tuple
 # - adattípus (str, int, float, bool, stb., Python-ban megadásuk opcionális)
 # - kezdőérték
 # - aktuális érték
-# adatszerkezet = programunkban használt változók halmaza
+# adatszerkezet = programban használt változók halmaza
 # literál = olyan adat, melyhez nem rendelünk azonosítót, a megadás szintaxisa határozza meg a típusát
 
 
