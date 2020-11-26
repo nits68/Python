@@ -145,9 +145,9 @@ for ig in range(len(szamok) - 1, 0, -1):  # ig -> 9..1
     csere_volt: bool = False
     for i in range(ig):  # i -> 0..8 / 0..7 / 0..6 / ... / 0..0/
         if (szamok[i] > szamok[i+1]):  # Cserélni kell az egymás mellett álló elemeket
-            csere: int = szamok[i]  # segédváltozó két érték felcseréléséhez
+            seged: int = szamok[i]  # segédváltozó két érték felcseréléséhez
             szamok[i] = szamok[i+1]
-            szamok[i+1] = csere
+            szamok[i+1] = seged
             csere_volt = True
     if csere_volt is False:  # Ha nem volt csere, akkor rendezett a lista, kiléphetünk
         break
