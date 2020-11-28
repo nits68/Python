@@ -1,12 +1,10 @@
-# Iteráció (ciklus)
-# Olyan vezérlési szerkezet, melyet utasítás(ok) ismétlésére használunk
+# Iteráció (ciklus): Olyan vezérlési szerkezet, melyet utasítás(ok) ismétlésére használunk
 # Ciklusok fajtái:
 # - klasszikus növekményes ciklus (for, NINCS a Python-ban)
 # - for-in ciklus (speciális ciklus a Python-ban, C# foreach ciklushoz hasonlít leginkább)
 # - elöltesztelő ciklus (while)
 # - hátultesztelő ciklus (NINCS a Python-ban)
 
-import random  # random modul, véletlen számok generálásához
 from typing import List
 
 # Klasszikus növekményes ciklus megvalósítása for-in ciklussal:
