@@ -9,7 +9,7 @@ print(lotto90)
 
 # Halmaz elemei növekvő sorrendben tartalmazás vizsgálattal:
 lotto90rendezve: List[int] = []
-for i in range(1, 91):  # 1..90
-    if i in lotto90:
-        lotto90rendezve.append(i)
+for szam in range(1, 91):  # 1..90
+    if szam in lotto90:
+        lotto90rendezve.append(szam)
 print(lotto90rendezve)

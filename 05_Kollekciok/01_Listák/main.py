@@ -38,12 +38,12 @@ def main():
     print(lista1)
 
     # Lista bejárása index nélkül
-    for i in lista1:
-        print(f'{i} ', end='')  # True 123 szilva alma szőlő
+    for e in lista1:
+        print(f'{e} ', end='')  # True 123 szilva alma szőlő
     print()  # Soremelés
     # Lista bejárása indexekkel
-    for index, item in enumerate(lista1):
-        print(f'lista1[{index}]={item} ', end='')  # True 123 szilva alma szőlő
+    for i, e in enumerate(lista1):
+        print(f'lista1[{i}]={e} ', end='')  # True 123 szilva alma szőlő
     print()  # Soremelés
     # vagy:
     for i in range(len(lista1)):
@@ -133,7 +133,6 @@ def main():
     locale.setlocale(locale.LC_ALL, 'hu')
     lista7.sort(key=locale.strxfrm)
     print(lista7)
-
 
 
 if __name__ == '__main__':
