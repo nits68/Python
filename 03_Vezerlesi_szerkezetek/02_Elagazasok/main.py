@@ -1,5 +1,4 @@
-# Szelekciók (elágazások)
-# Olyan vezérlési szerkezetek, ahol feltételekhez köthetjük az utasítások végrehajtását
+# Szelekciók (elágazások): Olyan vezérlési szerkezetek, ahol feltétel(ek)hez kötjük az utasítások végrehajtását
 
 # Elágazások fajtái:
 # - egy ágú (if)
