@@ -11,9 +11,13 @@ print('Osztályok - objektumok')
 # A konstruktor automatikusan hívódik az osztálypéldány létrehozásakor
 # A konstruktor Pythonban kötelezően az __init__ nevet kapja
 # Az osztálypéldányt gyakran objektumnak is hívjuk
-# A jellemzők speciális kódtagok, gyakran egy protected mező írását és olvasását felügyelik
+# A jellemzők speciális kódtagok, gyakran egy protected mező írását és olvasását felügyelik,
+#   vagy az osztály adattagjait felhasználva új értéket határoznak meg
 # A self foglalt szóval az aktuális osztálypéldány adat- és kódtagjait érjük el,
 #   kötelezően minden kódtag első paramétere
+# A forrásállomány neve gyakran az osztály nevével egyezik meg (itt homerseklet.py kéne hogy legyen)
+# Ha az osztályra másik forrásállományba van szükségünk, akkor azt importálni kell:
+#   from homerseklet import Homerseklet
 
 # A Homerseklet osztály definiálása:
 
@@ -29,7 +33,7 @@ class Homerseklet:  # a class foglalt szó után adjuk meg az osztály azonosít
     def valtoztat(self, delta_fok: float) -> None:  # az osztály publikus kódtagja, metódusa
         self.ertekfok += delta_fok
 
-    @property
+    @property  # dekorátor a jellemzőhöz, ha az "olvas"
     def ertekfahrenheit(self) -> float:  # csak olvasható jellemző (nincs setter)
         return (self._ertekfok * 1.8) + 32
 
@@ -37,7 +41,7 @@ class Homerseklet:  # a class foglalt szó után adjuk meg az osztály azonosít
     def ertekfok(self) -> float:  # írható / olvasható jellemző (van setter)
         return self._ertekfok
 
-    @ertekfok.setter
+    @ertekfok.setter  # dekorátor a jellemzőhöz, ha az "ír"
     def ertekfok(self, ertek_fok: float) -> None:
         if ertek_fok < -273.15:
             raise ValueError('-273 foknál kisebb nem lehetséges')
@@ -57,7 +61,7 @@ print(testho.ertekfahrenheit)  # jellemző olvasása
 # Cannot assign member "ertekfahrenheit" for type "Homerseklet"  Property "ertekfahrenheit" has no defined setterPylance
 
 try:
-    proba: Homerseklet = Homerseklet(-300)  # osztálypéldány (objektum) létrehozása
+    proba: Homerseklet = Homerseklet(-300)  # osztálypéldány (objektum) létrehozása hibakezeléssel
 except Exception as ex:
     print(f'Hiba __doc__: {ex.__doc__}')
     print(f'Hibaüzenet: {ex.args[0]}')
