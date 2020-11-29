@@ -22,6 +22,7 @@ except Exception as ex:  # Az Exception az osztályhierarchia tetején áll, min
 # Ha a keletkezett hibaobjektum típusától függően más-más except blokkot kívánunk készíteni:
 # Fontos: A használni kívánt hibaobjektumok felsorolása kötött, ha ős-leszármazott viszony áll fent
 # Szabály: A hierarchia alján lévő leszármazottakkal kell kezdeni, majd jöhetnek az ősök
+print('Több except blokk használata')
 try:
     szamlalo: int = int(input('Kérem a számlálót: '))
     nevezo: int = int(input('Kérem a nevezőt: '))
@@ -38,6 +39,8 @@ except ZeroDivisionError as ex:  # Ha nullával osztunk, akkor ilyen típusú hi
 except Exception as ex:  # Az Exception az osztályhierarchia tetején áll, minden más hibaobjektumot "elkap"
     print(f'A hibaobjektum típusa: {type(ex)}')
     print(f'Hiba szövege: {ex}')
+
+print('Saját hibaobjektum készítése')
 
 
 def Tort(szamlalo: float, nevezo: float) -> float:
