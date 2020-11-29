@@ -1,6 +1,3 @@
-from types import new_class
-
-
 print('Kivételkezelés')
 
 # A program futásakor bizonyos utasítások esetében felléphetnek hibák, melyeket a megfelelő szerkezettel kézben tarthatunk
