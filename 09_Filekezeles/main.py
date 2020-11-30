@@ -19,7 +19,10 @@ print(sorok)
 szamok: List[int] = list()
 try:
     with open('szamok.txt', 'r', encoding='UTF-8') as file:
-        szamok = [int(e.strip()) for e in file.readlines()]
+        # szamok = [int(e.strip()) for e in file.readlines()]
+        # vagy:
+        for e in file.readlines():
+            szamok.append(int(e.strip()))
 except Exception as ex:
     print(f'Hiba: {ex.__doc__}')
 print(szamok)
@@ -57,6 +60,11 @@ except Exception as ex:
 
 try:
     with open('cél2.txt', 'w', encoding='UTF-8') as file:
-        file.writelines([f'{e}\n' for e in sorok])
+        # file.writelines([f'{e}\n' for e in sorok])
+        # vagy:
+        ki: List[str] = []
+        for e in sorok:
+            ki.append(f'{e}\n')
+        file.writelines(ki)
 except Exception as ex:
     print(f'Hiba: {ex.__doc__}')
