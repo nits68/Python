@@ -6,6 +6,7 @@ print('Szövges állományok kezelése')
 # UTF-8 kódolású szöveges állományok olvasása:
 # try-except szerkezet elhagyható, ha a vizsgafeladatban nem kérik, de a gyakorlatban erősen javasolt a használata
 # (Az állomány sorait egy str típusú listába olvassuk be az open() függvénnyel és a with-as utasítással:
+# Beolvasás közvetlenül szöveges típusú listába a read() és splitlines() metódusokkal
 sorok: List[str] = list()
 try:
     with open('forras.txt', 'r', encoding='UTF-8') as file:
@@ -13,6 +14,28 @@ try:
 except Exception as ex:
     print(f'Hiba: {ex.__doc__}')
 print(sorok)
+
+# Beolvasás szám típusú listába a readlines() metódussal + konverzió:
+szamok: List[int] = list()
+try:
+    with open('szamok.txt', 'r', encoding='UTF-8') as file:
+        szamok = [int(e.strip()) for e in file.readlines()]
+except Exception as ex:
+    print(f'Hiba: {ex.__doc__}')
+print(szamok)
+
+# Beolvasás soronként a readline() metódussal:
+szamok2: List[int] = list()
+try:
+    with open('szamok.txt', 'r', encoding='UTF-8') as file:
+        sor: str = 'x'
+        while sor:
+            sor: str = file.readline()
+            if sor != '':
+                szamok2.append(int(sor))
+except Exception as ex:
+    print(f'Hiba: {ex.__doc__}')
+print(szamok2)
 
 # Az open() függvény második paramétere a megnyitás módját határozza meg:
 # - 'r' - Read - Alapértelmezett érték. Olvasásra nyitja meg az állományt, hibát dob, ha a file nem létezik.
