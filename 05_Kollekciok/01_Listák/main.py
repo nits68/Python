@@ -8,6 +8,8 @@ def main():
     # Más progragramozási nyelvekben a listákat egydimenziós tömböknek vagy vektoroknak hívhuk
     #  Lista létrehozása:
     lista1: List[str] = ['barack', 'körte', 'szilva', 'alma', 'szőlő']  # Elemekkel inicializált lista
+    # lista1: List[str] = list()
+    # lista1: List[str] = []
     lista2 = []   # Üres, típus nélküli lista
     lista3 = list((1, 2, "a"))  # list() konstruktorral tuple-ból létrehozott lista
     lista4 = list({'a', 'e', 'i', 'o', 'u'})  # list() konstruktorral halmazból létrehozott lista

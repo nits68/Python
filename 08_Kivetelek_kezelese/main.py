@@ -15,6 +15,7 @@ try:
 except Exception as ex:  # Az Exception az osztályhierarchia tetején áll, minden hibaobjektumot "elkap"
     print(f'A hibaobjektum típusa: {type(ex)}')
     print(f'Hiba szövege: {ex}')
+    print(f'Hiba dokumentációja : {ex.__doc__}')
 
 # Ha a keletkezett hibaobjektum típusától függően más-más except blokkot kívánunk készíteni:
 # Fontos: A használni kívánt hibaobjektumok felsorolása kötött, ha ős-leszármazott viszony áll fent
@@ -53,6 +54,7 @@ try:
 except Exception as ex:  # Az Exception az osztályhierarchia tetején áll, minden más hibaobjektumot "elkap"
     print(f'A hibaobjektum típusa: {type(ex)}')
     print(f'Hiba szövege: {ex}')
+    print(f'Hiba dokumentációja: {ex.__doc__}')
 
 
 # A Python beépített hibaosztályai:
