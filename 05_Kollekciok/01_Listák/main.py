@@ -3,9 +3,12 @@ import locale
 
 
 def main():
+    # A lista összetett adatszekezet (kollekció) amely több, különböző típusú adat tárolására alkalmas
+    # Mi a listákat úgy fogjuk használni, hogy a lista elemei azonos típusúak lesznek (típusos listák)
+    # Más progragramozási nyelvekben a listákat egydimenziós tömböknek vagy vektoroknak hívhuk
     #  Lista létrehozása:
     lista1: List[str] = ['barack', 'körte', 'szilva', 'alma', 'szőlő']  # Elemekkel inicializált lista
-    lista2 = []   # Üres lista
+    lista2 = []   # Üres, típus nélküli lista
     lista3 = list((1, 2, "a"))  # list() konstruktorral tuple-ból létrehozott lista
     lista4 = list({'a', 'e', 'i', 'o', 'u'})  # list() konstruktorral halmazból létrehozott lista
     lista5 = list(range(5, 18, 3))  # list() konstruktorral számsorozatból létrehozott lista
@@ -37,6 +40,9 @@ def main():
     lista1[1] = "123"
     print(lista1)
 
+    # Lista eleminek száma, lista "hossza": len() függvény
+    print(f'A lista1 lista elemeinek száma: {len(lista1)}')  # 5
+
     # Lista bejárása index nélkül
     for e in lista1:
         print(f'{e} ', end='')  # True 123 szilva alma szőlő
@@ -52,9 +58,6 @@ def main():
     # Tartalmazásvizsgálat az IN operátorral
     if 'alma' in lista1:
         print('Az alma érték megtalálható a listában!')
-
-    # Lista eleminek száma, lista "hossza": len() függvény
-    print(f'A lista1 lista elemeinek száma: {len(lista1)}')  # 5
 
     # Elem hozzáadása a lista végéhez: append()
     lista2.append(23)
@@ -85,7 +88,7 @@ def main():
 
     # Teljes lista törlése
     del lista2
-    #  print(lista2)  # Hiba: UnboundLocalError: local variable 'lista2' referenced before assignment
+    # print(lista2)  # Hiba: UnboundLocalError: local variable 'lista2' referenced before assignment
 
     # Másolat készítése listából
     lista2 = lista1  # Így nem készül másolat, hanem a lista2 ugyanazon referenciára (memóriacímre) mutat
@@ -108,6 +111,7 @@ def main():
     print(lista6.count(5))  # 4
 
     # Megadott elem első előfordulásának az indexe: index()
+    # Ha az elem nem létezik, akkor "hibát dob"
     print(lista6.index(6))  # 6
 
     # Lista bővítése másik listával: extend()
