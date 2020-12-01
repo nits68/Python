@@ -1,4 +1,4 @@
-class Fogadasi_fordulo():
+class Fogadasi_fordulo:
     # osztály adattagjai (mezői):
     ev: int
     het: int
