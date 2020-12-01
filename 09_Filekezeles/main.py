@@ -1,7 +1,7 @@
 from typing import List
 
 
-print('Szövges állományok kezelése')
+print('Szövges állományok írása és olvasása')
 
 # UTF-8 kódolású szöveges állományok olvasása:
 # try-except szerkezet elhagyható, ha a vizsgafeladatban nem kérik, de a gyakorlatban erősen javasolt a használata
@@ -12,17 +12,17 @@ try:
     with open('forras.txt', 'r', encoding='UTF-8') as file:
         sorok = file.read().splitlines()
 except Exception as ex:
-    print(f'Hiba: {ex.__doc__}')
+    print(f'Hiba: {ex}')
 print(sorok)
 
 # Beolvasás szám típusú listába a readlines() metódussal + konverzió:
 szamok: List[int] = list()
 try:
     with open('szamok.txt', 'r', encoding='UTF-8') as file:
-        # szamok = [int(e.strip()) for e in file.readlines()]
-        # vagy:
         for e in file.readlines():
             szamok.append(int(e.strip()))
+        # vagy rövidítve:
+        # szamok = [int(e.strip()) for e in file.readlines()]
 except Exception as ex:
     print(f'Hiba: {ex.__doc__}')
 print(szamok)
@@ -54,17 +54,17 @@ try:
         for e in sorok:
             file.write(f'{e}\n')  # A sorvég '\n' vezérlő karakter hozzáfűzése általában szükséges
 except Exception as ex:
-    print(f'Hiba: {ex.__doc__}')
+    print(f'Hiba: {ex}')
 
-# - teljes lista kiírása a writelines() metódussal (a '\n' vezérlő karaktereket minden sor végéhez kell fűzni):
+# - teljes lista (sorok) kiírása a writelines() metódussal (a '\n' vezérlő karaktereket minden sor végéhez kell fűzni):
 
 try:
     with open('cél2.txt', 'w', encoding='UTF-8') as file:
-        # file.writelines([f'{e}\n' for e in sorok])
-        # vagy:
         ki: List[str] = []
         for e in sorok:
             ki.append(f'{e}\n')
         file.writelines(ki)
+        # vagy röviden:
+        # file.writelines([f'{e}\n' for e in sorok])
 except Exception as ex:
-    print(f'Hiba: {ex.__doc__}')
+    print(f'Hiba: {ex}')
