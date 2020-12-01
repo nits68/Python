@@ -4,8 +4,8 @@ print('Kivételkezelés')
 # Ilyen hibák például az állományok kezelése során fellépő problémák, nullával osztás hibája vagy listák helytelen indexelése.
 
 # A try-except blokk:
-# A try blokkban helyezzük el a kritikus utasításokat, ahol hiba esetén az exception blokk kerül végrehajtásra
-# Az exception blokk lehetővé teszi a hiba kezelését, jelzését.
+# A try blokkban helyezzük el a kritikus utasításokat, ahol hiba esetén az except blokk kerül végrehajtásra
+# Az except blokk lehetővé teszi a hiba kezelését, jelzését.
 
 try:
     szamlalo: int = int(input('Kérem a számlálót: '))
@@ -15,7 +15,6 @@ try:
 except Exception as ex:  # Az Exception az osztályhierarchia tetején áll, minden hibaobjektumot "elkap"
     print(f'A hibaobjektum típusa: {type(ex)}')
     print(f'Hiba szövege: {ex}')
-    print(f'Hiba dokumentációja : {ex.__doc__}')
 
 # Ha a keletkezett hibaobjektum típusától függően más-más except blokkot kívánunk készíteni:
 # Fontos: A használni kívánt hibaobjektumok felsorolása kötött, ha ős-leszármazott viszony áll fent
@@ -38,7 +37,7 @@ except Exception as ex:  # Az Exception az osztályhierarchia tetején áll, min
     print(f'A hibaobjektum típusa: {type(ex)}')
     print(f'Hiba szövege: {ex}')
 
-print('Saját hibaobjektum készítése')
+print('Saját hibaobjektum készítése, kivétel dobása (raise)')
 
 
 def Tort(szamlalo: float, nevezo: float) -> float:
@@ -54,7 +53,6 @@ try:
 except Exception as ex:  # Az Exception az osztályhierarchia tetején áll, minden más hibaobjektumot "elkap"
     print(f'A hibaobjektum típusa: {type(ex)}')
     print(f'Hiba szövege: {ex}')
-    print(f'Hiba dokumentációja: {ex.__doc__}')
 
 
 # A Python beépített hibaosztályai:
