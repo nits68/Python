@@ -3,7 +3,7 @@ print('Osztályok - objektumok')
 # Biztosítják az adatok és a rajtuk műveletet végző függvények (kódtagok) egységét
 # A függvényeket gyakran metódusoknak hívjuk
 # Az osztály változóit (adattagjait) gyakran mezőknek is hívjuk
-# Az adat- és kódtagok láthatósági szintjét (public, private, protected, stb.)
+# Az adat- és kódtagok klasszikus láthatósági szintjét (public, private, protected, stb.)
 #   a Python nem különbözteti meg, a protected tagok jelölésére van csak módunk
 # Egy osztályt leggyakrabban csak példányosítás után használhatunk
 # Az osztály konstruktora egy speciális metódus, jellemzően az adattagok inicializálását végzi,
@@ -14,9 +14,9 @@ print('Osztályok - objektumok')
 # A jellemzők speciális kódtagok, gyakran egy protected mező írását és olvasását felügyelik,
 #   vagy az osztály adattagjait felhasználva új értéket határoznak meg
 # A self foglalt szóval az aktuális osztálypéldány adat- és kódtagjait érjük el,
-#   kötelezően minden kódtag első paramétere
-# A forrásállomány neve gyakran az osztály nevével egyezik meg (itt homerseklet.py kéne hogy legyen)
-# Ha az osztályra másik forrásállományba van szükségünk, akkor azt importálni kell:
+#   kötelezően minden kódtag első paramétere, adattípus nélkül
+# A Python forrásállomány neve gyakran az osztály nevével egyezik meg (itt homerseklet.py kéne hogy legyen)
+# Ha az osztályra másik forrásállományba van szükségünk, akkor azt importálni kell, pl.:
 #   from homerseklet import Homerseklet
 
 # A Homerseklet osztály definiálása:
@@ -33,7 +33,7 @@ class Homerseklet:  # a class foglalt szó után adjuk meg az osztály azonosít
     def valtoztat(self, delta_fok: float) -> None:  # az osztály publikus kódtagja, metódusa
         self.ertekfok += delta_fok
 
-    @property  # dekorátor a jellemzőhöz, ha az "olvas"
+    @property  # dekorátor az olvasható jellemzőhöz
     def ertekfahrenheit(self) -> float:  # csak olvasható jellemző (nincs setter)
         return (self._ertekfok * 1.8) + 32
 
@@ -41,7 +41,7 @@ class Homerseklet:  # a class foglalt szó után adjuk meg az osztály azonosít
     def ertekfok(self) -> float:  # írható / olvasható jellemző (van setter)
         return self._ertekfok
 
-    @ertekfok.setter  # dekorátor a jellemzőhöz, ha az "ír"
+    @ertekfok.setter  # dekorátor az írható ertekfok jellemzőhöz
     def ertekfok(self, ertek_fok: float) -> None:
         if ertek_fok < -273.15:
             raise ValueError('-273 foknál kisebb nem lehetséges')
@@ -49,8 +49,11 @@ class Homerseklet:  # a class foglalt szó után adjuk meg az osztály azonosít
 
 
 testho: Homerseklet = Homerseklet(37)  # osztálypéldány (objektum) létrehozása
+# testho => objektum (osztálypéldány) azonosítója (neve)
+# Homerseklet => Osztály azonosítója (neve)
+# Homerseklet(37) => Osztály konstruktora az aktuális (37) paraméterrel
 
-print(testho.feldolgozas_alatt)  # a publikus tagok osztálypéldány felől is elérhetőek
+print(testho.feldolgozas_alatt)  # a publikus tagok osztálypéldány felől is elérhetők
 # print(testho._ertekfok)  # Pylance figyelmeztetés:
 # "_ertekfok" is protected and used outside of the class in which it is declaredPylance (reportPrivateUsage)
 
@@ -63,13 +66,11 @@ print(testho.ertekfahrenheit)  # jellemző olvasása
 try:
     proba: Homerseklet = Homerseklet(-300)  # osztálypéldány (objektum) létrehozása hibakezeléssel
 except Exception as ex:
-    print(f'Hiba __doc__: {ex.__doc__}')
-    print(f'Hibaüzenet: {ex.args[0]}')
+    print(f'Hibaüzenet: {ex}')
 
 try:
     while True:
         testho.valtoztat(-50)  # osztály metódusának hívása (paramétere csak metódusnak lehet)
         print(testho.ertekfok)
 except Exception as ex:
-    print(f'Hiba __doc__: {ex.__doc__}')
-    print(f'Hibaüzenet: {ex.args[0]}')
+    print(f'Hibaüzenet: {ex}')
