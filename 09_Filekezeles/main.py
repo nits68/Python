@@ -20,7 +20,7 @@ szamok: List[int] = list()
 try:
     with open('szamok.txt', 'r', encoding='UTF-8') as file:
         for e in file.readlines():
-            szamok.append(int(e.strip()))
+            szamok.append(int(e.strip()))  # a strip() mtódus a '\n' vezérlő karaktert törli, int() konvertál
         # vagy rövidítve:
         # szamok = [int(e.strip()) for e in file.readlines()]
 except Exception as ex:
