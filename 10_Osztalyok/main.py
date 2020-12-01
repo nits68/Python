@@ -4,16 +4,14 @@ print('Osztályok - objektumok')
 # A függvényeket gyakran metódusoknak hívjuk
 # Az osztály változóit (adattagjait) gyakran mezőknek is hívjuk
 # Az adat- és kódtagok klasszikus láthatósági szintjét (public, private, protected, stb.)
-#   a Python nem különbözteti meg, a protected tagok jelölésére van csak módunk
+#   a Python nem különbözteti meg, a protected tagok jelölésére van csak módunk (de ezt nem tesszük meg)
 # Egy osztályt leggyakrabban csak példányosítás után használhatunk
 # Az osztály konstruktora egy speciális metódus, jellemzően az adattagok inicializálását végzi,
 #   felkészíti az osztálypéldányt a használatra
 # A konstruktor automatikusan hívódik az osztálypéldány létrehozásakor
 # A konstruktor Pythonban kötelezően az __init__ nevet kapja
 # Az osztálypéldányt gyakran objektumnak is hívjuk
-# A jellemzők speciális kódtagok, gyakran egy protected mező írását és olvasását felügyelik,
-#   vagy az osztály adattagjait felhasználva új értéket határoznak meg
-# A self foglalt szóval az aktuális osztálypéldány adat- és kódtagjait érjük el,
+# A self foglalt szóval az aktuális osztálypéldány adat- és kódtagjait érjük el osztályon belül,
 #   kötelezően minden kódtag első paramétere, adattípus nélkül
 # A Python forrásállomány neve gyakran az osztály nevével egyezik meg (itt homerseklet.py kéne hogy legyen)
 # Ha az osztályra másik forrásállományba van szükségünk, akkor azt importálni kell, pl.:
@@ -23,54 +21,34 @@ print('Osztályok - objektumok')
 
 
 class Homerseklet:  # a class foglalt szó után adjuk meg az osztály azonosítóját (nevét)
-    _ertekfok: float  # adattag (mező) protected jelzéssel (_), csak az osztály kódtagjai érhetik el, használhatják
-    feldolgozas_alatt: bool  # publikus mező, kódtagokból és osztálypéldány felől is elérhető
+    ertekfok: float  # adattag (mező)
+    feldolgozas_alatt: bool  # adattag (mező)
 
-    def __init__(self, ertek_fok: float = 0) -> None:  # az osztály konstruktora, speciális metódusa
+    def __init__(self, ertek_fok: float) -> None:  # az osztály konstruktora, speciális metódusa
         self.ertekfok = ertek_fok
         self.feldolgozas_alatt = False
 
-    def valtoztat(self, delta_fok: float) -> None:  # az osztály publikus kódtagja, metódusa
+    def valtoztat(self, delta_fok: float) -> None:  # az osztály kódtagja, metódusa
         self.ertekfok += delta_fok
 
-    @property  # dekorátor az olvasható jellemzőhöz
-    def ertekfahrenheit(self) -> float:  # csak olvasható jellemző (nincs setter)
-        return (self._ertekfok * 1.8) + 32
-
-    @property
-    def ertekfok(self) -> float:  # írható / olvasható jellemző (van setter)
-        return self._ertekfok
-
-    @ertekfok.setter  # dekorátor az írható ertekfok jellemzőhöz
-    def ertekfok(self, ertek_fok: float) -> None:
-        if ertek_fok < -273.15:
-            raise ValueError('-273 foknál kisebb nem lehetséges')
-        self._ertekfok = ertek_fok
+    def ertekfahrenheit(self) -> float:  # az osztály kódtagja, metódusa
+        return (self.ertekfok * 1.8) + 32
 
 
 testho: Homerseklet = Homerseklet(37)  # osztálypéldány (objektum) létrehozása
 # testho => objektum (osztálypéldány) azonosítója (neve)
 # Homerseklet => Osztály azonosítója (neve)
 # Homerseklet(37) => Osztály konstruktora az aktuális (37) paraméterrel
+# A példány (objektum) létrehozásakor a konstruktor (__init__) automatikusan meghívásra kerül
 
-print(testho.feldolgozas_alatt)  # a publikus tagok osztálypéldány felől is elérhetők
-# print(testho._ertekfok)  # Pylance figyelmeztetés:
-# "_ertekfok" is protected and used outside of the class in which it is declaredPylance (reportPrivateUsage)
+# az adattagok osztálypéldány felől is elérhetők (írhatók, olvashatók)
+testho.feldolgozas_alatt = True
+print(testho.feldolgozas_alatt)  # a tagok osztálypéldány felől is elérhetők (írhatók, olvashatók)
+print(testho.ertekfok)
+print(testho.ertekfahrenheit)
+testho.ertekfok = 36.4
 
-print(testho.ertekfok)  # jellemző olvasása
-testho.ertekfok = 36.4  # jellemző írása
-print(testho.ertekfahrenheit)  # jellemző olvasása
-# testho.ertekfahrenheit = 100  # jellemző írása - Pylance figyelmeztetés:
-# Cannot assign member "ertekfahrenheit" for type "Homerseklet"  Property "ertekfahrenheit" has no defined setterPylance
-
-try:
-    proba: Homerseklet = Homerseklet(-300)  # osztálypéldány (objektum) létrehozása hibakezeléssel
-except Exception as ex:
-    print(f'Hibaüzenet: {ex}')
-
-try:
-    while True:
-        testho.valtoztat(-50)  # osztály metódusának hívása (paramétere csak metódusnak lehet)
-        print(testho.ertekfok)
-except Exception as ex:
-    print(f'Hibaüzenet: {ex}')
+# kódtagok hívása:
+print(testho.ertekfok)
+testho.valtoztat(10.5)
+print(testho.ertekfok)
