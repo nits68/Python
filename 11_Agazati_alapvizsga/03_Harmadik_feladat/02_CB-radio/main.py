@@ -38,3 +38,21 @@ print('4. feladat: A legtöbb adás:')
 for adas in adasok:
     if (adas.adas_db == max_adas_darab):
         print(f'\tIdő: {adas.ora}:{adas.perc} Darab: {adas.adas_db} Név: {adas.nev}')
+
+# 5. feladat: Készítsen atszamol_percre azonosítóval egész típusú értékkel visszatérő metódust
+# a saját osztályban, ami a az óra- és percértéket percekre számolja át!
+# Egy óra 60 percből áll. Például: 8 óra 5 perc esetén a visszatérési érték: 485 (perc).
+# Készítsen szöveges állományt cb2.txt néven, melybe a forrásállományban található
+# bejegyzéseket írja ki új formátumban! Az órákat és a perceket percekre számolja át az
+# elkészített metódus hívásával! Az új állomány első sorát és az adatsorokat a minta szerint alakítsa ki!
+# Minta:
+# Kezdes;Nev;AdasDb
+# 360;Laci;2
+# 361;Bandi;3
+# ...
+
+print('5. feladat: cb2.txt állomány létrehozása')
+with open('cb2.txt', 'w', encoding='UTF-8') as file:
+    file.write('Kezdes;Nev;AdasDb\n')  # fejlécsor kiírása
+    for adas in adasok:
+        file.write(f'{adas.atszamol_percre()};{adas.nev};{adas.adas_db}\n')

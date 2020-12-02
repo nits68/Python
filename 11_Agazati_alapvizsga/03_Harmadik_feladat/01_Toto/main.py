@@ -8,7 +8,7 @@ from typing import List
 #    A fogadási fordulók adatait saját osztály típusú listában tárolja!
 #    Ügyeljen rá, hogy az állomány első sora a mezőneveket tartalmazza!
 print('Toto feladat')
-print('1. feladat: Adatok beolvasása és  tárolása')
+print('1. feladat: Adatok beolvasása és tárolása')
 ff: List[Fogadasi_fordulo] = []
 with open('toto.txt', 'r', encoding='UTF-8') as file:
     for sor in file.read().splitlines()[1:]:
@@ -29,4 +29,9 @@ for e in ff:
     if e.nem_volt_dontetlen():
         volt_ilyen_fordulo = True
         break
+    # vagy:
+    # if e.eredmenyek.count('X') == 0:
+    #     volt_ilyen_fordulo = True
+    #     break
+
 print(f'4. feladat: {"Volt" if volt_ilyen_fordulo else "Nem volt"} döntetlen mentes forduló!')

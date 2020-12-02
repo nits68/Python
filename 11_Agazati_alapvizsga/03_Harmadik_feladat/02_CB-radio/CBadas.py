@@ -1,5 +1,4 @@
 class CBadas:
-    # Ora;Perc;AdasDb;Nev
     ora: int
     perc: int
     adas_db: int
@@ -11,3 +10,6 @@ class CBadas:
         self.perc = int(perc)
         self.adas_db = int(adas_db)
         self.nev = nev
+
+    def atszamol_percre(self) -> int:
+        return self.ora * 60 + self.perc
