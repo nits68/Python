@@ -45,7 +45,7 @@ testho: Homerseklet = Homerseklet(37)  # osztálypéldány (objektum) létrehoz�
 testho.feldolgozas_alatt = True
 print(testho.feldolgozas_alatt)  # a tagok osztálypéldány felől is elérhetők (írhatók, olvashatók)
 print(testho.ertekfok)
-print(testho.ertekfahrenheit)
+print(testho.ertekfahrenheit())
 testho.ertekfok = 36.4
 
 # kódtagok hívása:
