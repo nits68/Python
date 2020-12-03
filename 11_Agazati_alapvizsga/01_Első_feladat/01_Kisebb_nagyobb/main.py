@@ -5,7 +5,7 @@
 # Lehetséges megoldás:
 
 print('Kisebb-nagyobb')
-a: int = int(input('Kérem az elő számot = '))
+a: int = int(input('Kérem az első számot = '))
 b: int = int(input('Kérem a második számot = '))
 
 if a > b:
