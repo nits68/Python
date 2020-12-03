@@ -1,6 +1,6 @@
 # import math
 
-# 1. Kérejen be két (egész|valós) számot, majd
+# 1. Kérjen be két (egész|valós) számot, majd
 #    írja ki, hogy melyik a nagyobb és melyik a kisebb szám!
 
 # 2. Kérje be egy háromszög oldalait, majd határozza meg,
@@ -10,7 +10,7 @@
 
 # 3. Kérje be egy háromszög oldalait, majd határozza meg,
 #    a háromszög területét és kerületét a Heron képlet segítségével!
-#    Feltételezheti, hogy az input adatokból hároszög szerkeszthető!
+#    Feltételezheti, hogy az input adatokból háromszög szerkeszthető!
 #    Heron képlet: s = K/2
 #    T = Gyök(s*(s-a)*(s-b)*(s-c))
 
@@ -33,6 +33,6 @@
 #    K = 2 *(a + b)
 
 # 5. Határozza meg két egész szám legnagyobb közös osztóját a következő
-#    algoritmussal: Mindaddíg kissebítse a nagyobbik számot a kisebbikkel,
+#    algoritmussal: Mindaddig kisebbítse a nagyobb számot a kisebb számmal,
 #    amíg a két szám egyenlő nem lesz! Az így kapott szám lesz a
 #    legnagyobb közös osztó.
