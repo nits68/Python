@@ -22,3 +22,9 @@ istitle
 iterable
 maxsplit
 rsplit
+ord
+chr
+abcéáűúőóüö
+'rcs'
+'rt'
+'kh'

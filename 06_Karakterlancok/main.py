@@ -39,12 +39,42 @@ for i in a:
     print(i, end=' ')  # H e l l o ,   W o r l d !
 print()
 
-# Fontosabb string metódusok
+# Az ord() függvény a karakter (egy karakter hosszúságú string) UNICODE (ASCII) kódját adja vissza
+print(f'ord("A") = {ord("A")}')
+print(f'ord("a") = {ord("a")}')
+print(f'ord("0") = {ord("0")}')
+print(f'ord("ő") = {ord("ő")}')
+
+# A chr() függvény az ord() függvény inverz függvénye ("ellenkezőjét csinálja")
+print(f'chr(65) = {chr(65)}')
+print(f'chr(97) = {chr(97)}')
+print(f'chr(48) = {chr(48)}')
+print(f'chr(337) = {chr(337)}')
+
+
+# Fontosabb string metódusok (programtanterv (PTT) szerint):
+print('python object oriented programming'.title())  # Python Object Oriented Programming
+print('Python Object Oriented Programming'.swapcase())  # pYTHON oBJECT oRIENTED pROGRAMMING
+print('python object oriented programming'.capitalize())  # Python object oriented programming
 print('\t\ralma \n'.strip())  # alma (whitespace karaktereket levágja a string elején és végén)
+print('\t\ralma \n'.lstrip())  # (whitespace karaktereket levágja a string elején)
+print('\t\ralma \n'.rstrip())  # (whitespace karaktereket levágja a string végén)
 print('ÁRVÍZTŰRŐ TÜKÖRFÚRÓGÉP'.lower())  # árvíztűrő tükörfúrógép
 print('árvíztűrő tükörfúrógép'.upper())  # ÁRVÍZTŰRŐ TÜKÖRFÚRÓGÉP
 print(a.replace("o", "@"))  # Hell@, W@rld! (összes előfordulást cseréli)
 print(a.count('l'))  # 3
+print('abc123éáűúőóüö456'.isalnum())  # true
+print('abcéáűúőóüö'.isalpha())  # true
+print('abcéáűúőóüö'.islower())  # true
+print('alma'.startswith('a'))  # true
+print('alma'.endswith('a'))  # true
+print('*, '.join(['4', '8', '78']))  # 4*, 8*, 78
+print('körte'.center(12, '*'))  # ***körte****
+print('korcsoportotokhoz'.split('o'))  # ['k', 'rcs', 'p', 'rt', 't', 'kh', 'z']
+print('korcsoportotokhoz'.find('to'))  # 9
+print('korcsoportotokhoz'.find('x'))  # -1
+print('korcsoportotokhoz'.rfind('to'))  # 11
+print('korcsoportotokhoz'.rfind('alma'))  # -1
 
 
 # String metódusok angol leírása:
@@ -71,15 +101,19 @@ print(a.count('l'))  # 3
 # islower()	Returns True if all characters in the string are lower case
 # isnumeric() Returns True if all characters in the string are numeric
 # isspace()	Returns True if all characters in the string are whitespaces
-# istitle()	Returns True if all words in a text start with a upper case letter, AND the rest of the word are lower case letters, otherwise False.
+# istitle()	Returns True if all words in a text start with a upper case letter,
+#           AND the rest of the word are lower case letters, otherwise False.
 # isupper()	Returns True if all characters in the string are upper case
 
-# join() Takes all items in an iterable and joins them into one string. Syntax: separator_string.join(iterable)
+# join() Takes all items in an iterable and joins them into one string.
+#        Syntax: separator_string.join(iterable)
 
 # strip() Returns a trimmed version of the string
 # lstrip() Returns a left trim version of the string
 # rstrip() Returns a right trim version of the string
 
-# split() Splits the string at the specified separator, and returns a list. Syntax: string.split(separator, maxsplit)
-# rsplit() Splits the string at the specified separator, and returns a list. Syntax: string.rsplit(separator, maxsplit)
+# split() Splits the string at the specified separator, and returns a list.
+#         Syntax: string.split(separator, maxsplit)
+# rsplit() Splits the string at the specified separator, and returns a list.
+#          Syntax: string.rsplit(separator, maxsplit)
 # splitlines() Splits the string at line breaks and returns a list
