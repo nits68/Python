@@ -1,6 +1,5 @@
-KKK:
-===
-Programozás Pythonban feladatrész 
+#KKK
+##Programozás Pythonban feladatrész 
 
 A feladatrész során három, egymástól függetlenül is megoldható feladatot kell megoldaniuk 
 a vizsgázóknak Python nyelv segítségével. A feladatok fokozatosan nehezednek, a 
@@ -19,7 +18,7 @@ A feladatrész az alábbi témakörökhöz kapcsolódó gyakorlati készségeket
   adatszerkezetben, adatok kiírása szöveges fájlba 
 - egyszerűbb problémák megoldására algoritmus készítése és megvalósítása
 
-Programozás Pythonban 
+###Programozás Pythonban 
 
 A vizsgarész három, egyre bonyolultabb felépítésű feladata közül az első legkönnyebb, 
 minimum szintű feladat 8 pontos, a közepes bonyolultságú feladat 14 pontos és a 
@@ -31,31 +30,24 @@ futási hibás vagy részlegesen jó megoldást is értékelni kell. A részpont
 adott értékelési elemhez tartozó kódrészlet hibátlan.
 
 
-PTT:
-====
+#PTT:
 
-3.4.1.6.7 Bevezetés a Python programozásba 
-A témakör célja, hogy a tanulók megtanulják a Python programozás megkezdéséhez szük-
-séges alapokat, telepítéssel, fejlesztői környezet megismerésével és egyszerű programok 
+##3.4.1.6.7 Bevezetés a Python programozásba 
+A témakör célja, hogy a tanulók megtanulják a Python programozás megkezdéséhez szükséges
+alapokat, telepítéssel, fejlesztői környezet megismerésével és egyszerű programok 
 készítésével. A témakör elsajátítását követően a tanuló: 
-‒ Ismeri a számítógépes program működésének elvét, tudja, mi a különbség a fordí-
-tott és interpretált kódok között. 
+‒ Ismeri a számítógépes program működésének elvét, tudja, mi a különbség a fordított és interpretált kódok között. 
 ‒ Ismeri a Python programozási nyelv jellemzőit. 
-‒ Képes Python programok készítésére szolgáló hatékony fejlesztési környezet ki-
-alakítására (Python letöltése és telepítése, a választott fejlesztői környezetek kivá-
-lasztása, telepítése, konfigurálása). 
+‒ Képes Python programok készítésére szolgáló hatékony fejlesztési környezet kialakítására (Python letöltése és telepítése, a választott fejlesztői környezetek kiválasztása, telepítése, konfigurálása). 
 ‒ Képes „Hello World!” típusú program készítésére és futtatására. 
 ‒ Képes az egyszerű, tipikus programhibák megkeresésére és javítására. 
 
  
 
-3.4.1.6.8 A Python programozási nyelv alapjai
+##3.4.1.6.8 A Python programozási nyelv alapjai
 
-A témakör célja, hogy a tanulók az életből (akár iskolai életből) vett példák alapján egysze-
-rűbb programokat írjanak Python program segítségével, melyekben találkozhatnak a kü-
-lönböző típusú literálokkal, aritmetikai operátorokkal, matematikai függvényekkel, illetve 
-megismerhetik a változók használatát is. A témakör elsajátítása lehetővé teszi, hogy a kü-
-lönböző típusú adatok, összetett adatszerkezetek célszerű választásával képesek legyenek 
+A témakör célja, hogy a tanulók az életből (akár iskolai életből) vett példák alapján egyszerűbb programokat írjanak Python program segítségével, melyekben találkozhatnak a különböző típusú literálokkal, aritmetikai operátorokkal, matematikai függvényekkel, illetve 
+megismerhetik a változók használatát is. A témakör elsajátítása lehetővé teszi, hogy a különböző típusú adatok, összetett adatszerkezetek célszerű választásával képesek legyenek 
 megoldani problémákat, szükség esetén saját függvényeket tudjanak készíteni, használni.
 
 A témakör elsajátítását követően a tanuló:
@@ -116,13 +108,10 @@ A témakör elsajátítását követően a tanuló:
 ‒ Ismeri a sor (tuple) fogalmát, képes definiálni, használni a fontosabb függvényeket és metódusokat. 
 ‒ Ismeri a szótár fogalmát, képes definiálni, használni a fontosabb függvényeket és metódusokat. 
 
-3.4.1.6.9 Modulok, objektumok, fájlkezelés Pythonban
+#3.4.1.6.9 Modulok, objektumok, fájlkezelés Pythonban
 
 A témakörben a tanulók megismerik a Python programozási nyelv moduljait és csomagjait. 
-Néhány alapvető beépített modul használata után saját modulokat és csomagokat is készí-
-tenek. Megismerik a kivétel fogalmát és a kivételkezelés technikáját, valamint az objek-
-tumorientált programozás alapjait, aminek hatására képesek lesznek objektumokat hasz-
-nálni és saját egyszerű objektumokat készíteni a Python nyelven megírt programjukban. A 
+Néhány alapvető beépített modul használata után saját modulokat és csomagokat is készítenek. Megismerik a kivétel fogalmát és a kivételkezelés technikáját, valamint az objektumorientált programozás alapjait, aminek hatására képesek lesznek objektumokat használni és saját egyszerű objektumokat készíteni a Python nyelven megírt programjukban. A 
 témakör zárásaként megismerkednek a szöveges fájlok kezelésével.
 
 A témakör elsajátítását követően a tanuló: 
