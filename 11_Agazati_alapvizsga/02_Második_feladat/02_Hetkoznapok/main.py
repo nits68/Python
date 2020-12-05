@@ -19,10 +19,14 @@ def maganhangzok_szama(nap: str) -> int:
     return db
 
 
-napok: List[str] = ['hétfő', 'kedd', 'szerda', 'csütörtök', 'péntek']
-maxi_mgh: int = 0
-for i in range(1, len(napok)):
-    print(maganhangzok_szama(napok[i]))
-    if maganhangzok_szama(napok[i]) > maganhangzok_szama(napok[maxi_mgh]):
-        maxi_mgh = i
-print(f'A legtöbb magánhangzó a {napok[maxi_mgh]}-ben van!')
+def main() -> None:
+    napok: List[str] = ['hétfő', 'kedd', 'szerda', 'csütörtök', 'péntek']
+    maxi_mgh: int = 0
+    for i in range(1, len(napok)):
+        if maganhangzok_szama(napok[i]) > maganhangzok_szama(napok[maxi_mgh]):
+            maxi_mgh = i
+    print(f'A legtöbb magánhangzó a {napok[maxi_mgh]}-ben van!')
+
+
+if __name__ == "__main__":
+    main()

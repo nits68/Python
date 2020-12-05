@@ -18,17 +18,22 @@ def prime(szam: int) -> int:
     return osztok_szama == 2
 
 
-ketjegyu_szamok: List[int] = []
-while len(ketjegyu_szamok) < 10:
-    ketjegyu_szamok.append(random.randint(10, 99))
-print(ketjegyu_szamok)
+def main() -> None:
+    ketjegyu_szamok: List[int] = []
+    while len(ketjegyu_szamok) < 10:
+        ketjegyu_szamok.append(random.randint(10, 99))
+    print(ketjegyu_szamok)
 
-van_prim = False
-for e in ketjegyu_szamok:
-    if prime(e):
-        van_prim = True
-        break
-if van_prim:
-    print('Van prímszám a listában!')
-else:
-    print('Nincs prímszám a listában!')
+    van_prim = False
+    for e in ketjegyu_szamok:
+        if prime(e):
+            van_prim = True
+            break
+    if van_prim:
+        print('Van prímszám a listában!')
+    else:
+        print('Nincs prímszám a listában!')
+
+
+if __name__ == "__main__":
+    main()

@@ -8,13 +8,19 @@
 # Lehetséges megoldás:
 import math
 
-print('Háromszög kerülete és területe - Heron képlet')
-print('Kérem a háromszög oldalait')
-a: float = float(input('a = '))
-b: float = float(input('b = '))
-c: float = float(input('c = '))
-kerulet: float = a+b+c
-s: float = kerulet / 2
-terulet: float = math.sqrt(s*(s-a)*(s-b)*(s-c))
-print(f'K = {kerulet}')
-print(f'T = {terulet}')
+
+def main() -> None:
+    print('Háromszög kerülete és területe - Heron képlet')
+    print('Kérem a háromszög oldalait')
+    a: float = float(input('a = '))
+    b: float = float(input('b = '))
+    c: float = float(input('c = '))
+    kerulet: float = a+b+c
+    s: float = kerulet / 2
+    terulet: float = math.sqrt(s*(s-a)*(s-b)*(s-c))
+    print(f'K = {kerulet}')
+    print(f'T = {terulet}')
+
+
+if __name__ == "__main__":
+    main()

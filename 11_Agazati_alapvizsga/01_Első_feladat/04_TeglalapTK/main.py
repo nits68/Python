@@ -5,11 +5,17 @@
 # K = 2 * (a + b)
 
 # Egy lehetséges megoldás:
-print('Téglalap kerülete és területe')
-print('Adja meg a téglalap oldalait!')
-a: float = float(input('a= '))
-b: float = float(input('b= '))
-terulet: float = a * b
-kerulet: float = 2 * (a + b)
-print(f'T = {terulet}')
-print(f'K = {kerulet}')
+
+def main() -> None:
+    print('Téglalap kerülete és területe')
+    print('Adja meg a téglalap oldalait!')
+    a: float = float(input('a= '))
+    b: float = float(input('b= '))
+    terulet: float = a * b
+    kerulet: float = 2 * (a + b)
+    print(f'T = {terulet}')
+    print(f'K = {kerulet}')
+
+
+if __name__ == "__main__":
+    main()
