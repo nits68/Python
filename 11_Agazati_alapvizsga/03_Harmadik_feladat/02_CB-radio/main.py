@@ -21,6 +21,8 @@ with open('cb.txt', 'r', encoding='UTF-8') as file:
 print(f'2. feladat: Bejegyzések száma: {len(adasok)} db')
 
 # 3. feladat: Határozza meg, hogy 'Sanyi' nevével hány bejegyzés van a forrásállományban!
+# Minta: 3. feladat: Sanyihoz tartozó bejegyzések: 31 db
+
 sanyi_db: int = 0
 for adas in adasok:
     if adas.nev == 'Sanyi':
@@ -30,6 +32,12 @@ print(f'3. feladat: Sanyihoz tartozó bejegyzések: {sanyi_db} db')
 # 4. feladat: Melyik sofőrhöz fűződik az egy percen belüli legtöbb adás?
 # Jelenítse meg az adatsor adatait a képernyőn!
 # Holtverseny esetén az összes adatsor jelenjen meg!
+# Minta:
+# 4. feladat: A legtöbb adás:
+#         Idő: 6:42 Darab: 5 Név: Józsi
+#         Idő: 7:25 Darab: 5 Név: Zoli
+#         Idő: 7:43 Darab: 5 Név: Gabi
+
 max_adas_darab: int = adasok[0].adas_db
 for adas in adasok[1:]:
     if adas.adas_db > max_adas_darab:
@@ -45,7 +53,7 @@ for adas in adasok:
 # Készítsen szöveges állományt cb2.txt néven, melybe a forrásállományban található
 # bejegyzéseket írja ki új formátumban! Az órákat és a perceket percekre számolja át az
 # elkészített metódus hívásával! Az új állomány első sorát és az adatsorokat a minta szerint alakítsa ki!
-# Minta:
+# Minta cb2.txt:
 # Kezdes;Nev;AdasDb
 # 360;Laci;2
 # 361;Bandi;3
