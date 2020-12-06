@@ -1,7 +1,7 @@
 from typing import Set
 
 
-def main():
+def main() -> None:
     #  Halmaz (Set) létrehozása:
     halmaz1 = {'barack', 'körte', 'szilva', 'alma', 'szőlő'}  # Elemekkel inicializált halmaz
     halmaz2 = {}   # Üres halmaz

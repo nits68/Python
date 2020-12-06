@@ -1,7 +1,7 @@
 from typing import Dict
 
 
-def main():
+def main() -> None:
     #  Szótár létrehozása:
     szotar1 = {  # Elemekkel inicializált szótár
         'brand': 'Ford',

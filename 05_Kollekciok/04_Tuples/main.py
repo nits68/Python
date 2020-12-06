@@ -1,9 +1,9 @@
-from typing import List
+from typing import List, Tuple
 
 
-def main():
+def main() -> None:
     #  Tuple létrehozása:
-    tuple1 = ('barack', 'körte', 'szilva', 'alma', 'szőlő')  # Elemekkel definiált tuple
+    tuple1: Tuple[str, str, str, str, str] = ('barack', 'körte', 'szilva', 'alma', 'szőlő')  # Elemekkel definiált típusos tuple
     tuple2 = ()   # Üres tuple
     tuple3 = tuple((1, 2, 3))  # tuple() konstruktorral tuple-ból létrehozott tuple
     tuple4 = tuple({'a', 'e', 'i', 'o', 'u'})  # tuple() konstruktorral halmazból létrehozott tuple

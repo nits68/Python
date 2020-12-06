@@ -2,7 +2,7 @@ from typing import List
 import locale
 
 
-def main():
+def main() -> None:
     # A lista összetett adatszekezet (kollekció) amely több, különböző típusú adat tárolására alkalmas
     # Mi a listákat úgy fogjuk használni, hogy a lista elemei azonos típusúak lesznek (típusos listák)
     # Más progragramozási nyelvekben a listákat egydimenziós tömböknek vagy vektoroknak hívhuk

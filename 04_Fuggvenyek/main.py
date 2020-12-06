@@ -30,16 +30,22 @@ def lnko(a: int, b: int) -> int:
     return a
 
 
-print('Alprogramok - függvények')
-# A függvény használata, hívása:
-# A hívás szintaxisa:
-# ===================
-# függvény_azonosítója(aktuális paraméterlista)
-osszead(3, 4)  # A függvény visszatérési értéke így elveszik
-print(osszead(3, 4))  # A függvény visszatérési értékét a képernyőre írjuk
-osszeg: int = osszead(3, 4)  # A függvény visszatérési értékét eltároljuk
+def main() -> None:
+    print('Alprogramok - függvények')
+    # A függvény használata, hívása:
+    # A hívás szintaxisa:
+    # ===================
+    # függvény_azonosítója(aktuális paraméterlista)
+    osszead(3, 4)  # A függvény visszatérési értéke így elveszik
+    print(osszead(3, 4))  # A függvény visszatérési értékét a képernyőre írjuk
+    osszeg: int = osszead(3, 4)  # A függvény visszatérési értékét eltároljuk
+    print(osszeg)
 
-print('Két szám legnagyobb közös osztója')
-a: int = int(input('a = '))
-b: int = int(input('b = '))
-print(f'LNKO({a}, {b}) = {lnko(a, b)}')
+    print('Két szám legnagyobb közös osztója')
+    a: int = int(input('a = '))
+    b: int = int(input('b = '))
+    print(f'LNKO({a}, {b}) = {lnko(a, b)}')
+
+
+if __name__ == "__main__":
+    main()
