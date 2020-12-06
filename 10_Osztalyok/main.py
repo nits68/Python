@@ -17,6 +17,7 @@
 #   from homerseklet import Homerseklet
 
 # A Homerseklet osztály definiálása:
+
 class Homerseklet:  # a class foglalt szó után adjuk meg az osztály azonosítóját (nevét)
     ertekfok: float  # adattag (mező)
     feldolgozas_alatt: bool  # adattag (mező)
