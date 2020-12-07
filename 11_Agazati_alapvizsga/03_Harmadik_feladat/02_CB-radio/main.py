@@ -13,6 +13,9 @@ def main() -> None:
     adasok: List[CBadas] = []
     with open('cb.txt', 'r', encoding='UTF-8') as file:
         for sor in file.read().splitlines()[1:]:
+            # aktAdas: CBadas = CBadas(sor)
+            # adasok.append(aktAdas)
+            # vagy:
             adasok.append(CBadas(sor))
 
     # 2. feladat: Határozza meg és írja ki a képernyőre a minta szerint,
@@ -73,4 +76,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-    

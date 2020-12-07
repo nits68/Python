@@ -27,7 +27,7 @@ def main() -> None:
             # vagy rövidítve:
             # szamok = [int(e.strip()) for e in file.readlines()]
     except Exception as ex:
-        print(f'Hiba: {ex.__doc__}')
+        print(f'Hiba: {ex}')
     print(szamok)
 
     # Beolvasás soronként a readline() metódussal:
@@ -41,7 +41,7 @@ def main() -> None:
                 if sor != '':
                     szamok2.append(int(sor))
     except Exception as ex:
-        print(f'Hiba: {ex.__doc__}')
+        print(f'Hiba: {ex}')
     print(szamok2)
 
     # Az open() függvény második paramétere a megnyitás módját határozza meg:
