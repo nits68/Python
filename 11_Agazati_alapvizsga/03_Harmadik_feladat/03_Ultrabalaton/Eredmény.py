@@ -18,5 +18,5 @@ class Eredmény:
         return len(self.név)
 
     def idő_óra(self) -> float:
-        ora, perc, mp = self.idő.split(':')
-        return int(ora) + int(perc) / 60 + int(mp) / 3600
+        óra, perc, mp = self.idő.split(':')
+        return int(óra) + int(perc) / 60 + int(mp) / 3600

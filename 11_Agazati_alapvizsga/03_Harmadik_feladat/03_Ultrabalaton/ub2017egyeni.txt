@@ -64,7 +64,7 @@ Huszak Katalin;68;Noi;17:05:14;58
 Huzsvay Edit;69;Noi;25:45:16;100
 Iancu David;70;Ferfi;18:27:21;68
 Ihasz Veronika;71;Noi;28:18:22;100
-Ioan Alexandru Strugariu;72;Ferfi;13:12:45;43
+Ioan Alexandru Strugari;72;Ferfi;13:12:45;43
 Ivan Bretan;73;Ferfi;24:10:57;100
 Ivan Zaborskiy;74;Ferfi;30:11:52;100
 Jaana Thorstrom;75;Noi;14:05:34;48

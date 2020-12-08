@@ -32,8 +32,11 @@ def main() -> None:
     # 4.1 Meghatározzuk a leghosszabb név hosszát:
     név_hossz_max: int = 0
     for e in ub2017:
-        if e.név_hossz() > név_hossz_max:
-            név_hossz_max = e.név_hossz()
+        # if e.név_hossz() > név_hossz_max:
+        #     név_hossz_max = e.név_hossz()
+        # vagy:
+        if len(e.név) > név_hossz_max:
+            név_hossz_max = len(e.név)
 
     # 4.2 Kiválogajuk egy új listába a leghosszabb nevű futókat:
     ub2017_max: List[Eredmény] = []
