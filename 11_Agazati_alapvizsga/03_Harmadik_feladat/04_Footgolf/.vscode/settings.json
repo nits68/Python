@@ -1,0 +1,9 @@
+{
+    "spellright.language": [
+        "hu"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex"
+    ]
+}
