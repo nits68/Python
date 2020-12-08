@@ -30,16 +30,39 @@ def main() -> None:
     # 5. Határozza meg és írja ki a minta szerint a 2016-os footgolf bajnokság legtöbb pontot
     # szerzett női bajnokát! Feltételezheti, hogy legalább egy női induló volt a bajnokságon, és
     # nem alakult ki holtverseny.
-    nőiBajnok: Any = None
+    női_bajnok: Any = None
     for v in fg2016:
         if v.ketegória == 'Noi':
-            if nőiBajnok is None:
-                nőiBajnok = v
-            if isinstance(nőiBajnok, Versenyző):
-                if v.összpont() > cast(Versenyző, nőiBajnok).összpont():
-                    nőiBajnok = v
+            if női_bajnok is None:
+                női_bajnok = v
+            if isinstance(női_bajnok, Versenyző):
+                # if női_bajnok is Versenyző:  # Itt nem használható az "is" operátor
+                if v.összpont() > cast(Versenyző, női_bajnok).összpont():
+                    női_bajnok = v
 
-    print(f'6. feladat: A bajnok női versenyző: {cast(Versenyző, nőiBajnok).név}')
+    print(f'6. feladat: A bajnok női versenyző: {cast(Versenyző, női_bajnok).név}')
+
+    női_maxi = -1
+    for i, v in enumerate(fg2016):
+        if v.ketegória == 'Noi':
+            if női_maxi == -1:
+                női_maxi = i
+            else:
+                if v.összpont() > fg2016[női_maxi].összpont():
+                    női_maxi = i
+
+    print(f'6. feladat: A bajnok női versenyző: {fg2016[női_maxi].név}')
+
+    női_versenyzők: List[Versenyző] = []
+    for v in fg2016:
+        if v.ketegória == "Noi":
+            női_versenyzők.append(v)
+
+    női_bajnok2: Versenyző = női_versenyzők[0]
+    for v in női_versenyzők[1:]:
+        if v.összpont() > női_bajnok2.összpont():
+            női_bajnok2 = v
+    print(f'6. feladat: A bajnok női versenyző: {női_bajnok2.név}')
 
 
 if __name__ == "__main__":
