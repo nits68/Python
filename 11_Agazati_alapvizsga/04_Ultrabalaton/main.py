@@ -30,18 +30,18 @@ def main() -> None:
     # Holtverseny esetén csak a futok neveit írjuk egymás mellé a minta szerint!
     print('4. feladat: A leghosszabb nevű futó(k)')
     # 4.1 Meghatározzuk a leghosszabb név hosszát:
-    max_hossz: int = 0
+    név_hossz_max: int = 0
     for e in ub2017:
-        if e.név_hossz() > max_hossz:
-            max_hossz = e.név_hossz()
+        if e.név_hossz() > név_hossz_max:
+            név_hossz_max = e.név_hossz()
 
     # 4.2 Kiválogajuk egy új listába a leghosszabb nevű futókat:
-    ub2017_max: List[Eredmény] = []  # leghosszabb nevű futók listája
+    ub2017_max: List[Eredmény] = []
     for e in ub2017:
-        if e.név_hossz() == max_hossz:
+        if e.név_hossz() == név_hossz_max:
             ub2017_max.append(e)
 
-    # Az új lista hossza szerint elvégezzük az eredmény kiírását
+    # Az új lista (ub2017_max) hossza szerint elvégezzük az eredmény kiírását
     if len(ub2017_max) == 1:
         print(f'\tNév: {ub2017_max[0].név}')
         print(f'\tRajtszám: {ub2017_max[0].rajtszám}')
