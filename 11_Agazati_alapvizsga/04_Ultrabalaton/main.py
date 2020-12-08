@@ -1,4 +1,4 @@
-from Eredmeny import Eredmeny
+from Eredmény import Eredmény
 from typing import List
 
 
@@ -7,76 +7,61 @@ def main() -> None:
     # egy saját osztály típusú listában!
     # Ügyeljen arram, hogy az állomány első sora a mezőneveket tartalmazza.
 
-    fe: List[Eredmeny] = []
+    ub2017: List[Eredmény] = []
     with open('ub2017egyeni.txt', 'r', encoding='UTF-8') as file:
         for sor in file.read().splitlines()[1:]:
-            fe.append(Eredmeny(sor))
+            ub2017.append(Eredmény(sor))
 
     # 2. Határozza meg és írja ki a minta szerint a képernyőre
     # a versenyen elindult futók számát!
     # Minta: 2. feladat: Futók száma: 186
 
-    print(f'2. feladat: Futók száma: {len(fe)}')
+    print(f'2. feladat: Futók száma: {len(ub2017)}')
 
     # 3. Számolja meg és írja ki a képernyőre a minta szerint,
     # hogy hány női sportoló teljesítette a teljes távot!
-    fo: int = 0
-    for f in fe:
-        if f.Kategoria == 'Noi' and f.TavSzazalek == 100:
-            fo += 1
-    print(f'3. feladat: Célba érkező női sportolók: {fo} fő')
+    nők100: int = 0
+    for e in ub2017:
+        if e.ketegória == 'Noi' and e.táv_százalék == 100:
+            nők100 += 1
+    print(f'3. feladat: Célba érkező női sportolók: {nők100} fő')
 
-    # 4. feladat: Határozzuk meg a leghosszabb nevű futót és és írjuk ki az adatait!
-    # Holtverseny esetén csak a futok neveit írjuk egymás mellé!
+    # 4. feladat: Határozzuk meg a leghosszabb nevű futót/futókat és és írjuk ki az adatait a minta szerint!
+    # Holtverseny esetén csak a futok neveit írjuk egymás mellé a minta szerint!
     print('4. feladat: A leghosszabb nevű futó(k)')
-    max_nevhossz_eredmeny: Eredmeny = fe[0]
-    for f in fe[1:]:
-        if len(f.Nev) > len(max_nevhossz_eredmeny.Nev):
-            max_nevhossz_eredmeny = f
-    max_nevhossz_futo_db: int = 0
-    for f in fe:
-        if len(f.Nev) == len(max_nevhossz_eredmeny.Nev):
-            max_nevhossz_futo_db += 1
-    if max_nevhossz_futo_db == 1:
-        print(f'\tNév: {max_nevhossz_eredmeny.Nev}')
-        print(f'\tRajtszám: {max_nevhossz_eredmeny.Rajtszam}')
-        print(f'\tEredmény: {max_nevhossz_eredmeny.Veresenyido}')
-    else:
-        print('\tNevek: ', end='')
-        for f in fe:
-            if len(f.Nev) == len(max_nevhossz_eredmeny.Nev):
-                print(f'{f.Nev}', end='; ')
-        print()  # soremelés az utolsó futó neve után
+    # 4.1 Meghatározzuk a leghosszabb név hosszát:
+    max_hossz: int = 0
+    for e in ub2017:
+        if e.név_hossz() > max_hossz:
+            max_hossz = e.név_hossz()
 
-    # 4. feladat alternatív megoldása
-    max: int = 0
-    for f in fe:
-        if f.nev_hossz() > max:
-            max = f.nev_hossz()
-    max_fe: List[Eredmeny] = []
-    for f in fe:
-        if f.nev_hossz() == max:
-            max_fe.append(f)
-    if len(max_fe) == 1:
-        print(f'\tNév: {max_nevhossz_eredmeny.Nev}')
-        print(f'\tRajtszám: {max_nevhossz_eredmeny.Rajtszam}')
-        print(f'\tEredmény: {max_nevhossz_eredmeny.Veresenyido}')
+    # 4.2 Kiválogajuk egy új listába a leghosszabb nevű futókat:
+    ub2017_max: List[Eredmény] = []  # leghosszabb nevű futók listája
+    for e in ub2017:
+        if e.név_hossz() == max_hossz:
+            ub2017_max.append(e)
+
+    # Az új lista hossza szerint elvégezzük az eredmény kiírását
+    if len(ub2017_max) == 1:
+        print(f'\tNév: {ub2017_max[0].név}')
+        print(f'\tRajtszám: {ub2017_max[0].rajtszám}')
+        print(f'\tEredmény: {ub2017_max[0].idő}')
     else:
         print('\tNevek: ', end='')
-        for f in max_fe:
-            print(f'{f.Nev}', end='; ')
+        for e in ub2017_max:
+            print(f'{e.név}', end='; ')
         print()  # soremelés az utolsó futó neve után
 
     # 5. Határozza meg és írja ki a minta szerint a teljes távot teljesítő
     # férfi sportolók átlagos idejét órában!
     # Feltételezheti, hogy legalább egy ilyen sportoló volt.
-    osszeg_ido: float = 0
-    fo_ff_100: int = 0
-    for f in fe:
-        if f.Kategoria == 'Ferfi' and f.TavSzazalek == 100:
-            fo_ff_100 += 1
-            osszeg_ido += f.verseny_ido_ora()
-    print(f'5. Férfi sportolók átlagos ideje: {osszeg_ido / fo_ff_100} óra')
+    férfi100_összeg_idő: float = 0
+    férfi100_fő: int = 0
+    for e in ub2017:
+        if e.ketegória == 'Ferfi' and e.táv_százalék == 100:
+            férfi100_fő += 1
+            férfi100_összeg_idő += e.idő_óra()
+    print(f'5. Férfi sportolók átlagos ideje: {férfi100_összeg_idő / férfi100_fő} óra')
 
 
 if __name__ == "__main__":
