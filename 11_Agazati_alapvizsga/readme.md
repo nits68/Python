@@ -52,8 +52,7 @@ megoldani problémákat, szükség esetén saját függvényeket tudjanak kész�
 
 A témakör elsajátítását követően a tanuló:
 
-‒ Ismeri a print() függvény működését és képes alkalmazni azt (print függvény pa-
-  raméterezése, escape és új sor vezérlőkarakterek). 
+‒ Ismeri a print() függvény működését és képes alkalmazni azt (print függvény paraméterezése, escape és új sor vezérlőkarakterek). 
 ‒ Ismeri a paraméterátadás fajtáit (positional, keyword). 
 ‒ Ismeri a literál fogalmát, az egész, valós, karakterlánc és logikai típusú literálokat. 
 ‒ Típuskonverziót végez, alkalmazza a típuskényszerítést. 
