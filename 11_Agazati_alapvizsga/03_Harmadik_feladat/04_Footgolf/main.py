@@ -1,5 +1,5 @@
 from Versenyző import Versenyző
-from typing import List, cast
+from typing import List
 
 
 def main() -> None:
