@@ -30,6 +30,8 @@ def main() -> None:
     # 5. Határozza meg és írja ki a minta szerint a 2016-os footgolf bajnokság legtöbb pontot
     # szerzett női bajnokát! Feltételezheti, hogy legalább egy női induló volt a bajnokságon, és
     # nem alakult ki holtverseny.
+
+    # Megoldás a None objektummal:
     női_bajnok = None
     for v in fg2016:
         if v.ketegória == 'Noi':
@@ -39,8 +41,10 @@ def main() -> None:
                 if v.összpont() > női_bajnok.összpont():
                     női_bajnok = v
 
-    print(f'5. feladat: A bajnok női versenyző: {cast(Versenyző, női_bajnok).név}')
+    if női_bajnok is not None:
+        print(f'5. feladat: A bajnok női versenyző: {női_bajnok.név}')
 
+    # Megoldás segéd indexel:
     női_maxi = -1
     for i, v in enumerate(fg2016):
         if v.ketegória == 'Noi':
@@ -52,6 +56,7 @@ def main() -> None:
 
     print(f'5. feladat: A bajnok női versenyző: {fg2016[női_maxi].név}')
 
+    # Megoldás segéd listával:
     női_versenyzők: List[Versenyző] = []
     for v in fg2016:
         if v.ketegória == "Noi":
