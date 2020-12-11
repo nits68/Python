@@ -1,0 +1,47 @@
+{
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "editor.mouseWheelZoom": true,
+    "editor.renameOnType": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.suggestSelection": "recentlyUsed",
+    "editor.parameterHints.enabled": false,
+    "files.autoSave": "afterDelay",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "html.format.wrapLineLength": 0,
+    "html.suggest.html5": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+	"[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.startupEditor": "none",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.lintOnSave": true,
+    "python.linting.ignorePatterns": [".vscode/*.py", "**/site-packages/**/*.py", "*.ipynb"],
+    "python.formatting.provider":"autopep8",
+    "python.languageServer": "Pylance",
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.typeCheckingMode": "strict",
+	"python.autoComplete.addBrackets": true,
+    "python.autoComplete.showAdvancedMembers": false,
+    "python.linting.pycodestyleArgs": [
+        "--max-line-length=255"
+    ],
+    "python.formatting.autopep8Args": [
+        "--max-line-length=255"
+    ],
+    "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
+    "vsintellicode.modify.editor.suggestSelection": "disabled"
+}
