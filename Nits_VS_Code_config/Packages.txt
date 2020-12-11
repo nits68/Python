@@ -1,0 +1,5 @@
+python.exe -m pip install --upgrade --user pip
+pip install -U pycodestyle --user
+pip install -U pylint --user
+pip install -U autopep8 --user
+pip install -U pytest --user
