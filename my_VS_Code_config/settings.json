@@ -4,7 +4,7 @@
     "editor.mouseWheelZoom": true,
     "editor.renameOnType": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-	"editor.suggestSelection": "recentlyUsed",
+    "editor.suggestSelection": "recentlyUsed",
     "editor.parameterHints.enabled": false,
     "files.autoSave": "afterDelay",
     "git.autofetch": true,
@@ -18,7 +18,7 @@
     "[python]": {
         "editor.defaultFormatter": "ms-python.python"
     },
-	"[css]": {
+    "[css]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[javascript]": {
@@ -34,7 +34,7 @@
     "python.languageServer": "Pylance",
     "python.analysis.completeFunctionParens": true,
     "python.analysis.typeCheckingMode": "strict",
-	"python.autoComplete.addBrackets": true,
+    "python.autoComplete.addBrackets": true,
     "python.autoComplete.showAdvancedMembers": false,
     "python.linting.pycodestyleArgs": [
         "--max-line-length=255"
