@@ -11,7 +11,7 @@ def main() -> None:
     # Ügyeljen rá, hogy az állomány első sora a mezőneveket tartalmazza!
 
     adasok: List[CBadas] = []
-    with open('cb.txt', 'r', encoding='UTF-8') as file:
+    with open('cb.txt', 'r', encoding='utf-8') as file:
         for sor in file.read().splitlines()[1:]:
             # aktAdas: CBadas = CBadas(sor)
             # adasok.append(aktAdas)
@@ -68,7 +68,7 @@ def main() -> None:
     # ...
 
     print('5. feladat: cb2.txt állomány létrehozása')
-    with open('cb2.txt', 'w', encoding='UTF-8') as file:
+    with open('cb2.txt', 'w', encoding='utf-8') as file:
         file.write('Kezdes;Nev;AdasDb\n')  # fejlécsor kiírása
         for adas in adasok:
             file.write(f'{adas.atszamol_percre()};{adas.nev};{adas.adas_db}\n')

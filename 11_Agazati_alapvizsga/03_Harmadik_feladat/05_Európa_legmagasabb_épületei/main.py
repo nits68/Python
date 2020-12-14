@@ -7,7 +7,7 @@ def main() -> None:
     #  és tárolja el egy saját osztály típusú listában!
     # Ügyeljen rá, hogy az állomány első sora az adatok fejlécét tartalmazza!
     épületek: List[Épület] = []
-    with open('legmagasabb.txt', 'r', encoding='UTF-8') as file:
+    with open('legmagasabb.txt', 'r', encoding='utf-8') as file:
         for sor in file.read().splitlines()[1:]:
             épületek.append(Épület(sor))
 

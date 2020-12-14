@@ -6,7 +6,7 @@ def main() -> None:
     # 1. Olvassa be a fob2016.txt állományban lévő adatokat és tárolja el egy
     # saját osztály típusú listában!
     fg2016: List[Versenyző] = []
-    with open('fob2016.txt', 'r', encoding='UTF-8') as file:
+    with open('fob2016.txt', 'r', encoding='utf-8') as file:
         for sor in file.read().splitlines():
             fg2016.append(Versenyző(sor))
 

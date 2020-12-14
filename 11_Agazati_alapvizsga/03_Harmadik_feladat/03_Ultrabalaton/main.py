@@ -8,7 +8,7 @@ def main() -> None:
     # Ügyeljen arram, hogy az állomány első sora a mezőneveket tartalmazza.
 
     ub2017: List[Eredmény] = []
-    with open('ub2017egyeni.txt', 'r', encoding='UTF-8') as file:
+    with open('ub2017egyeni.txt', 'r', encoding='utf-8') as file:
         for sor in file.read().splitlines()[1:]:
             ub2017.append(Eredmény(sor))
 
