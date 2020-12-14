@@ -1,9 +1,3 @@
-#  Kérjen be két (egész|valós) típusú számot és tárolja el, majd
-#  írja ki, hogy melyik a nagyobb és melyik a kisebb szám!
-#  Ha a két szám egyenlő, akkor azt is jelezze!
-
-# Lehetséges megoldás:
-
 def main() -> None:
     print('1. feladat: Kisebb-nagyobb meghatározása')
     a: int = int(input('Kérem az első számot: '))

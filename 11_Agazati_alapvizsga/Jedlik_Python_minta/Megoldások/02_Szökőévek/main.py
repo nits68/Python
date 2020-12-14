@@ -6,14 +6,6 @@ def szökőév(év: int) -> bool:
 
 
 def main() -> None:
-    # Kérjünk be a felhasználótól két évszámot!
-    # Határozzuk meg és írjuk ki a képernyőre az
-    # évszámok közötti szökőéveket!
-    # A szökőév meghatározásához készítsünk saját függvényt!
-    # Szökőév minden 400-al osztható év, illetve
-    # a 4-el osztható, de 100-al nem osztható évek.
-    # Ha a megadott évszámok között nem található
-    # szökőév, akkor a "Nincs szökőév a megadott tartományban!" szöveget jelenítsük meg!
     print('2. feladat: Szökőév listázó')
     év1: int = int(input('Kérem az egyik évszámot: '))
     év2: int = int(input('Kérem a másik évszámot: '))
