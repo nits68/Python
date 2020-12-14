@@ -12,48 +12,48 @@
 # Az osztálypéldányt gyakran objektumnak is hívjuk
 # A self foglalt szóval az aktuális osztálypéldány adat- és kódtagjait érjük el osztályon belül,
 #   kötelezően minden kódtag első paramétere, adattípus nélkül
-# A Python forrásállomány neve gyakran az osztály nevével egyezik meg (itt homerseklet.py kéne hogy legyen)
+# A Python forrásállomány neve gyakran az osztály nevével egyezik meg (itt Hőmérséklet.py kéne hogy legyen)
 # Ha az osztályra másik forrásállományba van szükségünk, akkor azt importálni kell, pl.:
-#   from homerseklet import Homerseklet
+#   from Hőmérséklet import Hőmérséklet
 
 # A Homerseklet osztály definiálása:
 
-class Homerseklet:  # a class foglalt szó után adjuk meg az osztály azonosítóját (nevét)
-    ertekfok: float  # adattag (mező)
-    feldolgozas_alatt: bool  # adattag (mező)
+class Hőmérséklet:  # a class foglalt szó után adjuk meg az osztály azonosítóját (nevét)
+    érték_fok: float  # adattag (mező)
+    feldolgozás_alatt: bool  # adattag (mező)
 
-    def __init__(self, ertek_fok: float) -> None:  # az osztály konstruktora, speciális metódusa
-        self.ertekfok = ertek_fok
-        self.feldolgozas_alatt = False
+    def __init__(self, értek_fok: float) -> None:  # az osztály konstruktora, speciális metódusa
+        self.érték_fok = értek_fok
+        self.feldolgozás_alatt = False
         # A konstruktorban is létrehozhatunk adattagokat, de ezt javasolt elkerülni!
 
     def valtoztat(self, delta_fok: float) -> None:  # az osztály kódtagja, metódusa
-        self.ertekfok += delta_fok
+        self.érték_fok += delta_fok
 
-    def ertekfahrenheit(self) -> float:  # az osztály kódtagja, metódusa
-        return (self.ertekfok * 1.8) + 32
+    def értek_fahrenheit(self) -> float:  # az osztály kódtagja, metódusa
+        return (self.érték_fok * 1.8) + 32
 
 
 def main() -> None:
     print('Osztályok - objektumok')
-    testho: Homerseklet = Homerseklet(37)  # osztálypéldány (objektum) létrehozása
+    testhő: Hőmérséklet = Hőmérséklet(37)  # osztálypéldány (objektum) létrehozása
     # testho => objektum (osztálypéldány) azonosítója (neve)
     # Homerseklet => Osztály azonosítója (neve)
     # Homerseklet(37) => Osztály konstruktora az aktuális (37) paraméterrel
     # A példány (objektum) létrehozásakor a konstruktor (__init__) automatikusan meghívásra kerül
 
     # az adattagok elérése osztálypéldány felől
-    testho.feldolgozas_alatt = True
-    print(testho.feldolgozas_alatt)  # a tagok osztálypéldány felől is elérhetők (írhatók, olvashatók)
-    print(testho.ertekfok)
-    testho.ertekfok = 36.4
-    print(testho.ertekfok)
+    testhő.feldolgozás_alatt = True
+    print(testhő.feldolgozás_alatt)  # a tagok osztálypéldány felől is elérhetők (írhatók, olvashatók)
+    print(testhő.érték_fok)
+    testhő.érték_fok = 36.4
+    print(testhő.érték_fok)
 
     # kódtagok hívása:
-    print(testho.ertekfahrenheit())
-    testho.valtoztat(10.5)
+    print(testhő.értek_fahrenheit())
+    testhő.valtoztat(10.5)
 
-    print(testho.ertekfok)
+    print(testhő.érték_fok)
 
 
 if __name__ == "__main__":
