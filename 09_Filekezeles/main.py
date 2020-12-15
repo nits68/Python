@@ -12,29 +12,29 @@ def main() -> None:
 
     sorok: List[str] = list()
     try:
-        with open('forras.txt', 'r', encoding='UTF-8') as file:
+        with open('forras.txt', 'r', encoding='utf-8') as file:
             sorok = file.read().splitlines()
     except Exception as ex:
         print(f'Hiba: {ex}')
     print(sorok)
 
     # Beolvasás szám típusú listába a readlines() metódussal + konverzió:
-    szamok: List[int] = list()
+    számok: List[int] = list()
     try:
-        with open('szamok.txt', 'r', encoding='UTF-8') as file:
+        with open('szamok.txt', 'r', encoding='utf-8') as file:
             for e in file.readlines():
-                szamok.append(int(e.strip()))  # a strip() mtódus a '\n' vezérlő karaktert törli, int() konvertál
+                számok.append(int(e.strip()))  # a strip() mtódus a '\n' vezérlő karaktert törli, int() konvertál
             # vagy rövidítve:
             # szamok = [int(e.strip()) for e in file.readlines()]
     except Exception as ex:
         print(f'Hiba: {ex}')
-    print(szamok)
+    print(számok)
 
     # Beolvasás soronként a readline() metódussal:
     # (nagyobb méretű szöveges állományokhoz javasolt, pl.: rendszer log-ok)
     szamok2: List[int] = list()
     try:
-        with open('szamok.txt', 'r', encoding='UTF-8') as file:
+        with open('szamok.txt', 'r', encoding='utf-8') as file:
             sor: str = 'x'
             while sor:
                 sor: str = file.readline()
@@ -54,7 +54,7 @@ def main() -> None:
     # - írás soronként a write() metódussal:
 
     try:
-        with open('cél.txt', 'w', encoding='UTF-8') as file:
+        with open('cél.txt', 'w', encoding='utf-8') as file:
             for e in sorok:
                 file.write(f'{e}\n')  # A sorvég '\n' vezérlő karakter hozzáfűzése általában szükséges
     except Exception as ex:
@@ -63,7 +63,7 @@ def main() -> None:
     # - teljes lista (sorok) kiírása a writelines() metódussal (a '\n' vezérlő karaktereket minden sor végéhez kell fűzni):
 
     try:
-        with open('cél2.txt', 'w', encoding='UTF-8') as file:
+        with open('cél2.txt', 'w', encoding='utf-8') as file:
             ki: List[str] = []
             for e in sorok:
                 ki.append(f'{e}\n')
