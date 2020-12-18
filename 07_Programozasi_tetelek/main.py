@@ -16,36 +16,36 @@ def main() -> None:
     # print(nevek)
 
     # 1.2 Feltöltés véletlen értékekkel:
-    szamok: List[int] = []
+    számok: List[int] = []
     for i in range(5):
-        szamok.append(random.randint(10, 99))
+        számok.append(random.randint(10, 99))
 
     # 1.3 Feltöltés literálokkal:
-    allitasok: List[bool] = [True, True, False, True, False]
-    print(allitasok)
+    állítások: List[bool] = [True, True, False, True, False]
+    print(állítások)
 
     # 1.4 Feltöltés szöveges állományból (sorokként csak egy adat van):
     with open('bukk-videk.txt', 'r', encoding='UTF-8') as sr:
         sorok: List[str] = sr.read().splitlines()
-    magassagok: List[float] = []
+    magasságok: List[float] = []
     for sor in sorok:
-        magassagok.append(float(sor))
-    print(magassagok[:10])
+        magasságok.append(float(sor))
+    print(magasságok[:10])
     del sorok
 
     # 2 Összetett adatszerkezet bejárása
     # Vizsgálathoz, műveletekhez rendre "elővesszük" az összetett adatszerkezet elemeit
     # 2.1 Nincs szükség az elem indexére
-    for e in szamok:
+    for e in számok:
         print(e, end=' ')
     print()
 
     # 2.2 Értékek (szamok[i]) és indexek (i) rendelkezésre állnak
-    for i in range(len(szamok)):
-        print(f'szamok[{i}] = {szamok[i]} ')
+    for i in range(len(számok)):
+        print(f'szamok[{i}] = {számok[i]} ')
 
     # Vagy: Értékek (e) és indexek (i) rendelkezésre állnak
-    for i, e in enumerate(szamok):
+    for i, e in enumerate(számok):
         print(f'szamok[{i}] = {e}', end=' ')
     print()
 
@@ -54,113 +54,113 @@ def main() -> None:
     # Feladat: Döntse el, hogy található-e páratlan szám a listában!
     # A keresést ne folytassa, ha a választ megtudja adni!
 
-    vanParatlan: bool = False  # Feltételezzük, hogy nincsen páratlan szám a listában
-    for szam in szamok:
-        if szam % 2 == 1:
-            vanParatlan = True
+    vanPáratlan: bool = False  # Feltételezzük, hogy nincsen páratlan szám a listában
+    for szám in számok:
+        if szám % 2 == 1:
+            vanPáratlan = True
             break
     # Kiírás lehetőségei
-    if vanParatlan:
+    if vanPáratlan:
         print('A listában van páratlan szám!')
     else:
         print('A listában nincs páratlan szám!')
     # vagy:
-    print('A listában ' + 'van' if vanParatlan else 'nincs' + ' páratlan szám!')
+    print('A listában ' + 'van' if vanPáratlan else 'nincs' + ' páratlan szám!')
     # vagy:
-    print(f'A listában {"van" if vanParatlan else "nincs"} páratlan szám!')
+    print(f'A listában {"van" if vanPáratlan else "nincs"} páratlan szám!')
 
     # 3.2 Megszámlálás tétele: Megadott tulajdonságú értékek darabszáma
     # Feladat: Határozzuk meg az ötvennél nagyobb páros számok darabszámát!
-    db_paros_50: int = 0
-    for e in szamok:
+    db_páros_50: int = 0
+    for e in számok:
         if e % 2 == 0 and e > 50:
-            db_paros_50 += 1
-    print(f'Ötvennél nagyobb páros számok darabszáma: {db_paros_50}')
+            db_páros_50 += 1
+    print(f'Ötvennél nagyobb páros számok darabszáma: {db_páros_50}')
 
     # 3.3 Összegzés tétele: Megadott tulajdonságú értékek összege/átlaga
     # Feladat: Határozzuk meg az 5-el osztható számok átlagát!
     db_oszt5: int = 0
-    osszeg_oszt5 = 0
-    for e in szamok:
+    összeg_oszt5 = 0
+    for e in számok:
         if e % 5 == 0:
             db_oszt5 += 1
-            osszeg_oszt5 += e
+            összeg_oszt5 += e
     if db_oszt5 == 0:
         print('Nincs a listában 5-el osztható szám!')
     else:
         print(f'Az 5-el osztható számok darabszáma: {db_oszt5}')
-        print(f'Az összegük: {osszeg_oszt5} és az átlaguk: {osszeg_oszt5 / db_oszt5}')
+        print(f'Az összegük: {összeg_oszt5} és az átlaguk: {összeg_oszt5 / db_oszt5}')
 
     # 3.4 Szélsőérték (minimum, maximum) keresése
     # 3.4.1 Csak a legnagyobb elem értékét kell meghatározni:
     # Feladat: Határozzuk meg a legnagyobb elem/elemek értékét!
-    max: int = szamok[0]  # Kinevezzük az első elemet a legnagyobbnak
-    for szam in szamok[1:]:  # szamok[1:] -> Az első elemet elhagyjuk, önmagához nem hasonlítjuk
-        if szam > max:
-            max = szam
+    max: int = számok[0]  # Kinevezzük az első elemet a legnagyobbnak
+    for szám in számok[1:]:  # szamok[1:] -> Az első elemet elhagyjuk, önmagához nem hasonlítjuk
+        if szám > max:
+            max = szám
     print(f'A legnagyobb szám értéke: {max}')
 
     # 3.4.2 A legnagyobb elem értéke és az indexe is kell:
     # Feladat: Határozzuk meg a legkisebb elem értékét és indexét!
     # Holtverseny esetén elegendő az elsőt megadnia.
     mini: int = 0  # Kinevezzük az első elemet a legkisebbnek
-    for i in range(1, len(szamok)):
-        if szamok[i] < szamok[mini]:
+    for i in range(1, len(számok)):
+        if számok[i] < számok[mini]:
             mini = i
-    print(f'A legkisebb szám értéke: {szamok[mini]}, indexe: {mini}')
+    print(f'A legkisebb szám értéke: {számok[mini]}, indexe: {mini}')
 
     # 3.4.3 A holtversenyt is kezelni kell
     # Feladat: Holtverseny esetén írjuk ki az összes elem indexét
     print('Legkisebb elem(ek) indexei:', end=' ')
-    for i, e in enumerate(szamok):
-        if (e == szamok[mini]):
+    for i, e in enumerate(számok):
+        if (e == számok[mini]):
             print(i, end=' ')
     print()
 
     # 3.4.4 Nem nevezhető ki az első elem a legkisebb/legnagyobb elemnek
     # Feladat: Határozzuk meg a legnagyobb páratlan szám értékét és indexét a listában!
     maxi_paratlan: int = -1  # Ha -1 marad az értéke, akkor nincs páratlan szám a listában
-    for i, e in enumerate(szamok):
+    for i, e in enumerate(számok):
         if e % 2 == 1:  # Ha páratlan
             if maxi_paratlan == -1:  # Első páratlan szám a listában
                 maxi_paratlan = i  # Kinevezzük a legnagyobb páratlan számnak
             else:
-                if e > szamok[maxi_paratlan]:
+                if e > számok[maxi_paratlan]:
                     maxi_paratlan = i
     if maxi_paratlan == -1:
         print('Nincs a listában páratlan szám!')
     else:
-        print(f'A legnagyobb páratlan szám értéke: {szamok[maxi_paratlan]}, indexe: {maxi_paratlan}')
+        print(f'A legnagyobb páratlan szám értéke: {számok[maxi_paratlan]}, indexe: {maxi_paratlan}')
 
     # 4 Egy sorozathoz egy sorozatot rendelő programozási tételek
     # 4.1 Kiválogatás
     # Feladat: Válogassuk ki a 3-al osztható számokat!
     oszhato3al: List[int] = []
-    for e in szamok:
+    for e in számok:
         if e % 3 == 0:
             oszhato3al.append(e)
     print(f'A 3-al osztható számok: {oszhato3al}')
 
     # 4.2 Rendezés
     # Feladat: Rendezzük a lista elemeit a buborékos rendezés algoritmusával!
-    for ig in range(len(szamok) - 1, 0, -1):  # ig -> 9..1 (10 elemű lista esetén)
+    for ig in range(len(számok) - 1, 0, -1):  # ig -> 9..1 (10 elemű lista esetén)
         csere_volt: bool = False
         for i in range(ig):  # i -> 0..8 / 0..7 / 0..6 / ... / 0..0/  (10 elemű lista esetén)
-            if (szamok[i] > szamok[i+1]):  # Cserélni kell az egymás mellett álló elemeket
-                seged: int = szamok[i]  # segédváltozó két érték felcseréléséhez
-                szamok[i] = szamok[i+1]
-                szamok[i+1] = seged
+            if (számok[i] > számok[i+1]):  # Cserélni kell az egymás mellett álló elemeket
+                seged: int = számok[i]  # segédváltozó két érték felcseréléséhez
+                számok[i] = számok[i+1]
+                számok[i+1] = seged
                 csere_volt = True
         if csere_volt is False:  # Ha nem volt csere, akkor rendezett a lista, kiléphetünk
             break
-    print(f'Rendezve: {szamok}')
+    print(f'Rendezve: {számok}')
 
     # 5 Egy sorozathoz két sorozatot rendelő programozási tételek
     # 5.1 Szétválogatás
     # Válogassuk szét a páros és páratlan számokat!
     paros_szamok: List[int] = []
     paratlan_szamok: List[int] = []
-    for e in szamok:
+    for e in számok:
         if e % 2 == 0:
             paros_szamok.append(e)
         else:
