@@ -2,7 +2,7 @@ from typing import List
 
 
 def main() -> None:
-    print('Szövges állományok írása és olvasása')
+    print('Szöveges állományok írása és olvasása')
 
     # UTF-8 kódolású szöveges állományok olvasása:
     # try-except szerkezet elhagyható, ha a vizsgafeladatban nem kérik, de a gyakorlatban erősen javasolt a használata
@@ -23,7 +23,7 @@ def main() -> None:
     try:
         with open('szamok.txt', 'r', encoding='utf-8') as file:
             for e in file.readlines():
-                számok.append(int(e.strip()))  # a strip() mtódus a '\n' vezérlő karaktert törli, int() konvertál
+                számok.append(int(e.strip()))  # a strip() metódus a '\n' vezérlő karaktert törli, int() konvertál
             # vagy rövidítve:
             # szamok = [int(e.strip()) for e in file.readlines()]
     except Exception as ex:
