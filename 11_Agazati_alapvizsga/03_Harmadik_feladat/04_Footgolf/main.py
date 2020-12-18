@@ -25,7 +25,7 @@ def main() -> None:
     arány_nők: float = női_versenyzők_száma / len(fg2016) * 100
     print(f'3. feladat: A női versenyzők aránya: {arány_nők:.2f} %')
 
-    print(fg2016[1].összpont())
+    # 4. feladat tesztjéhez: print(fg2016[1].összpont())
 
     # 5. Határozza meg és írja ki a minta szerint a 2016-os footgolf bajnokság legtöbb pontot
     # szerzett női bajnokát! Feltételezheti, hogy legalább egy női induló volt a bajnokságon, és
