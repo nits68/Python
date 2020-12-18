@@ -17,13 +17,13 @@
     # "(", ")" - zárójelek (függvények paraméterei, műveleti sorrend felülbírálása)
 
     b: float = float(input('b= '))
-    terulet: float = a * b
-    kerulet: float = 2 * (a + b)
+    terület: float = a * b
+    kerület: float = 2 * (a + b)
 
     # f-string: olyan speciális string literál, melybe változók, kifejezések értékei integrálhatók
     # pl.: f'K = {kerulet}', vagy: f'T = {oldal_a * oldal_b}'
-    print(f'T = {terulet}')
-    print(f'K = {kerulet}')
+    print(f'T = {terület}')
+    print(f'K = {kerület}')
 
 
 if __name__ == "__main__":

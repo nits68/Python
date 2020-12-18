@@ -16,24 +16,24 @@ def main() -> None:
 
     # Példa kétágú (if-else) elágazásra
     print('\nPáros-páratlan meghatározása')
-    inputSzam: int = int(input('szam= '))
-    if inputSzam % 2 == 0:
+    inputSzám: int = int(input('szam= '))
+    if inputSzám % 2 == 0:
         print('A szám páros!')
     else:
         print('A szám páratlan!')
 
     # Példa többágú (if-elif-else) elágazásra (else "ág" elhagyható):
     print('\nOsztályzat szöveges megfelelője')
-    erdemjegy: int = int(input('Kérem az osztályzatot [1-5]: '))
-    if erdemjegy == 1:
+    érdemjegy: int = int(input('Kérem az osztályzatot [1-5]: '))
+    if érdemjegy == 1:
         print('Elégtelen')
-    elif erdemjegy == 2:
+    elif érdemjegy == 2:
         print('Elégséges')
-    elif erdemjegy == 3:
+    elif érdemjegy == 3:
         print('Közepes')
-    elif erdemjegy == 4:
+    elif érdemjegy == 4:
         print('Jó')
-    elif erdemjegy == 5:
+    elif érdemjegy == 5:
         print('Jeles')
     else:
         print('Ez nem osztályzat!')

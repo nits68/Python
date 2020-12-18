@@ -9,10 +9,10 @@
 #    ======================
 #    tetszőleg számú utasítás, legalább egy return utasítás (gyakran az utolsó utasítás)
 
-# Minta:
-def osszead(a: int, b: int) -> int:  # függvény feje
+# Példa:
+def összead(a: int, b: int) -> int:  # függvény feje
     # def => függvény definíciót bevezető foglalt szó
-    # osszead => a függvény azonosítója (neve)
+    # összead => a függvény azonosítója (neve)
     # () => operátorok a paraméterek megadására
     # a: int, b: int => függvény formális paraméterei azonosítóval és típussal (típus opcionális)
     # -> => függvény visszatérési értékét ezután az "operátor" után adhatjuk meg (opcionális)
@@ -36,10 +36,10 @@ def main() -> None:
     # A hívás szintaxisa:
     # ===================
     # függvény_azonosítója(aktuális paraméterlista)
-    osszead(3, 4)  # A függvény visszatérési értéke így elveszik
-    print(osszead(3, 4))  # A függvény visszatérési értékét a képernyőre írjuk
-    osszeg: int = osszead(3, 4)  # A függvény visszatérési értékét eltároljuk
-    print(osszeg)
+    összead(3, 4)  # A függvény visszatérési értéke így elveszik
+    print(összead(3, 4))  # A függvény visszatérési értékét a képernyőre írjuk
+    összeg: int = összead(3, 4)  # A függvény visszatérési értékét eltároljuk
+    print(összeg)
 
     print('Két szám legnagyobb közös osztója')
     a: int = int(input('a = '))

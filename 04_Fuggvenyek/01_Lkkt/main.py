@@ -11,10 +11,10 @@ def lkkt(a: int, b: int) -> int:
     else:
         nsz: int = b
         ksz: int = a
-    osztando: int = nsz  # nagyobb szám első többszöröse
-    while osztando % ksz != 0:
-        osztando += nsz  # nagyobb szám következő többszöröse
-    return osztando
+    osztandó: int = nsz  # nagyobb szám első többszöröse
+    while osztandó % ksz != 0:
+        osztandó += nsz  # nagyobb szám következő többszöröse
+    return osztandó
 
 
 def main():
