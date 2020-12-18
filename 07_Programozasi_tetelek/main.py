@@ -40,13 +40,13 @@ def main() -> None:
         print(e, end=' ')
     print()
 
-    # 2.2 Értékek (szamok[i]) és indexek (i) rendelkezésre állnak
+    # 2.2 Értékek (számok[i]) és indexek (i) rendelkezésre állnak
     for i in range(len(számok)):
-        print(f'szamok[{i}] = {számok[i]} ')
+        print(f'számok[{i}] = {számok[i]} ')
 
     # Vagy: Értékek (e) és indexek (i) rendelkezésre állnak
     for i, e in enumerate(számok):
-        print(f'szamok[{i}] = {e}', end=' ')
+        print(f'számok[{i}] = {e}', end=' ')
     print()
 
     # 3 Egy sorozathoz egy értéket rendelő programozási tételek
@@ -95,7 +95,7 @@ def main() -> None:
     # 3.4.1 Csak a legnagyobb elem értékét kell meghatározni:
     # Feladat: Határozzuk meg a legnagyobb elem/elemek értékét!
     max: int = számok[0]  # Kinevezzük az első elemet a legnagyobbnak
-    for szám in számok[1:]:  # szamok[1:] -> Az első elemet elhagyjuk, önmagához nem hasonlítjuk
+    for szám in számok[1:]:  # számok[1:] -> Az első elemet elhagyjuk, önmagához nem hasonlítjuk
         if szám > max:
             max = szám
     print(f'A legnagyobb szám értéke: {max}')
@@ -119,27 +119,27 @@ def main() -> None:
 
     # 3.4.4 Nem nevezhető ki az első elem a legkisebb/legnagyobb elemnek
     # Feladat: Határozzuk meg a legnagyobb páratlan szám értékét és indexét a listában!
-    maxi_paratlan: int = -1  # Ha -1 marad az értéke, akkor nincs páratlan szám a listában
+    maxi_páratlan: int = -1  # Ha -1 marad az értéke, akkor nincs páratlan szám a listában
     for i, e in enumerate(számok):
         if e % 2 == 1:  # Ha páratlan
-            if maxi_paratlan == -1:  # Első páratlan szám a listában
-                maxi_paratlan = i  # Kinevezzük a legnagyobb páratlan számnak
+            if maxi_páratlan == -1:  # Első páratlan szám a listában
+                maxi_páratlan = i  # Kinevezzük a legnagyobb páratlan számnak
             else:
-                if e > számok[maxi_paratlan]:
-                    maxi_paratlan = i
-    if maxi_paratlan == -1:
+                if e > számok[maxi_páratlan]:
+                    maxi_páratlan = i
+    if maxi_páratlan == -1:
         print('Nincs a listában páratlan szám!')
     else:
-        print(f'A legnagyobb páratlan szám értéke: {számok[maxi_paratlan]}, indexe: {maxi_paratlan}')
+        print(f'A legnagyobb páratlan szám értéke: {számok[maxi_páratlan]}, indexe: {maxi_páratlan}')
 
     # 4 Egy sorozathoz egy sorozatot rendelő programozási tételek
     # 4.1 Kiválogatás
     # Feladat: Válogassuk ki a 3-al osztható számokat!
-    oszhato3al: List[int] = []
+    osztható3al: List[int] = []
     for e in számok:
         if e % 3 == 0:
-            oszhato3al.append(e)
-    print(f'A 3-al osztható számok: {oszhato3al}')
+            osztható3al.append(e)
+    print(f'A 3-al osztható számok: {osztható3al}')
 
     # 4.2 Rendezés
     # Feladat: Rendezzük a lista elemeit a buborékos rendezés algoritmusával!
@@ -158,15 +158,15 @@ def main() -> None:
     # 5 Egy sorozathoz két sorozatot rendelő programozási tételek
     # 5.1 Szétválogatás
     # Válogassuk szét a páros és páratlan számokat!
-    paros_szamok: List[int] = []
-    paratlan_szamok: List[int] = []
+    páros_számok: List[int] = []
+    páratlan_számok: List[int] = []
     for e in számok:
         if e % 2 == 0:
-            paros_szamok.append(e)
+            páros_számok.append(e)
         else:
-            paratlan_szamok.append(e)
-    print(f'A páros lista: {paros_szamok}')
-    print(f'A páratlan lista: {paratlan_szamok}')
+            páratlan_számok.append(e)
+    print(f'A páros lista: {páros_számok}')
+    print(f'A páratlan lista: {páratlan_számok}')
 
     # 6 Két sorozathoz egy sorozatot rendelő programozási tételek
     # 6.1 Összefuttatás (rendezettek uniója)
