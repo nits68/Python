@@ -1,6 +1,7 @@
 
 def main() -> None:
     pass
+    # A Python programozási nyelv fontosabb operátorai:
     # URL: https://www.w3schools.com/python/python_operators.asp
 
     # Nem kellenek a w3s-oldalról:
