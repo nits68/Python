@@ -2,7 +2,7 @@
     "editor.formatOnSave": true,
     "editor.minimap.enabled": false,
     "editor.mouseWheelZoom": true,
-    "editor.renameOnType": true,
+    "editor.linkedEditing": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.suggestSelection": "recentlyUsed",
     "editor.parameterHints.enabled": false,
@@ -42,6 +42,7 @@
     "python.formatting.autopep8Args": [
         "--max-line-length=255"
     ],
+    "python.showStartPage": false,
     "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
     "vsintellicode.modify.editor.suggestSelection": "disabled"
 }
