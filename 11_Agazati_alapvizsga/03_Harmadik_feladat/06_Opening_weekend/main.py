@@ -37,15 +37,17 @@ def main() -> None:
             db_intercom += 1
     print(f'3.4 feladat: Átlagos nézőszám InterCom: {össz_néző_intercom / db_intercom:.1f} fő')
 
-    # 3.5 Döntse el, hogy az adatok között található-e 2018-ban bemutatott film!
+    # 3.5 Kérjen be egy évszámot majd döntse el, hogy az adatok között
+    # található-e a megadott évben bemutatott film!
     # A keresését ne folytassa, ha a választ meg tudja adni!
     # A képernyőre írást a minta szerint végezze!
-    volt_2018as_film: bool = False
+    input_évszám: int = int(input('3.5 feladat:\nKérek egy évszámot: '))
+    volt_bemutató: bool = False
     for film in fb:
-        if film.bemutató >= '2018.01.01' and film.bemutató <= '2018.12.31':
-            volt_2018as_film = True
+        if film.bemutató >= f'{input_évszám}.01.01' and film.bemutató <= f'{input_évszám}.12.31':
+            volt_bemutató = True
             break
-    print(f'3.5 feladat: Volt 2018-as bemutató? {"Igen" if volt_2018as_film else "Nem"}')
+    print(f'3.5 feladat: Volt {input_évszám}-ban/ben bemutató? {"IGEN" if volt_bemutató else "NEM"}')
 
 
 if __name__ == "__main__":
