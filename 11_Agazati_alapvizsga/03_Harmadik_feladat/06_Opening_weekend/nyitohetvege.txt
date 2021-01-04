@@ -1,0 +1,513 @@
+eredetiCim;magyarCim;bemutato;forgalmazo;bevel;latogato
+Allied;Szövetségesek;2016.12.01;UIP;44341076;30804
+Vaiana;Vaiana;2016.12.01;Forum;33362335;24664
+Underworld: Blood Wars;Underworld – Vérözön;2016.12.01;InterCom;17756555;11578
+#SOHAVÉGETNEMÉRŐS;#SOHAVÉGETNEMÉRŐS;2016.12.01;Szinfolt Film;9563885;8248
+Just Drop Dead;Halj már meg!;2016.12.01;Big Bang Media;2024300;1473
+Agassi;A szobalány;2016.12.01;MoziNet;1808700;1319
+I, Daniel Blake;Én, Daniel Blake;2016.12.01;Vertigo;1697399;1293
+Office Christmas Party;Hivatali Karácsony;2016.12.08;Freeman;77107627;55424
+Incarnate;A démon arca;2016.12.08;InterCom;12208345;8512
+Forushande;Az ügyfél;2016.12.08;MoziNet;735240;587
+Rogue One: A Star Wars Story;Zsivány Egyes: Egy Star Wars történet (12);2016.12.15;Forum;244828960;167573
+Demain tout commence/;Derült égből apu;2016.12.15;Vertigo;8613615;6663
+Soul Exodus;Soul Exodus;2016.12.15;MoziNet;546760;476
+Sing;Énekelj!;2016.12.22;UIP;46201896;36198
+Why Him ?;Miért pont ő?;2016.12.22;InterCom;24633755;18250
+Collateral Beauty;Váratlan szépség;2016.12.22;InterCom;10204295;7218
+Hymyilevä mies;Olli Mäki legboldogabb napja;2016.12.22;MoziNet;142030;117
+Assassin's Creed;Assassin's Creed;2016.12.29;InterCom;101798940;71145
+La La Land;Kaliforniai álom;2016.12.29;Freeman;39556855;28864
+Hacksaw Ridge;A fegyvertelen katona;2016.12.29;ADS;16826894;11575
+Perfetti sconosciuti;Teljesen idegenek;2016.12.29;Cinenuovo;3017950;2244
+The Great Wall;A nagy fal;2017.01.05;UIP;108086743;71012
+Ozzy;Állati nagy szökés;2017.01.05;ADS;6703429;4770
+Chi trova un amico, trova un tesoro;Kincs, ami nincs;2017.01.05;Cinenuovo;5761400;4801
+Passengers;Utazók;2017.01.12;InterCom;98708465;66300
+Surf's Up 2: WaveMania;Vigyázz, kész, szörf! 2;2017.01.12;Big Bang Media;6402168;4967
+La tortue rouge;A vörös teknős;2017.01.12;MoziNet;1371910;1049
+(M)uchenik / The Student;Mártírok;2017.01.12;Cinefilco;219000;200
+Madeleine;Madeleine;2017.01.12;Amego;86960;213
+A Dog's Purpose;Egy kutya négy élete;2017.01.26;Freeman;38305842;28967
+Resident Evil: The Final Chapter;Kaptár - Utolsó fejezet;2017.01.26;InterCom;35696680;21758
+Live by Night;Az éjszaka törvénye;2017.01.26;InterCom;18014913;12165
+Az Állampolgár;Az Állampolgár;2017.01.26;MoziNet;2681611;2031
+Vakfolt;Vakfolt;2017.01.26;Amego;732560;1003
+Vakfolt;Vakfolt;2017.01.26;Amego;732560;1003
+Rings;Körök;2017.02.02;UIP;15124401;10509
+The Founder;Az alapító;2017.02.02;Forum;10163530;6507
+The Space in Between: Marina Abramovic and Brazil;Marina Abramovic - A távolság, ami összeköt;2017.02.02;ADS;364560;297
+Fifty Shades Darker;A sötét ötven árnyalata;2017.02.09;UIP;139075741;101648
+The LEGO Batman Movie;Lego Batman - A film;2017.02.09;InterCom;48524595;33562
+Jackie;Jackie;2017.02.09;MoziNet;10280807;7369
+Fist Fight;Pofoncsata;2017.02.16;InterCom;31755010;22025
+Gold;Arany;2017.02.16;Freeman;22221335;15044
+A Cure for Wellness;Az egészség ellenszere;2017.02.16;InterCom;20267280;14051
+Moonlight;Holdfény;2017.02.16;Vertigo;6489468;4834
+Lion;Oroszlán;2017.02.16;Forum;6019275;3917
+Kojot;Kojot;2017.02.16;Hungaricom;1750880;1700
+John Wick: Chapter 2;John Wick: 2. felvonás;2017.02.23;Freeman;66772090;46027
+Manchester by the Sea;A régi város;2017.02.23;InterCom;8048974;5393
+Tékasztorik;Tékasztorik;2017.02.23;Anjou Lafayette;5986955;4030
+Logan;Logan – Farkas;2017.03.02;InterCom;93630000;63238
+T2 Trainspotting;T2 Trainspotting;2017.03.02;InterCom;14780450;9988
+A Monster Calls;Szólít a szörny;2017.03.02;Freeman;2612570;1804
+Kong: Skull Island;Kong – Koponya-sziget;2017.03.09;InterCom;82120064;50563
+Rock Dog;Rock Csont;2017.03.09;Big Bang Media;11605538;8492
+The White King;A fehér király;2017.03.09;Vertigo;3271800;2597
+Kincsem;Kincsem;2017.03.16;Forum;97296195;72089
+Silence;Némaság;2017.03.16;Freeman;8331444;5728
+Beauty and the Beast;A szépség és a szörnyeteg;2017.03.26;Forum;131906045;90589
+Life;Élet;2017.03.26;InterCom;34541553;23422
+Chips;Bukós szakasz;2017.03.26;InterCom;18945947;12990
+Stefan Zweig: Farewell to Europe;Stefan Zweig - Búcsú Európától;2017.03.26;MoziNet;624465;510
+Ghost In the Shell;Páncélba zárt szellem;2017.03.30;UIP;46785299;29441
+Smurfs: The Lost Village;Hupikék törpikék 3. - Az elveszett falu;2017.03.30;InterCom;27638467;20832
+The Zookeeper's Wife;Menedék;2017.03.30;UIP;5509548;3822
+Voyage of Time: Life's Journey;Az Univerzum története;2017.03.30;Vertigo;2114360;1746
+Going in Style;Vén rókák;2017.04.06;InterCom;31884410;21887
+Brazilok;Brazilok;2017.04.06;InterCom;19097218;13199
+Power Rangeres;Power Rangeres;2017.04.06;Freeman;11267535;8040
+On The Milky Road;Tejben vajben szerelemben;2017.04.06;ADS;1578585;1143
+The Fate of the Furious;Halálos iramban 8;2017.04.13;UIP;185909954;130341
+Boss Baby;Bébi úr;2017.04.13;InterCom;68969962;50511
+American Pastoral;Amerikai pasztorál;2017.04.13;MoziNet;3167673;2226
+Rabbit School;Nyuszi suli;2017.04.13;ADS;1389015;2726
+Unforgettable;Öldöklő szerelem;2017.04.20;InterCom;20088030;13604
+Get Out;Tűnj el !;2017.04.20;UIP;19988740;13700
+1 945;1 945;2017.04.20;Katapult Film;9126832;7321
+The Circle;A kör;2017.04.27;Big Bang Media;24417218;16538
+The Bye Bye Man;Bye Bye Man - A rettegés neve;2017.04.27;Freeman;15231033;11072
+Lengemesék;Lengemesék;2017.04.27;Vertigo;2710324;2646
+A tökéletes gyilkos;A tökéletes gyilkos;2017.04.27;Forum;2320185;1601
+6.9 pe scara Richter;6,9 a Richter-skálán;2017.04.27;Vertigo;718855;581
+Guardians of the Galaxy Vol. 2;A galaxis őrzőivol. 2;2017.05.04;Forum;145225680;96108
+How to Be a Latin Lover;Hogyan legyél latin szerető;2017.05.04;Big Bang Media;16779459;11408
+Julieta;Julieta;2017.05.04;Cinetel;2600780;1938
+King Arthur: Legend of the Sword;Arthur király - A kard legendája;2017.05.11;InterCom;44345098;28393
+Snatched;Ó, anyám!;2017.05.11;InterCom;23365985;16166
+Deep;Csápi - Az óceán hőse;2017.05.11;Freeman;5905110;4617
+Richard the Stork;Ricsi a gólya;2017.05.11;Big Bang Media;4070557;3034
+Ostatnia rodzina;Az utolsó család;2017.05.11;MoziNet;202720;170
+Alien: Covenant;Alien: Covenant;2017.05.18;InterCom;112998875;74015
+Pirates of the Caribbean: Dead Men Tell No Tales;A Karib-tenger kalózai: Salazár bosszúja;2017.05.25;Forum;145787710;99193
+The Dragon Spell;Sárkányvarázs;2017.05.25;ADS;1168280;809
+Wonder Woman;Wonder Woman;2017.06.01;InterCom;55064207;35282
+Diary of a Wimpy Kid: The Long Haul;Egy ropi naplója - A nagy kiruccanás;2017.06.01;InterCom;10422320;8015
+Radin !;A sóher;2017.06.01;Vertigo;7320430;5008
+The Mummy;A múmia;2017.06.08;UIP;81771568;52532
+With Open Arms;Romazuri;2017.06.08;Cinetel;4375001;2940
+Jupiter s Moon;Jupiter holdja;2017.06.08;InterCom;3158890;2252
+Porto;Porto 35mm;2017.06.08;MoziNet;466290;354
+Cars 3;Verdák 3;2017.06.15;Forum;66059995;48861
+Rough Night;Csajok hajnlaig;2017.06.15;InterCom;36829551;25916
+Once Upon a Time in Venice;Volt egyszer egy Venice;2017.06.15;Big Bang Media;11099165;7442
+Transformers: The Last Knight;Transformers: Az utolsó lovag;2017.06.22;UIP;81633485;53824
+Unlocked;Élesítve;2017.06.22;Forum;10103460;6727
+Despicable Me 3;Gru 3;2017.06.29;UIP;186876351;138859
+Baby Driver;Nyomd, bébi, nyomd;2017.06.29;InterCom;39830470;26633
+Draberne fra Nibe;Kisvárosi gyilkosok;2017.06.29;Vertigo;2054670;1424
+Spider-Man: Homecoming;Pókember – Hazatérés;2017.07.06;InterCom;87151695;57333
+Overdrive;Kipörgetve;2017.07.06;Freeman;11595904;8194
+Baywatch;Baywatch;2017.07.13;UIP;104735728;76410
+War for the Planet of the Apes;A majmok bolygója – Háború;2017.07.13;InterCom;55255189;35014
+Midwife;Én és a mostohám;2017.07.13;ADS;1639877;1232
+Dunkirk;Dunkirk;2017.07.20;InterCom;61771997;42207
+Valerian;Valerian;2017.07.20;Big Bang Media;58500968;38340
+Atomic Blonde;Atomszőke;2017.07.27;Freeman;15167486;10535
+Jungle Bunch;Dzsungel mentőakció;2017.07.27;Big Bang Media;6605194;5251
+Á fond;Totál gáz;2017.07.27;Cinetel;3175595;2048
+Everything, Everything;Minden, minden;2017.08.03;Forum;58232859;44889
+The Dark Tower;A setét torony;2017.08.03;InterCom;41009554;29467
+Annabelle 2: The Creation;Annabelle 2. - A teremtés;2017.08.10;InterCom;74186112;51118
+The Emoji Movie;Az Emoji-film;2017.08.10;InterCom;46988492;35358
+Fun Mom Dinner;Anyák elszabadulva;2017.08.10;Big Bang Media;13897057;9869
+Telle mere, telle fille;Bébibumm;2017.08.10;Vertigo;5219738;3760
+Pappa Pia;Pappa Pia;2017.08.15;InterCom;93223156;70658
+The House;A szerencse háza;2017.08.17;InterCom;29166226;20781
+The Nut Job 2: Nutty by Nature;A mogyoró-meló 2.;2017.08.17;Freeman;25844133;19518
+The Promise;Az ígéret;2017.08.17;Vertigo;3479890;2738
+Egy kupac kufli;Egy kupac kufli;2017.08.17;Kedd;2814051;2231
+RAID DINGUE;RAID - A TÖRVÉNY NEMÉBEN;2017.08.17;ADS;2064305;1340
+K.O.;K.O.;2017.08.17;MoziNet;1953695;1289
+The Hitman's Bodyguard;Sokkal több mint testőr;2017.08.24;Freeman;49755193;35721
+Amityville: The Awakening;Amityville - Az ébredés;2017.08.24;InterCom;16506702;11824
+Logan Lucky;Logan Lucky - A tuti balhé;2017.08.24;Vertigo;10652153;7313
+American Made;Barry Seal: A beszállító;2017.08.31;UIP;65008678;45350
+Inhumans;Inhumans;2017.08.31;Forum;1063865;619
+It;Az;2017.09.07;InterCom;117242901;82129
+Renegades;Renegátok;2017.09.07;Big Bang Media;13699105;9643
+The Son of Bigfoot;Óriásláb fia;2017.09.07;Freeman;12161348;8891
+Wind River;Gyilkos nyomon;2017.09.07;Vertigo;11087220;7482
+The Beguiled;Csábítás;2017.09.07;UIP;10892698;7577
+Home Again;Újra otthon;2017.09.14;Big Bang Media;24437596;17521
+American Assassin;Amerikai bérgyilkos;2017.09.14;Freeman;18728962;13018
+FANTASZTIKUS UTAZÁS ÓZ BIRODALMÁBA;FANTASTIC JOURNEY TO OZ;2017.09.14;ADS;1994857;1425
+Open water - Cage dive;Nyílt tengeren: Cápák között;2017.09.14;ADS;876550;542
+Bartók;Bartók;2017.09.14;FilmNet;560000;701
+Kingsman: The Golden Circle;Kingsman: Az aranykör;2017.09.21;Forum;72685910;50857
+The Lego Ninjago Movie;A Lego Ninjago film;2017.09.21;InterCom;30516436;22427
+Victoria and Abdul;Viktória királynő és Abdul;2017.09.21;UIP;11248048;7781
+47 Meters Down;47 méter mélyen;2017.09.21;Vertigo;6558680;4562
+Hetedik alabárdos;Hetedik alabárdos;2017.09.21;Sky Film;1532525;1509
+Willkommen bei den Hartmanns;Isten hozott Németországban!;2017.09.21;ADS;1043465;727
+Ultra;Ultra;2017.09.21;MoziNet;938140;896
+Flatliners;Egyenesen át;2017.09.28;InterCom;23082281;16527
+Tulip Fever;Tulipánláz;2017.09.28;Forum;7839563;5710
+The Only Living Boy in New York;New York-i afférok;2017.09.28;Cinetel;4183679;2761
+Being Solomon;Salamon király kalandjai;2017.09.28;Vertigo;2875755;3611
+Blade Runner 2049;Szárnyas fejvadász 2049;2017.10.05;InterCom;71475168;45080
+Borg/McEnroe;Borg/McEnroe;2017.10.05;A Company;2889485;1940
+The Snowman;Hóember;2017.10.12;UIP;44465890;31714
+HhhH;HHhH - Himmler agyát Heydrichnek hívják;2017.10.12;Big Bang Media;14675340;10043
+My Little Pony: The Movie;My Little Pony - A film;2017.10.12;Freeman;14456330;11259
+Geostorm;Űrvihar;2017.10.19;InterCom;63663778;38833
+Aurora Borealis - Északi Fény;Aurora Borealis - Északi Fény;2017.10.19;Vertigo;14587483;13082
+Mother!;Anyám!;2017.10.19;UIP;10594327;7342
+Why We're Killing Gunther;Nyírjuk ki Güntert;2017.10.19;Big Bang Media;10441525;6962
+The Little Vampire;A kis vámpír;2017.10.19;ADS;8710899;6109
+Vier gegen die Bank;Négyen a bank ellen;2017.10.19;ADS;2204860;1391
+Jigsaw;Fűrész - Újra játékban;2017.10.26;Freeman;38906778;45801
+Jungle;Dzsungel;2017.10.26;Pannonia;7955300;8125
+Suburbicon;Suburbicon;2017.10.26;Cinetel;6111110;7359
+Amant Double;Dupla szerető;2017.10.26;Vertigo;3534050;3824
+Thor : Ragnarok;Thor : Ragnarök;2017.11.02;Forum;260498993;174521
+Happy Family;Szörnyen boldog család;2017.11.02;Big Bang Media;28452812;20898
+Budapest Noir;Budapest Noir;2017.11.02;Big Bang Media;25339084;18098
+Happy Family;Szörnyen boldog család;2017.11.02;Big Bang Media;4601560;4595
+Ég man big;Emlékszem rád;2017.11.02;Vertigo;4346410;3671
+A Bad Moms Christmas;Rossz anyák karácsonya;2017.11.09;Freeman;90821375;65248
+Murder on the Orient Express;Gyilkosság az Orient Expresszen;2017.11.09;Forum;58126246;42069
+The Big Sick;Rögtönzött szerelem;2017.11.09;Vertigo;5409055;3765
+Rodin;Rodin - Az alkotó;2017.11.09;ADS;881845;742
+Justice League;Az igazság ligája;2017.11.16;InterCom;99407629;64596
+Happy Death Day;Boldog halálnapot!;2017.11.16;UIP;42703945;30681
+Madame;Madame;2017.11.16;ADS;5299845;3754
+A Viszkis;A Viszkis;2017.11.23;InterCom;93373162;65773
+Coco;Coco;2017.11.23;Forum;27866205;20635
+Escape Room;Szabadulószoba;2017.11.23;Big Bang Media;10061590;6814
+Seven Sisters;Hét nővér;2017.11.23;Vertigo;8539005;5783
+Paddington 2;Paddington 2;2017.11.30;Freeman;12021002;9201
+A Few Less Men;Harmadnaposok 2.;2017.11.30;Big Bang Media;9955225;6907
+Santa Swap;Mikulás Karácsonyra;2017.11.30;ADS;3228065;2530
+Daddy's Home 2;Megjött apuci 2;2017.12.07;UIP;69518077;50260
+Wonder Wheel;Wonder Wheel - Az óriáskerék;2017.12.07;Cinetel;2870907;2065
+Stratton;Stratton;2017.12.07;Cinetel;1740285;1085
+Divine Order;A nőkért;2017.12.07;ADS;205760;172
+The Vault;A széf;2017.12.07;ADS;13400;14
+Star Wars : The Last Jedi;Star Wars : Az utolsó Jedik;2017.12.14;Forum;421994147;279513
+Jumanji: Welcome to the Jungle;Jumanji - Vár a dzsungel;2017.12.21;InterCom;47992705;33092
+Ferdinand;Ferdinánd;2017.12.21;Forum;27714225;21553
+24 Hours to Live;24 óra a halálig;2017.12.21;Big Bang Media;2602655;1747
+The Greatest Showman;A legnagyobb showman;2017.12.28;Forum;35446355;25870
+Pitch Perfect 3;Tökéletes hang 3;2017.12.28;UIP;28440895;20373
+The Killing of a Sacred Deer;Egy szent szarvas meggyilkolása;2017.12.28;Vertigo;13891700;9435
+Leatherface;Bőrpofa;2017.12.28;Freeman;7339860;5153
+Les Exes;Szex, ex, szerelem;2017.12.28;ADS;4444515;2721
+Father Figures;Apavadászat;2018.01.04;InterCom;46123425;31825
+Insidious: Chapter 4;Insidious – Az tolsó kulcs;2018.01.04;InterCom;37893860;26224
+Molly's Game;Elit játszma;2018.01.04;Freeman;22711145;14958
+Tadeo Jones 2: El secreto del Rey Midas;Tad, az utolsó felfedező;2018.01.04;UIP;13776847;10328
+The Commuter;The Commuter – Nincs kiszállás;2018.01.11;Big Bang Media;44923075;29144
+Downsizing;Kicsinyítés;2018.01.11;UIP;26150268;17627
+GOODBYE CHRISTOPHER ROBIN;VISZLÁT, CHRISTOPHER ROBIN;2018.01.11;ADS;2038720;1421
+Fortunata;Fortunata;2018.01.11;MoziNet;690980;556
+Darkest Hour;A legsötétebb óra;2018.01.18;UIP;37888731;25685
+Den of Thieves;Gengszterzsaruk;2018.01.18;Freeman;28289183;19128
+THE FLORIDA PROJECT;FLORIDAI ÁLOM;2018.01.18;ADS;2760825;1962
+Thelma;Thelma;2018.01.18;Vertigo;1328410;1042
+Maze Runner: The Death Cure;Az útvesztő: Halálkúra;2018.01.25;Forum;61933355;40379
+All the Money in the World;A világ összes pénze;2018.01.25;Freeman;26501210;17605
+Three Billboards Outside Ebbing, Missouri;Három óriásplakát Ebbing határában;2018.01.25;Forum;14421385;9568
+A hentes, a kurva és a félszemű;A hentes, a kurva és a félszemű;2018.01.25;Big Bang Media;9350300;6758
+Phantom Thread;Fantomszál;2018.02.01;UIP;9986629;6622
+I, Tonya;Én Tonya;2018.02.01;Vertigo;9444917;7187
+Nelyubov;Szeretet nélkül;2018.02.01;MoziNet;861935;721
+Fifty Shades Freed;A szabadság ötven árnyalata;2018.02.08;UIP;137570108;97971
+Call Me by Your Name;Szólíts a neveden;2018.02.08;InterCom;6107045;4148
+Valami Amerika 3;Valami Amerika 3;2018.02.15;Vertigo;148090624;101276
+Black Panther;Fekete Párduc;2018.02.15;Forum;137912641;88530
+Early Man;Ősember - Kicsi az ős, de hős!;2018.02.15;MoziNet;8391705;6405
+Game Night;Éjszakai játék;2018.02.22;InterCom;42681535;28222
+The Post;A Pentagon titkai;2018.02.22;Freeman;26911191;17984
+The Shape of Water;A víz érintése;2018.02.22;Forum;11870085;7833
+Incredible Story Of a Giant Pear;Hihetetlen történet az óriás körtéről;2018.02.22;ADS;3213360;2229
+Red Sparrow;Vörös veréb;2018.03.01;Forum;58136990;38495
+Lady Bird;Lady Bird;2018.03.01;UIP;9829298;6759
+Momo;Derült égből család;2018.03.01;ADS;4245805;2830
+Death Wish;Bosszúvágy;2018.03.08;Forum;27482460;19021
+12 Strong;12 katona;2018.03.08;InterCom;17615169;11477
+The Strangers: Prey at Night;Hívatlanok 2 - Éjjeli préda;2018.03.08;Freeman;9363720;6443
+Vándorszínészek;Vándorszínészek;2018.03.08;Big Bang Media;5472865;3916
+The Place;A hely;2018.03.08;Cinenuovo;4040700;3107
+Peter Rabbit;Nyúl Péter;2018.03.15;InterCom;111551083;82566
+Tomb Raider;Tomb Raider;2018.03.15;Forum;102711060;63322
+Winchester;Szellemek háza;2018.03.15;Vertigo;19388970;12921
+The 15:17 to Paris;A párizsi vonat;2018.03.15;InterCom;8878705;5602
+Death of Stalin;Sztálin halála;2018.03.15;ADS;8779290;5825
+Finding Your Feet;Táncterápia;2018.03.15;Cirko Film;3507240;2501
+Jusqu'á la garde;Láthatás;2018.03.15;MoziNet;583140;509
+Every Day;Nap nap után;2018.03.22;Forum;24227395;17893
+Gringo;Gringo;2018.03.22;Freeman;12514853;8336
+Gnomeo & Juliet: Sherlock Gnomes;Sherlock Gnomes;2018.03.22;UIP;10783655;7738
+Ready Player One;Ready Player One;2018.03.29;InterCom;111263054;66676
+Lajkó - Cigány az űrben;Lajkó - Cigány az űrben;2018.03.29;Vertigo;16153414;12323
+Mary Magdalene;Mária Magdolna;2018.03.29;UIP;8679395;6130
+Elias og Storegaps Hemmelighet / Anchors up;Éliás a kis mentőhajó;2018.03.29;ADS;1665655;1100
+Pacific Rim: Uprising;Tűzgyűrű: Lázadás;2018.04.05;UIP;62758702;39710
+Rampage;Rampage – Tombolás;2018.04.12;InterCom;48797404;29452
+Genezis;Genezis;2018.04.12;Hungaricom;969557;1165
+Midnight Sun;Éjjeli napfény;2018.04.19;Freeman;16465078;12520
+Ghost Land;Ghost Land – A rettegés háta;2018.04.19;ADS;8070850;5315
+Duck Duck Goose;Jönnek a kacsák;2018.04.19;Big Bang Media;6308355;4677
+The Hurricane Heist;Hurrikán meló;2018.04.19;Big Bang Media;4427345;3091
+Vad Balaton;Vad Balaton;2018.04.19;Pannonia;2400450;2007
+Sweet Country;Veszett vidék;2018.04.19;ADS;1416465;923
+Avengers: Infinity War;Bosszúállók – Végtelen háború;2018.04.26;Forum;316795665;204408
+Charming;Bűbáj herceg és a nagy varázslat;2018.04.26;ADS;6501810;4475
+Belle et Sébastien 3: Le Dernier Chapitre;Belle és Sébastien 3 - Mindörökké barátok;2018.04.26;Vertigo;2317195;1860
+Visages villages / Faces Places;Arcélek, útszélek;2018.04.26;Cinefilco;305000;216
+A Quiet Place;Hang nélkül;2018.05.03;UIP;41303665;28721
+Blockers;Szűzörség;2018.05.03;UIP;29063695;20117
+Taxi 5;Taxi 5;2018.05.03;Big Bang Media;14925710;10290
+A Quiet Place;Hang nélkül;2018.05.03;UIP;11855945;8072
+Isle of Dogs;Kutyák szigete;2018.05.03;Forum;4767231;3345
+Life of the Party;A partiállat;2018.05.10;InterCom;37307318;25155
+7 Days is Entebbe;7 vérfagyasztó nap;2018.05.10;InterCom;5486995;3437
+Dans la brume;Egy lélegzetnyire;2018.05.10;Big Bang Media;3453345;2247
+Revenge;A bosszú;2018.05.10;ADS;2082000;1337
+How to Talk to Girls at Parties;Így csajozz egy földönkívülivel;2018.05.10;Hungaricom;929350;1097
+Deadpool 2;Deadpool 2;2018.05.17;Forum;228793696;156131
+You Were Never Really Here;Sosem voltál itt;2018.05.17;ADS;2618410;1632
+Based On A True Story;Igaz történet alapján;2018.05.17;Cinetel;894570;700
+Solo: A Star Wars Story;Solo: Egy Star Wars-történet;2018.05.24;Forum;147053993;94607
+Book club;Könyvklub;2018.05.31;Freeman;35514725;24442
+Overboard;Átejtve;2018.05.31;Forum;28752150;19997
+Here Comes the Grump;Vigyázz, kész morc!;2018.05.31;ADS;4345900;3219
+Jurassic World: Fallen Kingdom;Jurassic World: Bukott birodalom;2018.06.07;UIP;187606868;118953
+Hereditary;Örökség;2018.06.07;Vertigo;12128755;8318
+Tout Le Monde Debout;Szerelembe gurulva;2018.06.07;Hungaricom;6181140;4233
+Show Dogs;Kutyaparádé;2018.06.14;InterCom;28721800;21779
+I Feel Pretty;Túl szexi lány;2018.06.14;Big Bang Media;27382077;18921
+Gotti;Gotti;2018.06.14;Big Bang Media;15856205;10225
+Solsidan;Az élet napos oldala;2018.06.14;Vertigo;3129550;2577
+La ch'tite famille;Vissza a gyökerekhez;2018.06.14;ADS;1885780;1171
+Ocean's 8;Ocean's 8 - Az évszázad átverése;2018.06.21;InterCom;62736486;42758
+Truth or Dare;Felelsz vagy mersz;2018.06.21;UIP;41466081;28854
+Love, Simon;Kszi, Simon;2018.06.21;Forum;9527140;6847
+Jim Knopf und Lukas der Lokomotivführer;Gombos Jim és Lukács, a masiniszta;2018.06.21;Vertigo;3336415;2627
+Submergence;Merülés a szerelembe;2018.06.21;ADS;1123375;810
+Sicario: Day of the Soldado;Sicario 2 – A zsoldos;2018.06.28;Freeman;18569684;12133
+Escape Plan 2: Hades;Szupercella 2 : Hades;2018.06.29;Big Bang Media;23682835;15810
+Incredibles 2;A hihetetlen család 2.;2018.07.05;Forum;125521246;86082
+Tag;Haverok harca;2018.07.05;InterCom;33184896;23065
+Adrift;Sodródás;2018.07.05;Freeman;19829819;13279
+Cherchez la femme;Egy burka, egy nadrág;2018.07.05;MoziNet;1967491;1409
+Daddy Cool;Papás babás;2018.07.05;ADS;1510065;968
+Hotel Transylvania 3: Summer Vacation;Hotel Transylvania 3. - Szörnyen rémes vakáció;2018.07.12;InterCom;110245840;80083
+Skyscraper;Felhőkarcoló;2018.07.12;UIP;54072322;33731
+Mamma Mia! Here We Go Again;Mamma Mia! Sose hagyjuk abba;2018.07.19;UIP;168253494;122888
+Ant-Man and the Wasp;A Hangya és a Darázs;2018.07.26;Forum;125747650;83229
+Loving Pablo;Escobar;2018.07.26;Big Bang Media;42947180;28937
+Leto;Nyár;2018.07.26;MoziNet;311680;225
+Mission: Impossible - Fallout;Mission: Impossible - Utóhatás;2018.08.02;UIP;95432132;59753
+Christopher Robin;Barátom, Róbert Gida;2018.08.02;Forum;19467478;14887
+El Habitante;Ahol a gonosz lakik;2018.08.02;ADS;6593505;4379
+The Meg;Meg - Az őscápa;2018.08.09;InterCom;87485465;53708
+The Darkest Minds;Sötét elmék;2018.08.09;Forum;16683728;12245
+Luis & the Aliens;Luis és a Zűrlények;2018.08.09;Big Bang Media;8519533;6196
+A Prayer Before Dawn;A kíméletlen;2018.08.09;Vertigo;4916118;3324
+Le retour du héros;Az én hősöm;2018.08.09;Big Bang Media;4768817;3333
+The Spy Who Dumped Me;A kém, aki dobott engem;2018.08.16;Freeman;41389112;30042
+The Equalizer 2;A Védelmező 2.;2018.08.16;InterCom;39607558;25587
+The Stolen Princess;Az elrabolt hercegnő;2018.08.16;Vertigo;8582648;6251
+Les dents, pipi et au lit / Full house;Szoba gyerekkel kiadó;2018.08.16;ADS;2313530;1583
+Skate Kitchen;Skate Kitchen;2018.08.16;MoziNet;397198;339
+I Am Not a Witch;Nem vagyok boszorkány;2018.08.16;Magyarhangya;270000;245
+Alpha;Alfa;2018.08.23;InterCom;48845393;30501
+Fack ju Göhte 3;Fák jú, Tanár úr! 3.;2018.08.23;Big Bang Media;47143575;34083
+Slender Man;Az ismeretlen rém;2018.08.23;InterCom;17048863;12220
+Under the Silver Lake;A kaliforniai rémálom;2018.08.23;Cinetel;1808202;1213
+Bűbájosok;Bűbájosok;2018.08.30;Vertigo;6379025;4557
+The Nun;Az apáca;2018.09.06;InterCom;118252599;79762
+Destination Wedding;Végállomás : Esküvő;2018.09.06;Vertigo;11512638;7780
+Redbad;Az utolsó pogány király;2018.09.06;Vertigo;2745245;1821
+The Predator;Predator – A ragadozó;2018.09.13;Forum;60710398;38316
+A Simple Favor;Egy kis szívesség;2018.09.13;Freeman;48881925;33899
+Macskafogó;Macskafogó;2018.09.13;Pannonia;4173400;3423
+Remélem legközlebb sikerül meghalnod :);Remélem legközlebb sikerül meghalnod :);2018.09.13;Vertigo;3531599;3021
+Johnny English Strikes Again;Johnny English újra lecsap;2018.09.20;UIP;70513326;51160
+Searching;Keresés;2018.09.20;InterCom;13758294;9318
+Brillantissime;Briliáns válás;2018.09.20;ADS;2734700;2062
+Smallfoot;Apróláb;2018.09.27;InterCom;45044645;32308
+Peppermint;Peppermint - A bosszú angyala;2018.09.27;Freeman;22749126;15796
+Napszállta;Napszállta;2018.09.27;MoziNet;19071408;15587
+Hell Fest;Horror Park;2018.09.27;Big Bang Media;10418758;7060
+BlacKkKlansman;Csuklyások;2018.09.27;UIP;8051738;5419
+Ut?ya 22. juli;Utoya, július 22.;2018.09.27;Vertigo;1562264;1245
+Volt egyszer egy téka;Volt egyszer egy téka;2018.09.27;Vertigo;492330;1010
+Venom;Venom;2018.10.04;InterCom;165666214;104663
+A Star is Born;Csillag születik;2018.10.04;InterCom;26286267;17411
+Blue my Mind;Kéktől álmodom;2018.10.04;ADS;280880;195
+Bad Times at the El Royale;Húzós éjszaka az El Royale-ban;2018.10.11;Forum;14000170;9619
+I Still See You;Látlak;2018.10.11;Big Bang Media;5269200;3565
+Dieses bescheuerte Herz;Az a hülye szív;2018.10.11;Big Bang Media;4757510;3194
+Juliet, Naked;Meztelen Juliet;2018.10.11;InterCom;4152518;2675
+Down a Dark Hall;Sötét folyosók;2018.10.11;ADS;2480950;1896
+Das schweigende Klassenzimmer;A néma forradalom;2018.10.11;MoziNet;2441055;2969
+First Man;Az első ember;2018.10.18;UIP;43653980;27165
+Nyitva;Nyitva;2018.10.18;MegaFilm;24074810;16938
+Patrick;Patrick - Ebbel szebb az élet;2018.10.18;Freeman;19058035;13795
+Ploey - You Never Fly Alone;Pelyhes - Kalandra fel!;2018.10.18;ADS;5730281;4196
+The Extraordinary Journey of the Fakir;A fakír, aki egy IKEA szekrényben ragadt;2018.10.18;Vertigo;4696000;3071
+Halloween;Halloween;2018.10.25;UIP;37210802;40279
+Mile 22;22 mérföld;2018.10.25;Freeman;16331095;17296
+Goosebumps 2: Haunted Halloween;Libabőr 2 – Hullajó Halloween;2018.10.25;InterCom;15461880;16814
+Den skyldige;A bűnös;2018.10.25;Vertigo;6430474;7837
+Budapest;Legénybúcsú Bt.;2018.10.25;ADS;1986080;2146
+Bohemian Rhapsody;Bohém rapszódia;2018.11.01;Forum;164901082;112526
+The House with a Clock in its Walls;A végzet órája;2018.11.01;Freeman;20614210;14402
+Hunter Killer;A Hunter Killer küldetés;2018.11.01;Big Bang Media;19661385;12693
+X – A rendszerből törölve;X – A rendszerből törölve;2018.11.01;InterCom;19338134;12733
+Dead in a Week: Or Your Money Back;Bérgyilkost fogadtam;2018.11.01;Vertigo;5829010;3814
+The Girl in the Spider's Web;Ami nem öl meg;2018.11.08;InterCom;16219630;10907
+Egy nap;Egy nap;2018.11.08;Vertigo;10401426;9449
+Little Italy;Pizzarománc;2018.11.08;Freeman;9512936;6448
+Ruben Brandt, a gyűjtő;Ruben Brandt, a gyűjtő;2018.11.08;MoziNet;3503048;3571
+Fantastic Beasts: The Crimes of Grindelwald;Legendás állatok - Grindelwald bűntettei;2018.11.15;InterCom;169232983;106941
+Belleville Cop;A belleville-i zsaru;2018.11.15;Big Bang Media;15446050;10281
+Ruben Brandt, a gyűjtő;Ruben Brandt, a gyűjtő;2018.11.15;MoziNet;7655131;5395
+Siberia;Gyémánthajsza;2018.11.15;ADS;4392630;2697
+Girl;Lány;2018.11.15;Vertigo;731680;506
+L'insulte / The Insult;A sértés;2018.11.15;MoziNet;482580;353
+The Nutcracker and the Four Realms;A diótörő és a négy birodalom;2018.11.22;Forum;29606055;21038
+Widows;Nyughatatlan özvegyek;2018.11.22;Forum;12646015;8240
+Cinema Paradiso;Cinema Paradiso;2018.11.22;Cinenuovo;1268450;1103
+Santa & Cie;A karácsony mentőakció;2018.11.29;ADS;18326736;13642
+The House That Jack Built;A ház, amit Jack épített;2018.11.29;Vertigo;15065964;10124
+Lengemesék 2.;Lengemesék 2.;2018.11.29;Vertigo;1906565;2155
+The Grinch;A Grincs;2018.12.06;UIP;132128579;95127
+BUÉK;BUÉK;2018.12.06;InterCom;53194595;36840
+Robin Hood;Robin Hood;2018.12.06;Freeman;30628661;20948
+Mara;Amikor lehunyod a szemed;2018.12.06;ADS;8383700;5581
+Aquaman;Aquaman;2018.12.13;InterCom;138149318;85190
+Second Act;Álommeló;2018.12.13;Freeman;28656290;19987
+Spider-Man: Into the Spider-Verse;Pókember - Irány a Pókverzum;2018.12.13;InterCom;16616540;11404
+Billionaire Boys Club;Milliárdos fiúk klubja;2018.12.13;ADS;4595385;2870
+Bumblebee;Űrdongó;2018.12.20;UIP;44789986;30009
+Mary Poppins Returns;Mary Poppins visszatér;2018.12.20;Forum;15715590;12061
+Marry Me, Dude;Hozzám jössz, haver?;2018.12.20;Big Bang Media;6414180;4270
+Loro;Silvio és a többiek;2018.12.20;MoziNet;1709976;1262
+Mortal Engines;Ragadozó városok;2018.12.27;UIP;68991583;45697
+Holmes and Watson;Holmes és Watson;2018.12.27;InterCom;31100200;21366
+Rossz versek;Rossz versek;2018.12.27;Cirko Film;17023225;11463
+Capt`n Sharky;Cápi kapitány;2018.12.27;ADS;1578405;1061
+Mirai no Mirai;Mirai - Lány a jövőből;2018.12.27;MoziNet;1238105;886
+Creed II;Creed II;2019.01.03;Forum;41909305;28198
+Escape Room;Végtelen útvesztő;2019.01.03;InterCom;37871513;25622
+Asterix: The Secret of the Magic Potion;Asterix : A varázsital titka;2019.01.03;Big Bang Media;14339969;10264
+Todos lo saben;Mindenki Tudja;2019.01.03;MoziNet;12525350;8231
+The Kindergarten Teacher;A tanítónő;2019.01.03;ADS;936425;641
+Ralph Breaks the Internet: Wreck-It Ralph 2;Ralph lezúzza a netet;2019.01.10;Forum;52884250;36682
+A Dog's Way Home;Egy kutya hazatér;2019.01.10;InterCom;51588086;37607
+The Mule;A csempész;2019.01.10;InterCom;24360607;15535
+Journal 64;64-es betegnapló;2019.01.10;Vertigo;11954621;7846
+Transit;Tranzit;2019.01.10;Vertigo;1188470;1126
+Glass;Üveg;2019.01.17;Forum;98587472;64038
+Kursk;Kurszk;2019.01.17;Big Bang Media;11023504;7106
+Pájaros de verano / Birds of Passage;Az átkelés madarai;2019.01.17;MoziNet;844620;626
+Instant Family;Instant család;2019.01.24;UIP;77563439;53790
+Destroyer;Pusztító;2019.01.24;Big Bang Media;10477778;6596
+Der kleine Drache Kokosnuss - Auf in den Dschungel!;Kókusz Kokó a kis sárkány - Irány a dzsungel!;2019.01.24;ADS;2186425;1461
+Schindler's List;Schindler listája;2019.01.24;UIP;1522935;1443
+Dogman;Dogman - Kutyák királya;2019.01.24;ADS;842887;466
+Another Day of Life;Még egy nap élet;2019.01.24;Vertigo;276;493
+Serenity;Vihar előtt;2019.01.31;Big Bang Media;31199604;19801
+Mary Queen of Scots;Két királynő;2019.01.31;UIP;13800046;9195
+Beautiful Boy;Csodálatos fiú;2019.01.31;MoziNet;5463060;3769
+The Lego Movie 2: The Second Part;A Lego kaland 2;2019.02.07;InterCom;58450238;38934
+The Prodigy;A csodagyerek;2019.02.07;Forum;29472760;19929
+The Favourite;A kedvenc;2019.02.07;Forum;13027605;8409
+Time Freak;Szerelmünk napjai;2019.02.07;Big Bang Media;6815575;4451
+Capharnaüm;Kafarnaum - A remény útja;2019.02.07;MoziNet;1295062;1105
+Man in a Hurry / Un homme pressé;Szavak nélkül;2019.02.07;ADS;1051620;650
+Kölcsönlakás;Kölcsönlakás;2019.02.13;InterCom;84724687;57757
+Alita: Battle Angel;Alita: A harc angyala;2019.02.14;Forum;94911520;57305
+Happy Death Day 2U;Boldog halálnapot! 2;2019.02.14;UIP;40223012;28039
+Zimna wojna;Hidegháború;2019.02.14;MoziNet;2012134;1573
+Maria by Callas;A Maria Callas-sztori;2019.02.14;Vertigo;1647210;1350
+On Chesil Beach;Az a nap a tengerparton;2019.02.14;Cinetel;991430;740
+How to Train Your Dragon: The Hidden World;Így neveld a sárkányodat 3.;2019.02.21;UIP;179972138;124495
+Cold Pursuit;Dermesztő hajsza;2019.02.21;Freeman;34685641;22038
+Green Book;Zöld könyv - Útmutató az élethez;2019.02.21;ADS;22202490;14340
+Vice;Alelnök;2019.02.21;Forum;16702190;10343
+Drunk Parents;Amit nem akarsz tudni a szüleidről;2019.02.28;Big Bang Media;16928160;10943
+Hevi reissu / Heavy Trip;Heavy túra;2019.02.28;Hungaricom;1514695;1048
+Flitzer / Streaker;Meztelen befutó;2019.02.28;ADS;241935;141
+Captain Marvel;Marvel Kapitány;2019.03.07;Forum;237974556;150750
+Most van most;Most van most;2019.03.07;Romis;4658085;3045
+Sheeps & Wolves : Pig Deal;Állati csetepata - Ez már röfi!;2019.03.07;ADS;3059335;1990
+Trouble With You;Csak a baj van veled!;2019.03.07;Cinetel;2313415;1435
+Guerilla;Guerilla;2019.03.07;MoziNet;942319;1511
+Fighting with My Family;Családi bunyó;2019.03.14;Forum;47646375;32580
+The Queen's Corgi;A királynő kutyája;2019.03.14;Freeman;30943740;22256
+Apró mesék;Apró mesék;2019.03.14;Vertigo;15710422;12201
+Sink or Swim;Szabadúszók;2019.03.14;ADS;3495650;2682
+Us;Mi;2019.03.21;UIP;40701020;27716
+Qu'est-ce qu'on a encore fait au bon Dieu?;Bazi nagy francia lagzik 2.;2019.03.21;Vertigo;15110923;10423
+Captive State;Elrabolt világ;2019.03.21;InterCom;8692315;5478
+Colette;Colette;2019.03.21;Vertigo;4993740;3416
+Our Struggles;Életem értelmei;2019.03.21;ADS;626780;601
+Dumbo;Dumbó;2019.03.28;Forum;26367495;17655
+The Beach Bum;Túltova;2019.03.28;Big Bang Media;12598775;7942
+Keepers / The Vanishing;Az eltűntek;2019.03.28;Vertigo;4982550;3132
+The Sisters Brothers/;Testvérlövészek;2019.03.28;UIP;2607940;1611
+Ben is Back;Egy fiú hazatér;2019.03.28;ADS;2578020;1642
+Shazam!;Shazam!;2019.04.04;InterCom;86519910;53767
+Pet Sematary;Kedvencek temetője;2019.04.04;UIP;55840980;37914
+The Hummingbird Project ;A Kolibri projekt;2019.04.04;Big Bang Media;9851305;6045
+Dumplin';Dumplin' - Így kerek az élet;2019.04.04;Hungaricom;5727234;3732
+La derni?re folie de Claire Darling;Claire Darling utolsó húzása;2019.04.04;Hungaricom;1100240;1184
+After;Miután;2019.04.11;Big Bang Media;42769085;29991
+Hellboy: Rise of the Blood Queen;Hellboy;2019.04.11;Freeman;23593108;15795
+Missing Link;A hiányzó láncszem;2019.04.11;Freeman;5938432;4326
+Climax;Eksztázis;2019.04.11;Vertigo;1291395;1030
+The Curse of La Llorona;A gyászoló asszony átka;2019.04.18;InterCom;34078415;21599
+Wonder Park;Csodapark;2019.04.18;UIP;22271545;15550
+Hotel Mumbai;Hotel Mumbai;2019.04.18;Vertigo;13620460;8403
+Mia and the White Lion;Mia és a fehér oroszlán;2019.04.18;Big Bang Media;12786890;9038
+An Interview with God;Interjú Istennel;2019.04.18;ADS;5144332;3452
+Vízipók-csodapók - a film;Vízipók-csodapók - a film;2019.04.18;MoziNet;2561180;2567
+Avengers: Endgame;Bosszúállók: Végjáték;2019.04.25;Forum;540481595;343240
+Arctic;Sarkvidék;2019.04.25;ADS;4239455;2633
+Ballon;A hőlégballon;2019.04.25;Cinetel;1636241;1131
+La f?te des m?res;Anyák napja;2019.04.25;Hungaricom;665010;537
+Five Feet Apart;Két lépés távolság;2019.05.02;UIP;37955090;26971
+Manou the Swift;Manu a legsirályabb fecske;2019.05.02;ADS;6620010;4603
+Red Joan;A vörös ügynök;2019.05.02;Cirko Film;4619608;3289
+The Hustle;Csaló csalok;2019.05.09;Forum;97076345;66050
+Pokémon Detective Pikachu;Pokémon - Pikachu, a detektív;2019.05.09;InterCom;49183630;31361
+Brightburn;Brightburn – A lángoló fiú;2019.05.09;InterCom;15258355;9809
+Pécsi szál;Pécsi szál;2019.05.09;Budapest Film;1948298;1592
+John Wick 3: Parabellum;John Wick: 3. felvonás - Parabellum;2019.05.16;Freeman;78988835;51559
+UglyDolls;Undipofik;2019.05.16;Freeman;5613500;4034
+Dronningen / Queen of Hearts;Szívek királynője;2019.05.16;ADS;2534750;2018
+Eter;Éter;2019.05.16;Vertigo;377490;488
+Aladdin;Aladdin;2019.05.23;Forum;101212395;64214
+Extremely Wicked, Shockingly Evil, and Vile;Átkozottul veszett, sokkolóan gonosz és hitvány;2019.05.23;Big Bang Media;20650630;13891
+Dolor y Gloria;Fájdalom és dicsőség;2019.05.23;Cinetel;4769352;3514
+The Hole in the Ground;A gyermek;2019.05.23;ADS;4046740;2657
+Godzilla: King of the Monsters;Godzilla II – A szörnyek királya;2019.05.30;InterCom;35494115;21186
+Ma;Mami;2019.05.30;UIP;15546405;10614
+Booksmart;Éretlenségi;2019.05.30;Forum;7482525;4983
+Domino;Dominó;2019.05.30;Vertigo;2411506;1483
+Cinderella and the Secret Prince;Hamupipőke és az elvarázsolt herceg;2019.05.30;ADS;1695955;1237
+X-Men: Dark Phoenix;X-Men: Sötét Főnix;2019.06.06;Forum;44915570;27817
+A Dog's Journey;Egy kutya négy útja;2019.06.06;Freeman;17855435;12921
+Rocketman;Rocketman;2019.06.06;UIP;16627995;10947
+Men in Black International;Men in Black – Sötét zsaruk a Föld körül;2019.06.13;InterCom;53202226;32644
+Three Identical Strangers;Három egyforma idegen;2019.06.13;MoziNet;2126668;1618
+High Life;Csillagok határán;2019.06.13;ADS;1961125;1431
+Toy Story 4;Toy Story 4;2019.06.20;Forum;64677660;45060
+Long Shot / Flarsky;Csekély esély;2019.06.20;Freeman;20657275;13526
+Child's Play;Gyerekjáték;2019.06.20;Big Bang Media;14749905;9330
