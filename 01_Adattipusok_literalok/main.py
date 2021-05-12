@@ -1,6 +1,3 @@
-from typing import Dict, List, Set, Tuple
-
-
 def main() -> None:
     # Alapfogalmak: program, algoritmus, változó, adatszerkezet, literál
     # ==================================================================
@@ -39,19 +36,19 @@ def main() -> None:
 
     # 2. Összetett adattípusok vagy kollekciók: Több érték tárolását teszik lehetővé
     # 2.1 Lista (list, egydimenziós tömb, vagy vektor más programozási nyelveken)
-    lista: List[str] = ['apple', 'banana', 'cherry']
+    lista: list[str] = ['apple', 'banana', 'cherry']
     print(lista)
 
     # 2.2 Tuple (tuple, konstans listának tekinthető)
-    tuple: Tuple[str, str, str] = ('apple', 'banana', 'cherry')
-    print(tuple)
+    konstans_lista: tuple[str, str, str] = ('apple', 'banana', 'cherry')
+    print(konstans_lista)
 
     # 2.3 Halmaz (set, nem lehetnek azonos értékek)
-    halmaz: Set[str] = {'apple', 'banana', 'cherry'}
+    halmaz: set[str] = {'apple', 'banana', 'cherry'}
     print(halmaz)
 
     # 2.4 Szótár (dict, kulcs és érték (értékpárok), kulcs egyedi)
-    szotar: Dict[str, int] = {"alma": 20, "körte": 23, "barack": 33}
+    szotar: dict[str, int] = {"alma": 20, "körte": 23, "barack": 33}
     print(szotar)
 
     # 2.5 Számsorozat (range, for ciklusokhoz használjuk általában)

@@ -11,6 +11,7 @@ def main() -> None:
     inputX: int = int(input('x= '))
     absX: int = inputX
     if inputX < 0:
+        # absX = -inputX  # Előjelváltás
         absX = inputX * -1
     print(f'Abs({inputX}) = {absX}')
 
@@ -35,7 +36,7 @@ def main() -> None:
         print('Jó')
     elif érdemjegy == 5:
         print('Jeles')
-    else:
+    else:  # Az else ág opcionális, azaz elhagyható
         print('Ez nem osztályzat!')
 
     # Rövidített (shorthand) kétágú elágazás, amit feltételes operátor funkcióját is betöltheti:
