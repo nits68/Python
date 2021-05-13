@@ -1,6 +1,15 @@
 import math  # A gyökvonáshoz kell a math modul
 
 
+def prime_favágó(szám: int) -> bool:
+    osztók_száma: int = 0
+    for osztó in range(1, szám + 1):
+        if szám % osztó == 0:
+            # osztók_száma = osztók_száma + 1
+            osztók_száma += 1
+    return osztók_száma == 2
+
+
 def prime(szam: int) -> bool:
     if szam > 2 and szam % 2 == 0 or szam == 1:  # A 2-nél nagyobb páros számok és az 1 nem prím!
         return False
@@ -21,7 +30,7 @@ def main():
 
     print("Prímek 1-100 között")
     for i in range(1, 101):
-        if prime(i):
+        if prime_favágó(i):
             print(i, end=' ')
     print()
 

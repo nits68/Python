@@ -70,4 +70,13 @@ def main() -> None:
 if __name__ == "__main__":
     main()
 
-# HF: Másodfokú egyenlet gyökei folyamatábra szernit!
+# Program nyomkövetése, változók vizsgálata
+# 1. töréspont (breakpoint) elhelyezése
+# 2. Nyomkövetés indítása F5
+# 3. Az első töréspontnál megáll a program futása
+# 4. Lehetőségünk van a változók értékeinek vizsgálatára
+# és a utasítások végrahjtását (az algoritmust) vizsgálhatjuk
+# az F10 (step over) és F11 (step into) billentyűkkel
+# 5. Ha végeztünk, akkor két lehetőség van:
+#    - program folytatása: F5
+#    - program (nyomkövetés) leállítása: Shift-F5
