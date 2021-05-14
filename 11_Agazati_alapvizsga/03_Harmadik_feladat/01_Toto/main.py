@@ -1,5 +1,5 @@
 from fogadasi_fordulo import Fogadasi_fordulo
-from typing import List
+# from typing import List # Python 3.8.X, vagy alatta kell
 
 
 def main() -> None:
@@ -11,7 +11,8 @@ def main() -> None:
 
     print('Toto feladat')
     print('1. feladat: Adatok beolvasása és tárolása')
-    ff: List[Fogadasi_fordulo] = []
+    # ff: List[Fogadasi_fordulo] = []  #  Python 3.8.X, vagy alatta
+    ff: list[Fogadasi_fordulo] = []
     with open('toto.txt', 'r', encoding='UTF-8') as file:
         for sor in file.read().splitlines()[1:]:
             ff.append(Fogadasi_fordulo(sor))

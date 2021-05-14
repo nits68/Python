@@ -1,4 +1,4 @@
-# from typing import List
+# from typing import List # Python 3.8.X, vagy alatta kell
 
 
 class CBadas:
@@ -14,7 +14,8 @@ class CBadas:
         self.adas_db = int(adas_db)
         self.nev = nev
         # vagy:
-        # m: List[str] = sor.split(';')
+        # m: List[str] = sor.split(';') # Python 3.8.X, vagy alatta
+        # m: list[str] = sor.split(';')
         # self.ora = int(m[0])
         # self.perc = int(m[1])
         # self.adas_db = int(m[2])
