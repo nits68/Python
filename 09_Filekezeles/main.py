@@ -1,6 +1,3 @@
-from typing import List
-
-
 def main() -> None:
     print('Szöveges állományok írása és olvasása')
 
@@ -10,7 +7,7 @@ def main() -> None:
     # Beolvasás közvetlenül szöveges típusú listába a read() és splitlines() metódusokkal
     # A file.read().splitlines() kóddal visszatérő szöveges listát gyakran fogjuk for-in ciklussal bejárni
 
-    sorok: List[str] = list()
+    sorok: list[str] = list()
     try:
         with open('forras.txt', 'r', encoding='utf-8') as file:
             sorok = file.read().splitlines()
@@ -19,7 +16,7 @@ def main() -> None:
     print(sorok)
 
     # Beolvasás szám típusú listába a readlines() metódussal + konverzió:
-    számok: List[int] = list()
+    számok: list[int] = list()
     try:
         with open('szamok.txt', 'r', encoding='utf-8') as file:
             for e in file.readlines():
@@ -32,7 +29,7 @@ def main() -> None:
 
     # Beolvasás soronként a readline() metódussal:
     # (nagyobb méretű szöveges állományokhoz javasolt, pl.: rendszer log-ok)
-    szamok2: List[int] = list()
+    szamok2: list[int] = list()
     try:
         with open('szamok.txt', 'r', encoding='utf-8') as file:
             sor: str = 'x'
@@ -64,7 +61,7 @@ def main() -> None:
 
     try:
         with open('cél2.txt', 'w', encoding='utf-8') as file:
-            ki: List[str] = []
+            ki: list[str] = []
             for e in sorok:
                 ki.append(f'{e}\n')
             file.writelines(ki)
