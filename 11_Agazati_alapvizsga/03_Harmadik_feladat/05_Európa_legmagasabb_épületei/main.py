@@ -1,4 +1,3 @@
-from typing import Dict, List
 from Épület import Épület
 
 
@@ -6,7 +5,7 @@ def main() -> None:
     # 3.1 Olvassa be az UTF-8 kódolású  legmagasabb.txt állományban lévő adatokat
     #  és tárolja el egy saját osztály típusú listában!
     # Ügyeljen rá, hogy az állomány első sora az adatok fejlécét tartalmazza!
-    épületek: List[Épület] = []
+    épületek: list[Épület] = []
     with open('legmagasabb.txt', 'r', encoding='utf-8') as file:
         for sor in file.read().splitlines()[1:]:
             épületek.append(Épület(sor))
