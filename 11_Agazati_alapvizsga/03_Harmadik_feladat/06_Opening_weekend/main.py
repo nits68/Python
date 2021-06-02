@@ -1,12 +1,11 @@
 from FilmBemutató import FilmBemutató
-from typing import List
 
 
 def main() -> None:
     # 3.1 Olvassa be az UTF-8 kódolású  nyitohetvege.txt állományban lévő adatokat
     # és tárolja el egy saját osztály típusú listában!
     # Ügyeljen rá, hogy az állomány első sora az adatok fejlécét tartalmazza!
-    fb: List[FilmBemutató] = []
+    fb: list[FilmBemutató] = []
     with open('nyitohetvege.txt', 'r', encoding='utf-8') as sr:
         for sor in sr.read().splitlines()[1:]:
             fb.append(FilmBemutató(sor))
