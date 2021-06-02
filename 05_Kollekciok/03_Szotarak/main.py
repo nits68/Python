@@ -1,6 +1,3 @@
-from typing import Dict
-
-
 def main() -> None:
     #  Szótár létrehozása:
     szotar1 = {  # Elemekkel inicializált szótár
@@ -10,15 +7,15 @@ def main() -> None:
     }
 
     # Jellemzően a szótár kulcsa és értéke azonos típusú, amit meg is adhatunk a typing modult használva:
-    szotar2: Dict[str, int] = {
+    szotar2: dict[str, int] = {
         'Magyarország': 12,
         'Ausztria': 34,
         'Anglia': 23
     }
 
     szotar3 = dict([('x', 5), ('y', -5)])  # Szótár létrehozása a dict() konstruktorral
-    szotar4 = Dict[int, int]  # Üres 'típusos' szótár
-    szotar5 = {}  # Üres 'típus nélküli' szótár létrehozása
+    szotar4 = dict[int, int]  # Üres 'típusos' szótár
+    szotar5 = dict({})  # Üres 'típus nélküli' szótár létrehozása
 
     # Teljes szótár kiírása
     print(szotar1)
