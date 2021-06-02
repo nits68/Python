@@ -1,11 +1,10 @@
 from Versenyző import Versenyző
-from typing import List
 
 
 def main() -> None:
     # 1. Olvassa be a fob2016.txt állományban lévő adatokat és tárolja el egy
     # saját osztály típusú listában!
-    fg2016: List[Versenyző] = []
+    fg2016: list[Versenyző] = []
     with open('fob2016.txt', 'r', encoding='utf-8') as file:
         for sor in file.read().splitlines():
             fg2016.append(Versenyző(sor))
@@ -57,7 +56,7 @@ def main() -> None:
     print(f'5. feladat: A bajnok női versenyző: {fg2016[női_maxi].név}')
 
     # Megoldás segéd listával:
-    női_versenyzők: List[Versenyző] = []
+    női_versenyzők: list[Versenyző] = []
     for v in fg2016:
         if v.ketegória == "Noi":
             női_versenyzők.append(v)

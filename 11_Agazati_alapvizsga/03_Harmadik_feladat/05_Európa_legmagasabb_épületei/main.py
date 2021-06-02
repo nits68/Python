@@ -47,17 +47,17 @@ def main() -> None:
 
     # 6. Készítsen statisztikát országok szerint az épületek számáról!
     # A képernyőre írást a minta szerint végezze!
-    # print('6. feladat: Ország statisztika')
-    # stat: Dict[str, int] = dict()
-    # for e in épületek:
-    #     if e.ország in stat:  # az ország, mint kulcs a szótárban található-e?
-    #         # stat[e.ország] = stat[e.ország] + 1
-    #         # vagy:
-    #         stat[e.ország] += 1
-    #     else:
-    #         stat[e.ország] = 1
-    # for key, value in stat.items():
-    #     print(f'\t{key} - {value} db')
+    print('6. feladat: Ország statisztika')
+    stat: dict[str, int] = dict()
+    for e in épületek:
+        if e.ország in stat:  # az ország, mint kulcs a szótárban található-e?
+            # stat[e.ország] = stat[e.ország] + 1
+            # vagy:
+            stat[e.ország] += 1
+        else:
+            stat[e.ország] = 1
+    for key, value in stat.items():
+        print(f'\t{key} - {value} db')
 
     # HF:
     # 7. feladat
