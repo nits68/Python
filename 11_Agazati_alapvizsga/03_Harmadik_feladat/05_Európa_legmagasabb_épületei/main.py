@@ -56,7 +56,7 @@ def main() -> None:
             stat[e.ország] += 1
         else:
             stat[e.ország] = 1
-    for key, value in stat.items():
+    for key, value in stat.items():  # szótár bejárása for-in ciklussal
         print(f'\t{key} - {value} db')
 
     # HF:
