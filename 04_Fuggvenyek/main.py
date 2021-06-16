@@ -10,6 +10,9 @@
 #    tetszőleg számú utasítás, legalább egy return utasítás (gyakran az utolsó utasítás)
 
 # Példa:
+import random
+
+
 def összead(a: int, b: int) -> int:  # függvény feje
     # def => függvény definíciót bevezető foglalt szó
     # összead => a függvény azonosítója (neve)
@@ -42,15 +45,21 @@ def main() -> None:
     print(összeg)
 
     print('Két szám legnagyobb közös osztója')
-    a: int = int(input('a = '))
-    b: int = int(input('b = '))
+    # a: int = int(input('a = '))
+    # b: int = int(input('b = '))
+    a: int = 12
+    b: int = 8
     print(f'LNKO({a}, {b}) = {lnko(a, b)}')
 
     # A Python programozási nyelv fontosabb (Ágazati alapvizsgára ismerendő) beépített függvényei:
+    print('Python programozási nyelv fontosabb beépített függvényei:')
 
     # abs() Returns the absolute value of a number - Szám abszolút értéke
+    print(f'abs(-5) = {abs(-5)}')
     # chr() Returns a character from the specified Unicode code. - "Karakter" Unikód-ja
-    # dir()	Returns a list of the specified object's properties and methods - Objektum adat- és kódtagjai
+    print(f"chr(65) = {chr(65)}")
+    print(f"chr(97) = {chr(97)}")
+    print(f"chr(48) = {chr(48)}")
     # enumerate() Takes a collection and returns it as an enumerate object - Kollekció enumerálása (i, e)
     # id() Returns the id of an object - Objektum azonosítója
     # input() Allowing user input - Felhasználói input
@@ -59,6 +68,9 @@ def main() -> None:
     # min() Returns the smallest item in an iterable - Minimum érték meghatározása
     # open() Opens a file and returns a file object - File objektum megnyitása/létrehozása
     # ord()	Convert an integer representing the Unicode of the specified character - Unikód-hoz tartozó karakter
+    print(f"ord('A') = {ord('A')}")
+    print(f"ord('a') = {ord('a')}")
+    print(f"ord('0') = {ord('0')}")
     # print() Prints to the standard output device - Képernyőre írás
     # range() Returns a sequence of numbers, starting from 0 and increments by 1 - Számsorozat előállítása
     # sum() Sums the items of an iterator - Összeg meghatározása

@@ -1,14 +1,11 @@
-from typing import List
-
-
 class Versenyző:
     név: str
     ketegória: str
     egyesület: str
-    pontszámok: List[int]
+    pontszámok: list[int]
 
     def __init__(self, sor: str) -> None:
-        m: List[str] = sor.split(';')
+        m: list[str] = sor.split(';')
         self.név = m[0]
         self.ketegória = m[1]
         self.egyesület = m[2]
@@ -31,7 +28,7 @@ class Versenyző:
 
     def összpont(self) -> int:
         # Az eredeti listából másolatot készítünk, hogy az eredeti sorrend ne vesszen el:
-        pontszámok_rendezve: List[int] = list(self.pontszámok)
+        pontszámok_rendezve: list[int] = list(self.pontszámok)
         pontszámok_rendezve.sort()  # Lista rendezése
         összeg: int = 0
         for pont in pontszámok_rendezve[2:]:

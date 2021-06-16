@@ -1,13 +1,16 @@
-from typing import Set
+# from typing import Set
+
+
+from typing import Any
 
 
 def main() -> None:
     #  Halmaz (Set) létrehozása:
     halmaz1 = {'barack', 'körte', 'szilva', 'alma', 'szőlő'}  # Elemekkel inicializált halmaz
-    halmaz2 = {}   # Üres halmaz
+    halmaz2: set[Any] = set()   # Üres halmaz
     halmaz3 = set((1, 2, "a"))  # set() konstruktorral tuple-ból létrehozott halmaz
     halmaz4 = set(['a', 'e', 'i', 'o', 'u'])  # set() konstruktorral listából létrehozott halmaz
-    halmaz5: Set[str] = {'barack', 'körte', 'szilva', 'alma', 'szőlő'}  # Elemekkel inicializált típusos halmaz
+    halmaz5: set[str] = {'barack', 'körte', 'szilva', 'alma', 'szőlő'}  # Elemekkel inicializált típusos halmaz
 
     # Teljes lista kiírása
     print(halmaz1)

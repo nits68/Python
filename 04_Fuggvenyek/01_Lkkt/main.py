@@ -1,5 +1,4 @@
 import random
-#  from random import *  # közvetlenül tudunk a random osztály metódusaira hivatkozni
 
 
 def lkkt(a: int, b: int) -> int:

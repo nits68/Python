@@ -1,9 +1,6 @@
-from typing import List, Tuple
-
-
 def main() -> None:
     #  Tuple létrehozása:
-    tuple1: Tuple[str, str, str, str, str] = ('barack', 'körte', 'szilva', 'alma', 'szőlő')  # Elemekkel definiált típusos tuple
+    tuple1: tuple[str, str, str, str, str] = ('barack', 'körte', 'szilva', 'alma', 'szőlő')  # Elemekkel definiált típusos tuple
     tuple2 = ()   # Üres tuple
     tuple3 = tuple((1, 2, 3))  # tuple() konstruktorral tuple-ból létrehozott tuple
     tuple4 = tuple({'a', 'e', 'i', 'o', 'u'})  # tuple() konstruktorral halmazból létrehozott tuple
@@ -60,7 +57,7 @@ def main() -> None:
     print(tuple6.index(6))  # 2
 
     # Tuple konvertálása listává, majd vissza
-    lista6: List[int] = list(tuple6)
+    lista6: list[int] = list(tuple6)
     lista6[1] = 7  # Csak ezzel a trükkel változtatható
     tuple6 = tuple(lista6)
     print(tuple6)  # (4, 7, 6, 5, 5, 3, 4, 5, 6)

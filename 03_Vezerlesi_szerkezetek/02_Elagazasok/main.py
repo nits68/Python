@@ -1,3 +1,6 @@
+import random
+
+
 def main() -> None:
     # Szelekciók (elágazások): Olyan vezérlési szerkezetek, ahol feltétel(ek)hez kötjük az utasítások végrehajtását
 
@@ -11,6 +14,7 @@ def main() -> None:
     inputX: int = int(input('x= '))
     absX: int = inputX
     if inputX < 0:
+        # absX = -inputX  # Előjelváltás
         absX = inputX * -1
     print(f'Abs({inputX}) = {absX}')
 
@@ -35,12 +39,14 @@ def main() -> None:
         print('Jó')
     elif érdemjegy == 5:
         print('Jeles')
-    else:
+    else:  # Az else ág opcionális, azaz elhagyható
         print('Ez nem osztályzat!')
 
     # Rövidített (shorthand) kétágú elágazás, amit feltételes operátor funkcióját is betöltheti:
-    a: int = 10
-    b: int = 20
+    # Véletlen egész számok generálása a random osztály (modul) randint() függvényével:
+    # Használat elött a random modult importálni kell: import random
+    a: int = random.randint(10, 20)
+    b: int = random.randint(10, 20)
     print("A") if a > b else print("B")
     c: int = 12 if a != b else 24
     # A fenti értékadás C# feltételes operátorral:

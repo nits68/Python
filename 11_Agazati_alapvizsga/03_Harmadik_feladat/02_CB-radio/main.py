@@ -1,5 +1,5 @@
 from CBadas import CBadas
-from typing import List
+# from typing import List # Python 3.8.X, vagy alatta kell
 
 
 def main() -> None:
@@ -10,7 +10,8 @@ def main() -> None:
     # A fájl soraiban található adatokat saját osztály típusú listában tárolja!
     # Ügyeljen rá, hogy az állomány első sora a mezőneveket tartalmazza!
 
-    adasok: List[CBadas] = []
+    # adasok: List[CBadas] = [] # Python 3.8.X, vagy alatta
+    adasok: list[CBadas] = []
     with open('cb.txt', 'r', encoding='utf-8') as file:
         for sor in file.read().splitlines()[1:]:
             # aktAdas: CBadas = CBadas(sor)

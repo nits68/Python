@@ -1,5 +1,5 @@
 from Eredmény import Eredmény
-from typing import List
+# from typing import List # Python 3.8.X, vagy alatta kell
 
 
 def main() -> None:
@@ -7,7 +7,8 @@ def main() -> None:
     # egy saját osztály típusú listában!
     # Ügyeljen arram, hogy az állomány első sora a mezőneveket tartalmazza.
 
-    ub2017: List[Eredmény] = []
+    # ub2017: List[Eredmény] = []  # Python 3.8.X, vagy alatta
+    ub2017: list[Eredmény] = []
     with open('ub2017egyeni.txt', 'r', encoding='utf-8') as file:
         for sor in file.read().splitlines()[1:]:
             ub2017.append(Eredmény(sor))
@@ -39,7 +40,8 @@ def main() -> None:
             név_hossz_max = len(e.név)
 
     # 4.2 Kiválogajuk egy új listába a leghosszabb nevű futókat:
-    ub2017_max: List[Eredmény] = []
+    # ub2017_max: List[Eredmény] = [] # Python 3.8.X, vagy alatta
+    ub2017_max: list[Eredmény] = []
     for e in ub2017:
         if e.név_hossz() == név_hossz_max:
             ub2017_max.append(e)

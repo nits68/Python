@@ -6,7 +6,7 @@ def main() -> None:
     # - elöltesztelő ciklus (while)
     # - hátultesztelő ciklus (NINCS a Python-ban)
 
-    from typing import List
+    # w3s: https://www.w3schools.com/python/python_for_loops.asp
 
     # Klasszikus növekményes ciklus megvalósítása for-in ciklussal:
     for i in range(8):  # range osztály számsorozatot állít elő (0, 1, 2, 3, ..., 6, 7)
@@ -22,10 +22,16 @@ def main() -> None:
     print()
 
     # lista, összetett adatszerkezet, több adatot tárol
-    t: List[str] = ['alma', 'körte', 'szilva']
+    t: list[str] = ['alma', 'körte', 'szilva']
+    # t[0] -> 'alma'
+    # t[1] -> 'körte'
+    # t[2] -> 'sziva'
     for i in range(len(t)):
         print(f't[{i}]={t[i]}', end=' ')  # t[0]=alma t[1]=körte t[2]=szilva
     print()
+
+    # for e in t:
+    #     print(e)
 
     # A break utasítás: segítségével kiléphetünk a ciklusból,
     # befejezzük az ismétlést a ciklusfeltétel tesztelése nélkül.
@@ -37,6 +43,9 @@ def main() -> None:
             break
         i += 1
     print()
+
+    # Elöltesztelő ciklus (while):
+    # w3c: https://www.w3schools.com/python/python_while_loops.asp
 
     # A continue utasítás: segítségével befejezzük a ciklusmag aktuális végrehajtását,
     # a ciklusfeltétel (i < 6) tesztelésével folytatjuk a kódot
@@ -60,3 +69,14 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+# Program nyomkövetése, változók vizsgálata
+# 1. töréspont (breakpoint) elhelyezése
+# 2. Nyomkövetés indítása F5
+# 3. Az első töréspontnál megáll a program futása
+# 4. Lehetőségünk van a változók értékeinek vizsgálatára
+# és a utasítások végrahjtását (az algoritmust) vizsgálhatjuk
+# az F10 (step over) és F11 (step into) billentyűkkel
+# 5. Ha végeztünk, akkor két lehetőség van:
+#    - program folytatása: F5
+#    - program (nyomkövetés) leállítása: Shift-F5

@@ -1,5 +1,4 @@
 import random
-from typing import List
 
 
 def main() -> None:
@@ -16,18 +15,18 @@ def main() -> None:
     # print(nevek)
 
     # 1.2 Feltöltés véletlen értékekkel:
-    számok: List[int] = []
+    számok: list[int] = []
     for i in range(5):
         számok.append(random.randint(10, 99))
 
     # 1.3 Feltöltés literálokkal:
-    állítások: List[bool] = [True, True, False, True, False]
+    állítások: list[bool] = [True, True, False, True, False]
     print(állítások)
 
     # 1.4 Feltöltés szöveges állományból (sorokként csak egy adat van):
     with open('bukk-videk.txt', 'r', encoding='UTF-8') as sr:
-        sorok: List[str] = sr.read().splitlines()
-    magasságok: List[float] = []
+        sorok: list[str] = sr.read().splitlines()
+    magasságok: list[float] = []
     for sor in sorok:
         magasságok.append(float(sor))
     print(magasságok[:10])
@@ -135,7 +134,7 @@ def main() -> None:
     # 4 Egy sorozathoz egy sorozatot rendelő programozási tételek
     # 4.1 Kiválogatás
     # Feladat: Válogassuk ki a 3-al osztható számokat!
-    osztható3al: List[int] = []
+    osztható3al: list[int] = []
     for e in számok:
         if e % 3 == 0:
             osztható3al.append(e)
@@ -158,8 +157,8 @@ def main() -> None:
     # 5 Egy sorozathoz két sorozatot rendelő programozási tételek
     # 5.1 Szétválogatás
     # Válogassuk szét a páros és páratlan számokat!
-    páros_számok: List[int] = []
-    páratlan_számok: List[int] = []
+    páros_számok: list[int] = []
+    páratlan_számok: list[int] = []
     for e in számok:
         if e % 2 == 0:
             páros_számok.append(e)

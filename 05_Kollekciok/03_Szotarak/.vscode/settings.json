@@ -17,8 +17,7 @@
     "spellright.documentTypes": [
         "markdown",
         "latex",
-        "plaintext",
-        "python"
+        "plaintext"
     ],
     "python.linting.pylintEnabled": false,
     "python.linting.pycodestyleEnabled": true,

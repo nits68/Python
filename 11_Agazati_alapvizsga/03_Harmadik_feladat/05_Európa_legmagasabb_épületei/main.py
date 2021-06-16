@@ -1,4 +1,3 @@
-from typing import Dict, List
 from Épület import Épület
 
 
@@ -6,7 +5,7 @@ def main() -> None:
     # 3.1 Olvassa be az UTF-8 kódolású  legmagasabb.txt állományban lévő adatokat
     #  és tárolja el egy saját osztály típusú listában!
     # Ügyeljen rá, hogy az állomány első sora az adatok fejlécét tartalmazza!
-    épületek: List[Épület] = []
+    épületek: list[Épület] = []
     with open('legmagasabb.txt', 'r', encoding='utf-8') as file:
         for sor in file.read().splitlines()[1:]:
             épületek.append(Épület(sor))
@@ -48,17 +47,17 @@ def main() -> None:
 
     # 6. Készítsen statisztikát országok szerint az épületek számáról!
     # A képernyőre írást a minta szerint végezze!
-    # print('6. feladat: Ország statisztika')
-    # stat: Dict[str, int] = dict()
-    # for e in épületek:
-    #     if e.ország in stat:  # az ország, mint kulcs a szótárban található-e?
-    #         # stat[e.ország] = stat[e.ország] + 1
-    #         # vagy:
-    #         stat[e.ország] += 1
-    #     else:
-    #         stat[e.ország] = 1
-    # for key, value in stat.items():
-    #     print(f'\t{key} - {value} db')
+    print('6. feladat: Ország statisztika')
+    stat: dict[str, int] = dict()
+    for e in épületek:
+        if e.ország in stat:  # az ország, mint kulcs a szótárban található-e?
+            # stat[e.ország] = stat[e.ország] + 1
+            # vagy:
+            stat[e.ország] += 1
+        else:
+            stat[e.ország] = 1
+    for key, value in stat.items():  # szótár bejárása for-in ciklussal
+        print(f'\t{key} - {value} db')
 
     # HF:
     # 7. feladat
