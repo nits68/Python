@@ -1,3 +1,5 @@
+# pylint: disable=line-too-long
+
 def main() -> None:
     #  Szótár létrehozása:
     szotar1 = {  # Elemekkel inicializált szótár

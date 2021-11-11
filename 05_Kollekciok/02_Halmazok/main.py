@@ -1,18 +1,15 @@
-# from typing import Set
-
-
-from typing import Any
-
+# pylint: disable=line-too-long
 
 def main() -> None:
     #  Halmaz (Set) létrehozása:
     halmaz1 = {'barack', 'körte', 'szilva', 'alma', 'szőlő'}  # Elemekkel inicializált halmaz
-    halmaz2: set[Any] = set()   # Üres halmaz
+    halmaz3 = set({})  # set() konstruktorral üres halmazból létrehozott halmaz
+    halmaz2 = set(range(10, 15))  # set() konstruktorral számsorozatbólból létrehozott halmaz
     halmaz3 = set((1, 2, "a"))  # set() konstruktorral tuple-ból létrehozott halmaz
     halmaz4 = set(['a', 'e', 'i', 'o', 'u'])  # set() konstruktorral listából létrehozott halmaz
     halmaz5: set[str] = {'barack', 'körte', 'szilva', 'alma', 'szőlő'}  # Elemekkel inicializált típusos halmaz
 
-    # Teljes lista kiírása
+    # Teljes halmaz kiírása
     print(halmaz1)
     print(halmaz2)
     print(halmaz3)
