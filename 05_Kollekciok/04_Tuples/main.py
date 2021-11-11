@@ -1,10 +1,12 @@
+# pylint: disable=line-too-long
+
 def main() -> None:
     #  Tuple létrehozása:
     tuple1: tuple[str, str, str, str, str] = ('barack', 'körte', 'szilva', 'alma', 'szőlő')  # Elemekkel definiált típusos tuple
     tuple2 = ()   # Üres tuple
-    tuple3 = tuple((1, 2, 3))  # tuple() konstruktorral tuple-ból létrehozott tuple
-    tuple4 = tuple({'a', 'e', 'i', 'o', 'u'})  # tuple() konstruktorral halmazból létrehozott tuple
-    tuple5 = tuple(['a', 'e', 'i', 'o', 'u'])  # tuple() konstruktorral listából létrehozott tuple
+    tuple3 = tuple((1, 2, 3))  # tuple() osztálykonstruktorral tuple-ból létrehozott tuple
+    tuple4 = tuple({'a', 'e', 'i', 'o', 'u'})  # tuple() osztálykonstruktorral halmazból létrehozott tuple
+    tuple5 = tuple(['a', 'e', 'i', 'o', 'u'])  # tuple() osztálykonstruktorral listából létrehozott tuple
 
     # Teljes tuple kiírása
     print(tuple1)  # ('barack', 'körte', 'szilva', 'alma', 'szőlő')
