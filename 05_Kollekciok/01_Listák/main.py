@@ -2,11 +2,14 @@ import locale
 
 
 def main() -> None:
-    # A lista összetett adatszekezet (kollekció) amely több, különböző típusú adat tárolására alkalmas
-    # Mi a listákat úgy fogjuk használni, hogy a lista elemei azonos típusúak lesznek (típusos listák)
+    # A lista összetett adatszekezet (kollekció) amely több,
+    # különböző típusú adat tárolására alkalmas
+    # Mi a listákat úgy fogjuk használni,
+    # hogy a lista elemei azonos típusúak lesznek (típusos listák)
     # Más progragramozási nyelvekben a listákat egydimenziós tömböknek vagy vektoroknak hívhuk
     #  Lista létrehozása:
-    lista1: list[str] = ['barack', 'körte', 'szilva', 'alma', 'szőlő']  # Elemekkel inicializált lista
+    # Elemekkel inicializált lista:
+    lista1: list[str] = ['barack', 'körte', 'szilva', 'alma', 'szőlő']
     # lista1: list[str] = list()
     # lista1: list[str] = []
     lista2 = list([])   # Üres, típus nélküli lista
@@ -14,12 +17,17 @@ def main() -> None:
     lista4 = list({'a', 'e', 'i', 'o', 'u'})  # list() konstruktorral halmazból létrehozott lista
     lista5 = list(range(5, 18, 3))  # list() konstruktorral számsorozatból létrehozott lista
 
+    # c# típusú "lista", amo a c# nyelven egydimenziós tömb (vektor)
+    # Elemszám husz, alapértelmezett érték 0
+    lista8: list[int] = [0] * 20
+
     # Teljes lista kiírása
     print(lista1)  # ['barack', 'körte', 'szilva', 'alma', 'szőlő']
     print(lista2)
     print(lista3)
     print(lista4)
     print(lista5)  # [5, 8, 11, 14, 17]
+    print(lista8)
 
     # Hivatkozás lista elemeire (indexelés)
     # Listák elemit 0-tól indulva egész számokkal indexeljük:
@@ -35,7 +43,8 @@ def main() -> None:
     # Értékadás
     lista1[0] = 'alma'
     print(lista1)
-    # lista1[0] = True  # A lista elemi bármikor válthatják típusukat, de a Pylance figyelmeztetést dob
+    # lista1[0] = True  # A lista elemi bármikor válthatják típusukat,
+    # de a Pylance figyelmeztetést dob
     lista1[0] = 'True'
     # lista1[1] = 123
     lista1[1] = "123"
@@ -92,7 +101,8 @@ def main() -> None:
     # print(lista2)  # Hiba: UnboundLocalError: local variable 'lista2' referenced before assignment
 
     # Másolat készítése listából
-    lista2 = lista1  # Így nem készül másolat, hanem a lista2 ugyanazon referenciára (memóriacímre) mutat
+    # Így nem készül másolat, hanem a lista2 ugyanazon referenciára (memóriacímre) mutat
+    lista2 = lista1
     lista2.pop()
     print(lista1)  # [True, 123, 'szilva', 'alma']
     print(lista2)  # [True, 123, 'szilva', 'alma']
@@ -134,7 +144,7 @@ def main() -> None:
     print(lista6)  # [6, 6, 5, 5, 5, 5, 4, 4, 3]
 
     # Magyar ékezetes karakterláncok rendezése (érdekesen rendez ...):
-    lista7: List[str] = ['Örs', 'Éva', 'Endre', 'Ödön', 'Olga', 'Ádám', 'Andi', 'Abigél', 'Émile']
+    lista7: list[str] = ['Örs', 'Éva', 'Endre', 'Ödön', 'Olga', 'Ádám', 'Andi', 'Abigél', 'Émile']
     locale.setlocale(locale.LC_ALL, 'hu')
     lista7.sort(key=locale.strxfrm)
     print(lista7)
