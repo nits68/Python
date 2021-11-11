@@ -1,24 +1,24 @@
-import locale
+# pylint: disable=line-too-long
+import locale  # magyar nyelvű rendezéshez
 
 
 def main() -> None:
-    # A lista összetett adatszekezet (kollekció) amely több,
+    # A lista összetett adatszerkezet (kollekció) amely több,
     # különböző típusú adat tárolására alkalmas
     # Mi a listákat úgy fogjuk használni,
     # hogy a lista elemei azonos típusúak lesznek (típusos listák)
-    # Más progragramozási nyelvekben a listákat egydimenziós tömböknek vagy vektoroknak hívhuk
-    #  Lista létrehozása:
-    # Elemekkel inicializált lista:
-    lista1: list[str] = ['barack', 'körte', 'szilva', 'alma', 'szőlő']
-    # lista1: list[str] = list()
-    # lista1: list[str] = []
-    lista2 = list([])   # Üres, típus nélküli lista
+    # Más programozási nyelvekben a listákat egydimenziós tömböknek vagy vektoroknak hívjuk
+    # Lista létrehozása:
+    lista1: list[str] = []  # üres listával inicializált lista
+    lista1: list[str] = list()  # list osztálykonstruktorral inicializált lista
+    lista1: list[str] = ['barack', 'körte', 'szilva', 'alma', 'szőlő']  # Elemekkel inicializált lista:
+    lista2 = list([])  # Üres, típus nélküli lista
     lista3 = list((1, 2, "a"))  # list() konstruktorral tuple-ból létrehozott lista
     lista4 = list({'a', 'e', 'i', 'o', 'u'})  # list() konstruktorral halmazból létrehozott lista
     lista5 = list(range(5, 18, 3))  # list() konstruktorral számsorozatból létrehozott lista
 
-    # c# típusú "lista", amo a c# nyelven egydimenziós tömb (vektor)
-    # Elemszám husz, alapértelmezett érték 0
+    # c# típusú "lista", ami a c# nyelven egydimenziós tömb (vektor)
+    # Elemszám: 20, alapértelmezett érték 0
     lista8: list[int] = [0] * 20
 
     # Teljes lista kiírása
