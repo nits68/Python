@@ -8,8 +8,6 @@
 # Minta: A legtöbb magánhangzó a csütörtök-ben van!
 
 # Egy lehetséges megoldás:
-from typing import List
-
 
 def maganhangzok_szama(nap: str) -> int:
     db: int = 0
@@ -20,7 +18,7 @@ def maganhangzok_szama(nap: str) -> int:
 
 
 def main() -> None:
-    napok: List[str] = ['hétfő', 'kedd', 'szerda', 'csütörtök', 'péntek']
+    napok: list[str] = ['hétfő', 'kedd', 'szerda', 'csütörtök', 'péntek']
     maxi_mgh: int = 0
     for i in range(1, len(napok)):
         if maganhangzok_szama(napok[i]) > maganhangzok_szama(napok[maxi_mgh]):

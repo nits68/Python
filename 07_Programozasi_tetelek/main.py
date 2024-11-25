@@ -5,7 +5,7 @@ def main() -> None:
     # 1 Összetett adatszerkezet feltöltésének módjai
 
     # 1.1 Feltöltés felhasználói input útján (időigényes):
-    # nevek: List[str] = list()
+    # nevek: list[str] = []
     # print('Kérem a neveket 0-végjelig!')
     # inputNév: str = ''
     # while inputNév != '0':

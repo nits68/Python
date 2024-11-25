@@ -1,6 +1,8 @@
 # pylint: disable=line-too-long
 
+
 import math
+from typing import LiteralString
 
 
 def main() -> None:
@@ -20,13 +22,13 @@ def main() -> None:
     print('String darabolása a split() metódussal')
     # Syntax: string.split(separator, maxsplit)
     # maxsplit	Optional. Specifies how many splits to do. Default value is -1, which is "all occurrences"
-    m: list[str] = a.split()  # alapértelmezetten a szóköznél darabol (vág)
+    m1: list[LiteralString] = a.split()  # alapértelmezetten a szóköznél darabol (vág)
     # a szóköz nem kerül bele a létrejövő új listába:
-    print(m)  # ['Hello,', 'World!']
-    m: list[str] = a.split('o')
-    print(m)  # ['Hell', ', W', 'rld!']
-    m: list[str] = a.split(', ')  # Megadhatunk több karaktert is!
-    print(m)  # ['Hello', 'World!']
+    print(m1)  # ['Hello,', 'World!']
+    m2: list[LiteralString] = a.split('o')
+    print(m2)  # ['Hell', ', W', 'rld!']
+    m3: list[LiteralString] = a.split(', ')  # Megadhatunk több karaktert is!
+    print(m3)  # ['Hello', 'World!']
 
     print('Új string összeállítása template string-et használva')
     b: str = f'{a[:5]} Python! {math.pi:.2f}'

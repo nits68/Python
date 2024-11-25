@@ -1,6 +1,3 @@
-from typing import List
-
-
 class FilmBemutató(object):
     eredeti_cím: str
     magyar_cím: str
@@ -10,7 +7,7 @@ class FilmBemutató(object):
     látogató: int
 
     def __init__(self, sor: str) -> None:
-        m: List[str] = sor.split(';')
+        m: list[str] = sor.split(";")
         self.eredeti_cím = m[0]
         self.magyar_cím = m[1]
         self.bemutató = m[2]

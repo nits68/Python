@@ -12,7 +12,6 @@ csapatok: list[Csapat] = []
 # 0. feladat:
 for sor in open('fociVBk.csv', encoding='UTF-8').read().splitlines()[1:]:
     csapatok.append(Csapat(sor.split(';')))
-
 # 1. feladat:
 print(f'1. feladat: csapatok száma: {len(csapatok)}')
 
