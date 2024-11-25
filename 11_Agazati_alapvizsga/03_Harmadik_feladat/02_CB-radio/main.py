@@ -1,9 +1,10 @@
 from CBadas import CBadas
+
 # from typing import List # Python 3.8.X, vagy alatta kell
 
 
 def main() -> None:
-    print('CB-Rádió')
+    print("CB-Rádió")
     # 1. feladat: Olvassa be és tárolja el a cb.txt UTF-8 kódolású szöveges
     # állományban található adatokat!
     # Az összetartozó adatokat saját osztály definiálásával kezelje!
@@ -12,7 +13,7 @@ def main() -> None:
 
     # adasok: List[CBadas] = [] # Python 3.8.X, vagy alatta
     adasok: list[CBadas] = []
-    with open('cb.txt', 'r', encoding='utf-8') as file:
+    with open("cb.txt", "r", encoding="utf-8") as file:
         for sor in file.read().splitlines()[1:]:
             # aktAdas: CBadas = CBadas(sor)
             # adasok.append(aktAdas)
@@ -24,7 +25,7 @@ def main() -> None:
 
     # Minta: 2. feladat: Bejegyzések száma: 381 db
 
-    print(f'2. feladat: Bejegyzések száma: {len(adasok)} db')
+    print(f"2. feladat: Bejegyzések száma: {len(adasok)} db")
 
     # 3. feladat: Határozza meg, hogy 'Sanyi' nevével hány bejegyzés van a forrásállományban!
 
@@ -32,9 +33,9 @@ def main() -> None:
 
     sanyi_db: int = 0
     for adas in adasok:
-        if adas.nev == 'Sanyi':
+        if adas.nev == "Sanyi":
             sanyi_db += 1
-    print(f'3. feladat: Sanyihoz tartozó bejegyzések: {sanyi_db} db')
+    print(f"3. feladat: Sanyihoz tartozó bejegyzések: {sanyi_db} db")
 
     # 4. feladat: Melyik sofőrhöz fűződik az egy percen belüli legtöbb adás?
     # Jelenítse meg az adatsor adatait a képernyőn!
@@ -50,10 +51,12 @@ def main() -> None:
     for adas in adasok[1:]:
         if adas.adas_db > max_adas_darab:
             max_adas_darab = adas.adas_db
-    print('4. feladat: A legtöbb adás:')
+    print("4. feladat: A legtöbb adás:")
     for adas in adasok:
-        if (adas.adas_db == max_adas_darab):
-            print(f'\tIdő: {adas.ora}:{adas.perc} Darab: {adas.adas_db} Név: {adas.nev}')
+        if adas.adas_db == max_adas_darab:
+            print(
+                f"\tIdő: {adas.ora}:{adas.perc} Darab: {adas.adas_db} Név: {adas.nev}"
+            )
 
     # 5. feladat: Készítsen atszamol_percre azonosítóval egész típusú értékkel visszatérő metódust
     # a saját osztályban, ami a az óra- és percértéket percekre számolja át!
@@ -68,11 +71,11 @@ def main() -> None:
     # 361;Bandi;3
     # ...
 
-    print('5. feladat: cb2.txt állomány létrehozása')
-    with open('cb2.txt', 'w', encoding='utf-8') as file:
-        file.write('Kezdes;Nev;AdasDb\n')  # fejlécsor kiírása
+    print("5. feladat: cb2.txt állomány létrehozása")
+    with open("cb2.txt", "w", encoding="utf-8") as file:
+        file.write("Kezdes;Nev;AdasDb\n")  # fejlécsor kiírása
         for adas in adasok:
-            file.write(f'{adas.atszamol_percre()};{adas.nev};{adas.adas_db}\n')
+            file.write(f"{adas.atszamol_percre()};{adas.nev};{adas.adas_db}\n")
 
 
 if __name__ == "__main__":
